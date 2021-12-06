@@ -229,8 +229,21 @@
   "virtualInputs": [
     {
       "preFilter": {
+        "uiData": {
+          "mode": "\u0026\u0026",
+          "conditions": [
+            {
+              "input": "StudyName",
+              "col": "StudyName",
+              "string": "PNA",
+              "num": 0,
+              "operator": "\u003d\u003d [string]"
+            }
+          ]
+        },
+        "$status": {},
         "distinct": false,
-        "enabled": false
+        "enabled": true
       },
       "autoSelectColumns": false,
       "originLabel": "DemographicDataTAAminoAcids_Modified",

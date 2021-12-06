@@ -1,0 +1,297 @@
+{
+  "type": "UploadedFiles",
+  "managed": false,
+  "formatType": "csv",
+  "checklists": {
+    "checklists": []
+  },
+  "customMeta": {
+    "kv": {}
+  },
+  "flowOptions": {
+    "virtualizable": false,
+    "rebuildBehavior": "NORMAL",
+    "crossProjectBuildBehavior": "DEFAULT"
+  },
+  "readWriteOptions": {
+    "preserveOrder": false,
+    "writeBuckets": 1,
+    "forceSingleOutputFile": false,
+    "defaultReadOrdering": {
+      "enabled": false,
+      "rules": []
+    }
+  },
+  "formatParams": {
+    "style": "excel",
+    "charset": "utf-8",
+    "separator": ",",
+    "quoteChar": "\"",
+    "escapeChar": "\\",
+    "dateSerializationFormat": "ISO",
+    "arrayMapFormat": "json",
+    "hiveSeparators": [
+      "\u0002",
+      "\u0003",
+      "\u0004",
+      "\u0005",
+      "\u0006",
+      "\u0007",
+      "\b"
+    ],
+    "skipRowsBeforeHeader": 0,
+    "parseHeaderRow": true,
+    "skipRowsAfterHeader": 0,
+    "probableNumberOfRecords": 31,
+    "normalizeBooleans": false,
+    "normalizeDoubles": true,
+    "readAdditionalColumnsBehavior": "INSERT_IN_DATA_WARNING",
+    "readMissingColumnsBehavior": "DISCARD_SILENT",
+    "readDataTypeMismatchBehavior": "DISCARD_WARNING",
+    "writeDataTypeMismatchBehavior": "DISCARD_WARNING",
+    "fileReadFailureBehavior": "FAIL",
+    "compress": ""
+  },
+  "partitioning": {
+    "ignoreNonMatchingFile": false,
+    "considerMissingRequestedPartitionsAsEmpty": false,
+    "dimensions": []
+  },
+  "versionTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "admin"
+    },
+    "lastModifiedOn": 1638826866176
+  },
+  "creationTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "admin"
+    },
+    "lastModifiedOn": 1638826866176
+  },
+  "tags": [],
+  "params": {
+    "uploadBoxId": "bad1598e500b42ad34d5dbe99d01515ec20fa8f56df4fdec4711b16bb50e5c17",
+    "uploadConnection": "Default (in DSS data dir.)",
+    "notReadyIfEmpty": false,
+    "filesSelectionRules": {
+      "mode": "ALL",
+      "excludeRules": [],
+      "includeRules": [],
+      "explicitFiles": []
+    }
+  },
+  "schema": {
+    "columns": [
+      {
+        "name": "IDKEY",
+        "type": "string"
+      },
+      {
+        "name": "StudyName",
+        "type": "string"
+      },
+      {
+        "name": "Study ID",
+        "type": "string"
+      },
+      {
+        "name": "Age_months",
+        "type": "string"
+      },
+      {
+        "name": "Age_years",
+        "type": "string"
+      },
+      {
+        "name": "Sex",
+        "type": "string"
+      },
+      {
+        "name": "Race",
+        "type": "string"
+      },
+      {
+        "name": "Ethnicity",
+        "type": "string"
+      },
+      {
+        "name": "PRISM",
+        "type": "string"
+      },
+      {
+        "name": "PELOD",
+        "type": "string"
+      },
+      {
+        "name": "PARDS",
+        "type": "string"
+      },
+      {
+        "name": "Ctl_PARDS",
+        "type": "string"
+      },
+      {
+        "name": "PARDS Severity_D1",
+        "type": "string"
+      },
+      {
+        "name": "Viral Status",
+        "type": "string"
+      },
+      {
+        "name": "Combined Viral Status",
+        "type": "string"
+      },
+      {
+        "name": "Bacteria Status",
+        "type": "string"
+      },
+      {
+        "name": "Combined Bacteria Status",
+        "type": "string"
+      },
+      {
+        "name": "Infection Status",
+        "type": "string"
+      },
+      {
+        "name": "VFD\u003e20",
+        "type": "string"
+      },
+      {
+        "name": "ECMO",
+        "type": "string"
+      },
+      {
+        "name": "Vital Status",
+        "type": "string"
+      },
+      {
+        "name": "VFD",
+        "type": "string"
+      },
+      {
+        "name": "Vent_Days",
+        "type": "string"
+      },
+      {
+        "name": "Vent_\u003e7d",
+        "type": "string"
+      },
+      {
+        "name": "VRP_V1",
+        "type": "string"
+      },
+      {
+        "name": "VRP_V2",
+        "type": "string"
+      },
+      {
+        "name": "Resp Bacteria Species_1",
+        "type": "string"
+      },
+      {
+        "name": "Resp Bacteria Species_2",
+        "type": "string"
+      },
+      {
+        "name": "OtherRespSpecies",
+        "type": "string"
+      },
+      {
+        "name": "PICU_LOS",
+        "type": "string"
+      },
+      {
+        "name": "Hosp_LOS",
+        "type": "string"
+      }
+    ],
+    "userModified": true
+  },
+  "dkuProperties": [],
+  "metrics": {
+    "probes": [
+      {
+        "type": "basic",
+        "enabled": true,
+        "computeOnBuildMode": "PARTITION",
+        "meta": {
+          "name": "Basic data",
+          "level": 0
+        },
+        "configuration": {}
+      },
+      {
+        "type": "records",
+        "enabled": true,
+        "computeOnBuildMode": "NO",
+        "meta": {
+          "name": "Record count",
+          "level": 0
+        },
+        "configuration": {}
+      }
+    ],
+    "engineConfig": {
+      "padRunsWithMetrics": false,
+      "hive": {
+        "active": true,
+        "extraConf": []
+      },
+      "basic": {},
+      "dss": {
+        "active": true,
+        "selection": {
+          "useMemTable": false,
+          "filter": {
+            "distinct": false,
+            "enabled": false
+          },
+          "partitionSelectionMethod": "ALL",
+          "latestPartitionsN": 1,
+          "ordering": {
+            "enabled": false,
+            "rules": []
+          },
+          "samplingMethod": "FULL",
+          "maxRecords": -1,
+          "targetRatio": 0.02,
+          "withinFirstN": -1,
+          "maxReadUncompressedBytes": -1
+        }
+      },
+      "sql": {
+        "active": true
+      },
+      "impala": {
+        "active": true
+      },
+      "spark": {
+        "active": true,
+        "extraConf": []
+      },
+      "python": {}
+    },
+    "displayedState": {
+      "columns": [],
+      "metrics": [
+        "basic:COUNT_COLUMNS",
+        "basic:COUNT_FILES",
+        "basic:SIZE",
+        "records:COUNT_RECORDS"
+      ]
+    }
+  },
+  "metricsChecks": {
+    "runOnBuild": false,
+    "checks": [],
+    "displayedState": {
+      "checks": []
+    }
+  },
+  "customFields": {}
+}

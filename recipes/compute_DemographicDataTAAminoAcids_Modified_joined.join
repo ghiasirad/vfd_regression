@@ -78,6 +78,11 @@
       "name": "PELOD",
       "type": "string",
       "table": 1
+    },
+    {
+      "name": "VFD",
+      "type": "string",
+      "table": 1
     }
   ],
   "resolvedSelectedColumns": [],
@@ -201,6 +206,10 @@
           },
           {
             "name": "PELOD",
+            "type": "string"
+          },
+          {
+            "name": "VFD",
             "type": "string"
           }
         ],

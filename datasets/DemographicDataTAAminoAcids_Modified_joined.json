@@ -59,11 +59,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 4,
+    "versionNumber": 5,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1638833069364
+    "lastModifiedOn": 1638833789982
   },
   "creationTag": {
     "versionNumber": 0,
@@ -104,10 +104,6 @@
       },
       {
         "name": "ECMO",
-        "type": "string"
-      },
-      {
-        "name": "StudyName",
         "type": "string"
       },
       {

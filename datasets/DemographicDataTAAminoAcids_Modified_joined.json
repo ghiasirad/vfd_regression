@@ -59,11 +59,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 2,
+    "versionNumber": 3,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1638832888288
+    "lastModifiedOn": 1638832946719
   },
   "creationTag": {
     "versionNumber": 0,
@@ -91,7 +91,35 @@
         "type": "string"
       },
       {
+        "name": "Sex",
+        "type": "string"
+      },
+      {
+        "name": "Race",
+        "type": "string"
+      },
+      {
+        "name": "Infection Status",
+        "type": "string"
+      },
+      {
+        "name": "ECMO",
+        "type": "string"
+      },
+      {
         "name": "StudyName",
+        "type": "string"
+      },
+      {
+        "name": "Age_years",
+        "type": "string"
+      },
+      {
+        "name": "PRISM",
+        "type": "string"
+      },
+      {
+        "name": "PELOD",
         "type": "string"
       }
     ],

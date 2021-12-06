@@ -1,0 +1,196 @@
+{
+  "joins": [
+    {
+      "table2": 1,
+      "table1": 0,
+      "conditionsMode": "AND",
+      "type": "LEFT",
+      "outerJoinOnTheLeft": true,
+      "on": []
+    }
+  ],
+  "selectedColumns": [
+    {
+      "name": "IDKEY",
+      "table": 0
+    },
+    {
+      "name": "StudyName",
+      "table": 0
+    },
+    {
+      "name": "Study ID",
+      "table": 0
+    },
+    {
+      "name": "Sex",
+      "table": 0
+    },
+    {
+      "name": "Race",
+      "table": 0
+    },
+    {
+      "name": "Ethnicity",
+      "table": 0
+    },
+    {
+      "name": "Age_years",
+      "table": 0
+    },
+    {
+      "name": "PRISM",
+      "table": 0
+    },
+    {
+      "name": "PELOD",
+      "table": 0
+    },
+    {
+      "name": "VRP_V1",
+      "table": 0
+    },
+    {
+      "name": "VRP_V2",
+      "table": 0
+    },
+    {
+      "name": "Infection Status",
+      "table": 0
+    },
+    {
+      "name": "ECMO",
+      "table": 0
+    },
+    {
+      "name": "Age_months",
+      "table": 1
+    },
+    {
+      "name": "PARDS",
+      "table": 1
+    },
+    {
+      "name": "Ctl_PARDS",
+      "table": 1
+    },
+    {
+      "name": "PARDS Severity_D1",
+      "table": 1
+    },
+    {
+      "name": "Viral Status",
+      "table": 1
+    },
+    {
+      "name": "Combined Viral Status",
+      "table": 1
+    },
+    {
+      "name": "Bacteria Status",
+      "table": 1
+    },
+    {
+      "name": "Combined Bacteria Status",
+      "table": 1
+    },
+    {
+      "name": "VFD\u003e20",
+      "table": 1
+    },
+    {
+      "name": "Vital Status",
+      "table": 1
+    },
+    {
+      "name": "VFD",
+      "table": 1
+    },
+    {
+      "name": "Vent_Days",
+      "table": 1
+    },
+    {
+      "name": "Vent_\u003e7d",
+      "table": 1
+    },
+    {
+      "name": "Resp Bacteria Species_1",
+      "table": 1
+    },
+    {
+      "name": "Resp Bacteria Species_2",
+      "table": 1
+    },
+    {
+      "name": "OtherRespSpecies",
+      "table": 1
+    },
+    {
+      "name": "PICU_LOS",
+      "table": 1
+    },
+    {
+      "name": "Hosp_LOS",
+      "table": 1
+    }
+  ],
+  "resolvedSelectedColumns": [],
+  "engineParams": {
+    "hive": {
+      "skipPrerunValidate": false,
+      "hiveconf": [],
+      "inheritConf": "default",
+      "addDkuUdf": false,
+      "executionEngine": "HIVESERVER2"
+    },
+    "sqlPipelineParams": {
+      "pipelineAllowMerge": true,
+      "pipelineAllowStart": true
+    },
+    "impala": {
+      "forceStreamMode": true
+    },
+    "lowerCaseSchemaIfEngineRequiresIt": true,
+    "sparkSQL": {
+      "skipPrerunValidate": false,
+      "pipelineAllowMerge": true,
+      "useGlobalMetastore": false,
+      "pipelineAllowStart": true,
+      "readParams": {
+        "mode": "AUTO",
+        "autoModeRepartitionInto": 10,
+        "map": {}
+      },
+      "overwriteOutputSchema": false,
+      "executionEngine": "SPARK_SUBMIT",
+      "sparkConfig": {
+        "inheritConf": "default",
+        "conf": []
+      }
+    }
+  },
+  "virtualInputs": [
+    {
+      "preFilter": {
+        "distinct": false,
+        "enabled": false
+      },
+      "autoSelectColumns": false,
+      "originLabel": "DemographicDataTAAminoAcids_Modified",
+      "index": 0,
+      "computedColumns": []
+    },
+    {
+      "preFilter": {
+        "distinct": false,
+        "enabled": false
+      },
+      "autoSelectColumns": false,
+      "originLabel": "Nanostring_AIR_PICU_ClinicalData",
+      "index": 1,
+      "computedColumns": []
+    }
+  ],
+  "enableAutoCastInJoinConditions": false
+}

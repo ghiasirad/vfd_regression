@@ -35,6 +35,11 @@
   ],
   "selectedColumns": [
     {
+      "name": "Study ID",
+      "type": "string",
+      "table": 0
+    },
+    {
       "name": "Sex",
       "type": "string",
       "table": 0
@@ -48,6 +53,11 @@
       "name": "ECMO",
       "type": "string",
       "table": 0
+    },
+    {
+      "name": "Study ID",
+      "type": "string",
+      "table": 1
     },
     {
       "name": "Age_years",

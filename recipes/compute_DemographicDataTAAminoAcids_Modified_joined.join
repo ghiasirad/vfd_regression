@@ -60,11 +60,6 @@
       "table": 0
     },
     {
-      "name": "StudyName",
-      "type": "string",
-      "table": 1
-    },
-    {
       "name": "Age_years",
       "type": "string",
       "table": 1
@@ -190,10 +185,6 @@
           },
           {
             "name": "ECMO",
-            "type": "string"
-          },
-          {
-            "name": "StudyName",
             "type": "string"
           },
           {

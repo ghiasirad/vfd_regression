@@ -9,15 +9,15 @@
     }
   ],
   "owner": "admin",
-  "listed": false,
+  "listed": true,
   "name": "VFD Regression\u0027s default dashboard",
   "showGrid": true,
   "versionTag": {
-    "versionNumber": 1,
+    "versionNumber": 2,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1638810641607
+    "lastModifiedOn": 1638810643667
   },
   "creationTag": {
     "versionNumber": 0,

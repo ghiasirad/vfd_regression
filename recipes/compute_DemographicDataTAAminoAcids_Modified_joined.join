@@ -152,8 +152,8 @@
       "mode": "\u0026\u0026",
       "conditions": [
         {
-          "input": "Study ID",
-          "col": "StudyName",
+          "input": "Sex",
+          "col": "Race",
           "num": 0,
           "operator": "not empty"
         }
@@ -178,7 +178,7 @@
         "userModified": false
       }
     },
-    "enabled": true
+    "enabled": false
   },
   "enableAutoCastInJoinConditions": false
 }

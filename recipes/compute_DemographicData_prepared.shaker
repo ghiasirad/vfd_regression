@@ -26,7 +26,10 @@
     "autoRefreshSample": false
   },
   "explorationFilters": [],
-  "exploreUIParams": {},
+  "origin": "PREPARE_RECIPE",
+  "exploreUIParams": {
+    "autoRefresh": true
+  },
   "steps": [],
   "maxProcessedMemTableBytes": -1,
   "previewMode": "ALL_ROWS",
@@ -53,7 +56,17 @@
     "autoRefreshSample": false
   },
   "analysisColumnData": {},
-  "columnWidthsByName": {},
+  "columnWidthsByName": {
+    "ECMO": 100,
+    "Infection Status": 135,
+    "Age_years": 100,
+    "VFD": 100,
+    "Study ID": 100,
+    "Sex": 100,
+    "Race": 100,
+    "PELOD": 100,
+    "PRISM": 100
+  },
   "sorting": [],
   "globalSearchQuery": "",
   "coloring": {

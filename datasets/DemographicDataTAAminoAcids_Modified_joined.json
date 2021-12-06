@@ -59,11 +59,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 1,
+    "versionNumber": 2,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1638827297668
+    "lastModifiedOn": 1638832888288
   },
   "creationTag": {
     "versionNumber": 0,
@@ -87,127 +87,11 @@
   "schema": {
     "columns": [
       {
-        "name": "IDKEY",
-        "type": "string"
-      },
-      {
-        "name": "StudyName",
-        "type": "string"
-      },
-      {
         "name": "Study ID",
         "type": "string"
       },
       {
-        "name": "Sex",
-        "type": "string"
-      },
-      {
-        "name": "Race",
-        "type": "string"
-      },
-      {
-        "name": "Ethnicity",
-        "type": "string"
-      },
-      {
-        "name": "Age_years",
-        "type": "string"
-      },
-      {
-        "name": "PRISM",
-        "type": "string"
-      },
-      {
-        "name": "PELOD",
-        "type": "string"
-      },
-      {
-        "name": "VRP_V1",
-        "type": "string"
-      },
-      {
-        "name": "VRP_V2",
-        "type": "string"
-      },
-      {
-        "name": "Infection Status",
-        "type": "string"
-      },
-      {
-        "name": "ECMO",
-        "type": "string"
-      },
-      {
-        "name": "Age_months",
-        "type": "string"
-      },
-      {
-        "name": "PARDS",
-        "type": "string"
-      },
-      {
-        "name": "Ctl_PARDS",
-        "type": "string"
-      },
-      {
-        "name": "PARDS Severity_D1",
-        "type": "string"
-      },
-      {
-        "name": "Viral Status",
-        "type": "string"
-      },
-      {
-        "name": "Combined Viral Status",
-        "type": "string"
-      },
-      {
-        "name": "Bacteria Status",
-        "type": "string"
-      },
-      {
-        "name": "Combined Bacteria Status",
-        "type": "string"
-      },
-      {
-        "name": "VFD\u003e20",
-        "type": "string"
-      },
-      {
-        "name": "Vital Status",
-        "type": "string"
-      },
-      {
-        "name": "VFD",
-        "type": "string"
-      },
-      {
-        "name": "Vent_Days",
-        "type": "string"
-      },
-      {
-        "name": "Vent_\u003e7d",
-        "type": "string"
-      },
-      {
-        "name": "Resp Bacteria Species_1",
-        "type": "string"
-      },
-      {
-        "name": "Resp Bacteria Species_2",
-        "type": "string"
-      },
-      {
-        "name": "OtherRespSpecies",
-        "type": "string"
-      },
-      {
-        "name": "PICU_LOS",
-        "type": "string"
-      },
-      {
-        "name": "Hosp_LOS",
+        "name": "StudyName",
         "type": "string"
       }
     ],

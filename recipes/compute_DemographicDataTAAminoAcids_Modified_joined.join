@@ -263,6 +263,17 @@
   ],
   "computedColumns": [],
   "postFilter": {
+    "uiData": {
+      "mode": "\u0026\u0026",
+      "conditions": [
+        {
+          "input": "Study ID",
+          "col": "StudyName",
+          "num": 0,
+          "operator": "not empty"
+        }
+      ]
+    },
     "$status": {
       "schema": {
         "columns": [
@@ -393,7 +404,8 @@
         ],
         "userModified": false
       }
-    }
+    },
+    "enabled": true
   },
   "enableAutoCastInJoinConditions": false
 }

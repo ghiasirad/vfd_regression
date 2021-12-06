@@ -35,22 +35,12 @@
   ],
   "selectedColumns": [
     {
-      "name": "StudyName",
-      "type": "string",
-      "table": 0
-    },
-    {
       "name": "Study ID",
       "type": "string",
       "table": 0
     },
     {
       "name": "StudyName",
-      "type": "string",
-      "table": 1
-    },
-    {
-      "name": "Study ID",
       "type": "string",
       "table": 1
     }
@@ -142,6 +132,10 @@
     "$status": {
       "schema": {
         "columns": [
+          {
+            "name": "Study ID",
+            "type": "string"
+          },
           {
             "name": "StudyName",
             "type": "string"

@@ -59,11 +59,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1638833917321
+    "lastModifiedOn": 1638834292670
   },
   "creationTag": {
     "versionNumber": 0,
@@ -96,11 +96,13 @@
       },
       {
         "name": "Race",
-        "type": "string"
+        "type": "string",
+        "meaning": "race"
       },
       {
         "name": "Infection Status",
-        "type": "string"
+        "type": "string",
+        "meaning": "infectionstatus"
       },
       {
         "name": "ECMO",

@@ -35,11 +35,6 @@
   ],
   "selectedColumns": [
     {
-      "name": "IDKEY",
-      "type": "string",
-      "table": 0
-    },
-    {
       "name": "StudyName",
       "type": "string",
       "table": 0
@@ -50,207 +45,12 @@
       "table": 0
     },
     {
-      "name": "Sex",
-      "type": "string",
-      "table": 0
-    },
-    {
-      "name": "Race",
-      "type": "string",
-      "table": 0
-    },
-    {
-      "name": "Ethnicity",
-      "type": "string",
-      "table": 0
-    },
-    {
-      "name": "Age_years",
-      "type": "string",
-      "table": 0
-    },
-    {
-      "name": "PRISM",
-      "type": "string",
-      "table": 0
-    },
-    {
-      "name": "PELOD",
-      "type": "string",
-      "table": 0
-    },
-    {
-      "name": "VRP_V1",
-      "type": "string",
-      "table": 0
-    },
-    {
-      "name": "VRP_V2",
-      "type": "string",
-      "table": 0
-    },
-    {
-      "name": "Infection Status",
-      "type": "string",
-      "table": 0
-    },
-    {
-      "name": "ECMO",
-      "type": "string",
-      "table": 0
-    },
-    {
-      "name": "IDKEY",
-      "type": "string",
-      "table": 1
-    },
-    {
       "name": "StudyName",
       "type": "string",
       "table": 1
     },
     {
       "name": "Study ID",
-      "type": "string",
-      "table": 1
-    },
-    {
-      "name": "Age_months",
-      "type": "string",
-      "table": 1
-    },
-    {
-      "name": "Age_years",
-      "type": "string",
-      "table": 1
-    },
-    {
-      "name": "Sex",
-      "type": "string",
-      "table": 1
-    },
-    {
-      "name": "Race",
-      "type": "string",
-      "table": 1
-    },
-    {
-      "name": "Ethnicity",
-      "type": "string",
-      "table": 1
-    },
-    {
-      "name": "PRISM",
-      "type": "string",
-      "table": 1
-    },
-    {
-      "name": "PELOD",
-      "type": "string",
-      "table": 1
-    },
-    {
-      "name": "PARDS",
-      "type": "string",
-      "table": 1
-    },
-    {
-      "name": "Ctl_PARDS",
-      "type": "string",
-      "table": 1
-    },
-    {
-      "name": "PARDS Severity_D1",
-      "type": "string",
-      "table": 1
-    },
-    {
-      "name": "Viral Status",
-      "type": "string",
-      "table": 1
-    },
-    {
-      "name": "Combined Viral Status",
-      "type": "string",
-      "table": 1
-    },
-    {
-      "name": "Bacteria Status",
-      "type": "string",
-      "table": 1
-    },
-    {
-      "name": "Combined Bacteria Status",
-      "type": "string",
-      "table": 1
-    },
-    {
-      "name": "Infection Status",
-      "type": "string",
-      "table": 1
-    },
-    {
-      "name": "VFD\u003e20",
-      "type": "string",
-      "table": 1
-    },
-    {
-      "name": "ECMO",
-      "type": "string",
-      "table": 1
-    },
-    {
-      "name": "Vital Status",
-      "type": "string",
-      "table": 1
-    },
-    {
-      "name": "VFD",
-      "type": "string",
-      "table": 1
-    },
-    {
-      "name": "Vent_Days",
-      "type": "string",
-      "table": 1
-    },
-    {
-      "name": "Vent_\u003e7d",
-      "type": "string",
-      "table": 1
-    },
-    {
-      "name": "VRP_V1",
-      "type": "string",
-      "table": 1
-    },
-    {
-      "name": "VRP_V2",
-      "type": "string",
-      "table": 1
-    },
-    {
-      "name": "Resp Bacteria Species_1",
-      "type": "string",
-      "table": 1
-    },
-    {
-      "name": "Resp Bacteria Species_2",
-      "type": "string",
-      "table": 1
-    },
-    {
-      "name": "OtherRespSpecies",
-      "type": "string",
-      "table": 1
-    },
-    {
-      "name": "PICU_LOS",
-      "type": "string",
-      "table": 1
-    },
-    {
-      "name": "Hosp_LOS",
       "type": "string",
       "table": 1
     }
@@ -343,15 +143,7 @@
       "schema": {
         "columns": [
           {
-            "name": "Sex",
-            "type": "string"
-          },
-          {
-            "name": "Race",
-            "type": "string"
-          },
-          {
-            "name": "ECMO",
+            "name": "StudyName",
             "type": "string"
           }
         ],

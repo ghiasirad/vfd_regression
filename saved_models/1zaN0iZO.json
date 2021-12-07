@@ -4,7 +4,7 @@
   "rebuildBehavior": "EXPLICIT",
   "name": "Predict VFD (regression with SGD)",
   "contentType": "prediction/py_memory",
-  "activeVersion": "1638903503738",
+  "activeVersion": "1638903537439",
   "conditionalOutputs": [],
   "partitioning": {
     "ignoreNonMatchingFile": false,
@@ -2152,11 +2152,11 @@
   "lastTrainIndex": 2,
   "lastTrainJobId": "Build_Predict_VFD__regression_with_SGD__2021-12-07T18-58-22.624",
   "versionTag": {
-    "versionNumber": 2,
+    "versionNumber": 3,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1638903511569
+    "lastModifiedOn": 1638903544617
   },
   "creationTag": {
     "versionNumber": 0,

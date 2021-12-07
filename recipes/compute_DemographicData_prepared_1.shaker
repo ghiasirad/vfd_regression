@@ -129,7 +129,7 @@
       "disabled": false,
       "type": "FillEmptyWithComputedValue",
       "params": {
-        "mode": "MEDIAN",
+        "mode": "MEAN",
         "columns": [
           "3-Hydroxy-tyrosine",
           ""

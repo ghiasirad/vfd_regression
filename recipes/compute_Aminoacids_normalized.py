@@ -5,8 +5,8 @@ from dataiku import pandasutils as pdu
 from sklearn.preprocessing import normalize
 
 # Read recipe inputs
-amioAcids_cleaned_refilled = dataiku.Dataset("AmioAcids_cleaned")
-amioAcids_cleaned_df = amioAcids_cleaned_refilled.get_dataframe()
+amioAcids_cleaned = dataiku.Dataset("AmioAcids_cleaned")
+amioAcids_cleaned_df = amioAcids_cleaned.get_dataframe()
 
 
 # Normalize and return it as a dataframe

@@ -29,6 +29,11 @@
   ],
   "selectedColumns": [
     {
+      "name": "StudyID_Int",
+      "type": "bigint",
+      "table": 0
+    },
+    {
       "name": "1-Methyl-histidine",
       "type": "double",
       "table": 0
@@ -279,11 +284,6 @@
       "table": 0
     },
     {
-      "name": "Study ID",
-      "type": "bigint",
-      "table": 1
-    },
-    {
       "name": "Sex",
       "type": "string",
       "table": 1
@@ -380,6 +380,10 @@
     "$status": {
       "schema": {
         "columns": [
+          {
+            "name": "StudyID_Int",
+            "type": "bigint"
+          },
           {
             "name": "1-Methyl-histidine",
             "type": "double"
@@ -579,10 +583,6 @@
           {
             "name": "Valine",
             "type": "double"
-          },
-          {
-            "name": "Study ID",
-            "type": "bigint"
           },
           {
             "name": "Sex",

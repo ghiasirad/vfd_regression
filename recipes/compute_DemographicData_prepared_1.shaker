@@ -124,27 +124,14 @@
       "alwaysShowComment": false
     },
     {
-      "preview": false,
-      "metaType": "PROCESSOR",
-      "disabled": false,
-      "type": "FillEmptyWithComputedValue",
-      "params": {
-        "mode": "MEAN",
-        "columns": [
-          "3-Hydroxy-tyrosine",
-          ""
-        ],
-        "appliesTo": "SINGLE_COLUMN"
-      },
-      "alwaysShowComment": false
-    },
-    {
       "preview": true,
       "metaType": "PROCESSOR",
       "disabled": false,
       "type": "UpDownFiller",
       "params": {
-        "columns": [],
+        "columns": [
+          "3-Hydroxy-tyrosine"
+        ],
         "up": false
       },
       "alwaysShowComment": false

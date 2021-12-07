@@ -1977,7 +1977,7 @@
           }
         }
       },
-      "enabled": false
+      "enabled": true
     },
     "decision_tree_classification": {
       "max_depth": {

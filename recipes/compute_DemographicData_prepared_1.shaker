@@ -51,6 +51,22 @@
         "appliesTo": "COLUMNS"
       },
       "alwaysShowComment": false
+    },
+    {
+      "preview": true,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "FilterOnValue",
+      "params": {
+        "normalizationMode": "EXACT",
+        "booleanMode": "AND",
+        "columns": [],
+        "values": [],
+        "matchingMode": "FULL_STRING",
+        "action": "KEEP_ROW",
+        "appliesTo": "ALL"
+      },
+      "alwaysShowComment": false
     }
   ],
   "maxProcessedMemTableBytes": -1,
@@ -148,7 +164,7 @@
     "Glutamine": 113
   },
   "sorting": [],
-  "globalSearchQuery": "pards",
+  "globalSearchQuery": "",
   "coloring": {
     "scheme": "MEANING_AND_STATUS",
     "individualColumns": [],

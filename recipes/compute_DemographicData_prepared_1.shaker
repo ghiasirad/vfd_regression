@@ -124,7 +124,7 @@
       "alwaysShowComment": false
     },
     {
-      "preview": true,
+      "preview": false,
       "metaType": "PROCESSOR",
       "disabled": false,
       "type": "FillEmptyWithComputedValue",
@@ -133,7 +133,7 @@
         "columns": [
           "3-Hydroxy-tyrosine"
         ],
-        "appliesTo": "SINGLE_COLUMN"
+        "appliesTo": "ALL"
       },
       "alwaysShowComment": false
     }

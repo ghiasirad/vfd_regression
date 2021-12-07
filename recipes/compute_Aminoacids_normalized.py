@@ -11,7 +11,7 @@ amioAcids_cleaned_df = amioAcids_cleaned.get_dataframe()
 
 # Normalize and return it as a dataframe
 amioAcids_cleaned_df = amioAcids_cleaned_df.set_index('StudyID_Int')
-amioAcids_cleaned_df_values = amioAcids_cleaned_df.fillna(amioAcids_cleaned_df.median(), inplace=True)
+amioAcids_cleaned_df.fillna(amioAcids_cleaned_df.median(), inplace=True)
 amioAcids_normalized_values = normalize(amioAcids_cleaned_df_values.values, axis=1, norm='l1')
 
 amioAcids_normalized_df = pd.DataFrame(data=amioAcids_normalized_values, columns=amioAcids_cleaned_df.columns)

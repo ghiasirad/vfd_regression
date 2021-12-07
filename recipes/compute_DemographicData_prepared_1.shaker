@@ -127,12 +127,13 @@
       "preview": true,
       "metaType": "PROCESSOR",
       "disabled": false,
-      "type": "UpDownFiller",
+      "type": "FillEmptyWithComputedValue",
       "params": {
+        "mode": "MEDIAN",
         "columns": [
           "3-Hydroxy-tyrosine"
         ],
-        "up": false
+        "appliesTo": "SINGLE_COLUMN"
       },
       "alwaysShowComment": false
     }

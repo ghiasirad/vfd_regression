@@ -12,27 +12,10 @@
       },
       "type": "INNER",
       "outerJoinOnTheLeft": true,
-      "on": [
-        {
-          "column1": {
-            "name": "StudyID_Int",
-            "table": 0
-          },
-          "column2": {
-            "name": "Study ID",
-            "table": 1
-          },
-          "type": "EQ"
-        }
-      ]
+      "on": []
     }
   ],
   "selectedColumns": [
-    {
-      "name": "StudyID_Int",
-      "type": "bigint",
-      "table": 0
-    },
     {
       "name": "1-Methyl-histidine",
       "type": "double",
@@ -361,14 +344,7 @@
   },
   "virtualInputs": [
     {
-      "preFilter": {
-        "distinct": false,
-        "enabled": false
-      },
-      "autoSelectColumns": false,
-      "originLabel": "AmioAcids_cleaned",
-      "index": 0,
-      "computedColumns": []
+      "index": 1
     },
     {
       "preFilter": {
@@ -377,7 +353,7 @@
       },
       "autoSelectColumns": false,
       "originLabel": "DemographicData_prepared",
-      "index": 1,
+      "index": 0,
       "computedColumns": []
     }
   ],

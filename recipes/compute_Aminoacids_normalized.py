@@ -20,7 +20,7 @@ amioAcids_normalized_df = pd.DataFrame(data=amioAcids_normalized_values, columns
 amioAcids_normalized_df['StudyID_Int'] = amioAcids_cleaned_df.index
 
 first_column = amioAcids_normalized_df.pop('StudyID_Int')
-damioAcids_normalized_dff.insert(0, 'StudyID_Int', first_column)
+amioAcids_normalized_df.insert(0, 'StudyID_Int', first_column)
 
 
 aminoacids_normalized_df = amioAcids_normalized_df # For this sample code, simply copy input to output

@@ -59,11 +59,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 2,
+    "versionNumber": 3,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1638891695233
+    "lastModifiedOn": 1638891728979
   },
   "creationTag": {
     "versionNumber": 0,
@@ -289,10 +289,6 @@
       {
         "name": "Valine",
         "type": "double"
-      },
-      {
-        "name": "field_51",
-        "type": "string"
       }
     ],
     "userModified": true

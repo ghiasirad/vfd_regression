@@ -11,6 +11,9 @@
           "map": {
             "DemographicDataTAAminoAcids_Modified_joined": {
               "repartition": 10
+            },
+            "TAAminoAcids_ClinicalData_Complete": {
+              "repartition": 10
             }
           }
         },
@@ -72,11 +75,11 @@
   },
   "labels": [],
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1638839606458
+    "lastModifiedOn": 1638839886611
   },
   "creationTag": {
     "versionNumber": 0,

@@ -3568,7 +3568,7 @@
   "predictionDisplayCharts": [
     {
       "def": {
-        "type": "grouped_columns",
+        "type": "lines",
         "variant": "normal",
         "name": "Avg. of prediction by VFD",
         "userEditedName": false,

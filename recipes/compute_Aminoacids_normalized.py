@@ -10,7 +10,8 @@ amioAcids_cleaned_df = amioAcids_cleaned.get_dataframe()
 
 
 # Normalize and return it as a dataframe
-
+amioAcids_cleaned_df = amioAcids_cleaned_df.set_index('StudyID_Int')
+amioAcids_cleaned_df = normalize(amioAcids_cleaned_df.values, axis=1, norm='l1')
 
 aminoacids_normalized_df = amioAcids_cleaned_df # For this sample code, simply copy input to output
 

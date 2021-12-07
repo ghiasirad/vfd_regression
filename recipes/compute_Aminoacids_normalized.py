@@ -11,7 +11,11 @@ amioAcids_cleaned_df = amioAcids_cleaned.get_dataframe()
 
 # Normalize and return it as a dataframe
 amioAcids_cleaned_df = amioAcids_cleaned_df.set_index('StudyID_Int')
-amioAcids_cleaned_df = amioAcids_cleaned_df
+amioAcids_normalized_Values = normalize(nanoStringAndMetabolitesDf.values, axis=1, norm='l1')
+
+amioAcids_normalized_df = pd.DataFrame(data=amioAcids_normalized_Values, columns=amioAcids_cleaned_df.columns)
+amioAcids_normalized_df['StudyID_Int'] = amioAcids_cleaned_df.index
+amioAcids_normalized_df = amioAcids_normalized_df.set_index('StudyID_Int')
 
 aminoacids_normalized_df = amioAcids_cleaned_df # For this sample code, simply copy input to output
 

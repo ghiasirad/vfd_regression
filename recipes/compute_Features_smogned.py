@@ -17,7 +17,7 @@ features_smogn = smogn.smoter(
     pert = 0.2
 )
 
-features_smogned_df = features_joined_df # For this sample code, simply copy input to output
+features_smogned_df = features_smogn # For this sample code, simply copy input to output
 
 
 # Write recipe outputs

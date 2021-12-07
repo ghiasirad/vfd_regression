@@ -59,11 +59,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1638838515625
+    "lastModifiedOn": 1638838641355
   },
   "creationTag": {
     "versionNumber": 0,
@@ -87,42 +87,208 @@
   "schema": {
     "columns": [
       {
-        "name": "Study ID",
-        "type": "bigint"
-      },
-      {
-        "name": "Sex",
+        "name": "StudyID",
         "type": "string"
       },
       {
-        "name": "Race",
-        "type": "string",
-        "meaning": "race"
-      },
-      {
-        "name": "Infection Status",
-        "type": "string",
-        "meaning": "infectionstatus"
-      },
-      {
-        "name": "ECMO",
-        "type": "boolean"
-      },
-      {
-        "name": "Age_years",
+        "name": "1-Methyl-histidine",
         "type": "double"
       },
       {
-        "name": "PRISM",
-        "type": "bigint"
+        "name": "3-Hydroxy-tyrosine",
+        "type": "double"
       },
       {
-        "name": "PELOD",
-        "type": "bigint"
+        "name": "3-Methyl-histidine",
+        "type": "double"
       },
       {
-        "name": "VFD",
-        "type": "bigint"
+        "name": "4-Aminobenzoic acid",
+        "type": "double"
+      },
+      {
+        "name": "4-Aminobutyric acid",
+        "type": "double"
+      },
+      {
+        "name": "4-Hydroxyproline",
+        "type": "double"
+      },
+      {
+        "name": "Alanine",
+        "type": "double"
+      },
+      {
+        "name": "Alanyl-alanine",
+        "type": "double"
+      },
+      {
+        "name": "α-Aminoadipic acid",
+        "type": "double"
+      },
+      {
+        "name": "α-Aminobutyric acid",
+        "type": "double"
+      },
+      {
+        "name": "Anserine",
+        "type": "double"
+      },
+      {
+        "name": "Arginine",
+        "type": "double"
+      },
+      {
+        "name": "Asparagine",
+        "type": "double"
+      },
+      {
+        "name": "Aspartic acid",
+        "type": "double"
+      },
+      {
+        "name": "β-Alanine",
+        "type": "double"
+      },
+      {
+        "name": "β-Aminobutyric acid",
+        "type": "double"
+      },
+      {
+        "name": "β-Aminoisobutyric acid",
+        "type": "double"
+      },
+      {
+        "name": "Carnosine",
+        "type": "double"
+      },
+      {
+        "name": "Citrulline",
+        "type": "double"
+      },
+      {
+        "name": "Cysteine",
+        "type": "double"
+      },
+      {
+        "name": "Cystine",
+        "type": "double"
+      },
+      {
+        "name": "Ethanolamine",
+        "type": "double"
+      },
+      {
+        "name": "γ-Glutamyl-ε-lysine",
+        "type": "double"
+      },
+      {
+        "name": "Glutamic acid",
+        "type": "double"
+      },
+      {
+        "name": "Glutamine",
+        "type": "double"
+      },
+      {
+        "name": "Glycine",
+        "type": "double"
+      },
+      {
+        "name": "Glycine-proline",
+        "type": "double"
+      },
+      {
+        "name": "Histamine",
+        "type": "double"
+      },
+      {
+        "name": "Histidine",
+        "type": "double"
+      },
+      {
+        "name": "Homocystine",
+        "type": "double"
+      },
+      {
+        "name": "Homoserine",
+        "type": "double"
+      },
+      {
+        "name": "Isoleucine",
+        "type": "double"
+      },
+      {
+        "name": "Leucine",
+        "type": "double"
+      },
+      {
+        "name": "Lysine",
+        "type": "double"
+      },
+      {
+        "name": "Methionine",
+        "type": "double"
+      },
+      {
+        "name": "Methionine sulfoxide",
+        "type": "double"
+      },
+      {
+        "name": "Ornithine",
+        "type": "double"
+      },
+      {
+        "name": "Phenylalanine",
+        "type": "double"
+      },
+      {
+        "name": "Pipecolic acid",
+        "type": "double"
+      },
+      {
+        "name": "Proline",
+        "type": "double"
+      },
+      {
+        "name": "Proline-hydroxyproline",
+        "type": "double"
+      },
+      {
+        "name": "Pyroglutamic acid",
+        "type": "double"
+      },
+      {
+        "name": "Sarcosine",
+        "type": "double"
+      },
+      {
+        "name": "Seleno-methionine",
+        "type": "double"
+      },
+      {
+        "name": "Serine",
+        "type": "double"
+      },
+      {
+        "name": "Thiaproline",
+        "type": "double"
+      },
+      {
+        "name": "Threonine",
+        "type": "double"
+      },
+      {
+        "name": "Tryptophan",
+        "type": "double"
+      },
+      {
+        "name": "Tyrosine",
+        "type": "double"
+      },
+      {
+        "name": "Valine",
+        "type": "double"
       }
     ],
     "userModified": true

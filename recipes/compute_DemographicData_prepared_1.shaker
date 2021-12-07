@@ -53,18 +53,58 @@
       "alwaysShowComment": false
     },
     {
-      "preview": true,
+      "preview": false,
       "metaType": "PROCESSOR",
       "disabled": false,
       "type": "FilterOnValue",
       "params": {
         "normalizationMode": "EXACT",
         "booleanMode": "AND",
-        "columns": [],
-        "values": [],
-        "matchingMode": "FULL_STRING",
+        "columns": [
+          "StudyID"
+        ],
+        "values": [
+          "PNA"
+        ],
+        "matchingMode": "SUBSTRING",
         "action": "KEEP_ROW",
-        "appliesTo": "ALL"
+        "appliesTo": "SINGLE_COLUMN"
+      },
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "designTimeReport": {
+        "report": {
+          "createdColumnCount": 3
+        }
+      },
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "ColumnSplitter",
+      "params": {
+        "inCol": "StudyID",
+        "keepEmptyChunks": false,
+        "limit": 0,
+        "separator": " ",
+        "outColPrefix": "StudyID_",
+        "limitOutput": false,
+        "target": "COLUMNS"
+      },
+      "alwaysShowComment": false
+    },
+    {
+      "preview": true,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "ColumnsSelector",
+      "params": {
+        "columns": [
+          "StudyID",
+          "StudyID_0"
+        ],
+        "keep": false,
+        "appliesTo": "COLUMNS"
       },
       "alwaysShowComment": false
     }
@@ -101,7 +141,10 @@
     "Histidine": 100,
     "VFD": 100,
     "Anserine": 100,
+    "StudyID_Int1": 105,
+    "StudyID_Int0": 105,
     "γ-Glutamyl-ε-lysine": 158,
+    "StudyID_Int2": 105,
     "Thiaproline": 100,
     "Tyrosine": 106,
     "Alanyl-alanine": 120,
@@ -140,11 +183,14 @@
     "Cystine": 100,
     "VFD\u003e20": 100,
     "Arginine": 100,
+    "StudyID_0": 113,
     "Infection Status": 135,
     "Batch": 100,
     "PARDS": 100,
+    "StudyID_2": 100,
     "Race": 100,
     "Pyroglutamic acid": 143,
+    "StudyID_1": 100,
     "Aspartic acid": 113,
     "1-Methyl-histidine": 150,
     "Isoleucine": 100,

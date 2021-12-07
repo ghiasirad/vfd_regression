@@ -2149,14 +2149,14 @@
     "predictionDisplayCharts": [],
     "labels": []
   },
-  "lastTrainIndex": 1,
-  "lastTrainJobId": "",
+  "lastTrainIndex": 2,
+  "lastTrainJobId": "Build_Predict_VFD__regression_with_SGD__2021-12-07T18-58-22.624",
   "versionTag": {
-    "versionNumber": 1,
+    "versionNumber": 2,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1638903511538
+    "lastModifiedOn": 1638903511569
   },
   "creationTag": {
     "versionNumber": 0,

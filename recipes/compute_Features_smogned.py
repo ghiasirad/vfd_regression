@@ -8,9 +8,14 @@ features_joined = dataiku.Dataset("Features_joined")
 features_joined_df = features_joined.get_dataframe()
 
 
-# Compute recipe outputs from inputs
-# TODO: Replace this part by your actual code that computes the output, as a Pandas dataframe
-# NB: DSS also supports other kinds of APIs for reading and writing data. Please see doc.
+## conduct smogn
+features_smogn = smogn.smoter(
+    
+    data = features_joined_df, 
+    y = "VFD",
+    k = 3,
+    pert = 0.2
+)
 
 features_smogned_df = features_joined_df # For this sample code, simply copy input to output
 

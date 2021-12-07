@@ -9,16 +9,16 @@ features_joined = dataiku.Dataset("Features_joined")
 features_joined_df = features_joined.get_dataframe()
 
 
-## conduct smogn
-features_smogn = smogn.smoter(
+# ## conduct smogn
+# features_smogn = smogn.smoter(
     
-    data = features_joined_df, 
-    y = "VFD",
-    k = 3,
-    pert = 0.2
-)
+#     data = features_joined_df, 
+#     y = "VFD",
+#     k = 3,
+#     pert = 0.2
+# )
 
-smogned_features_df = features_smogn # For this sample code, simply copy input to output
+smogned_features_df = features_joined_df # For this sample code, simply copy input to output
 
 
 # Write recipe outputs

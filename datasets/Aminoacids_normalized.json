@@ -59,11 +59,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 1,
+    "versionNumber": 2,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1638889705751
+    "lastModifiedOn": 1638893384266
   },
   "creationTag": {
     "versionNumber": 0,
@@ -285,6 +285,10 @@
       {
         "name": "Valine",
         "type": "double"
+      },
+      {
+        "name": "StudyID_Int",
+        "type": "bigint"
       }
     ],
     "userModified": false

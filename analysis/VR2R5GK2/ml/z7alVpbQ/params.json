@@ -1226,7 +1226,7 @@
         "binarize_threshold_mode": "MEDIAN",
         "binarize_constant_threshold": 0.0,
         "datetime_cyclical_periods": [],
-        "role": "INPUT",
+        "role": "REJECT",
         "type": "NUMERIC",
         "state": {
           "userModified": false,
@@ -2328,7 +2328,7 @@
       "alpha": 0.001,
       "batch_size": 200,
       "auto_batch": true,
-      "max_iter": 200,
+      "max_iter": 1000,
       "seed": 1337,
       "tol": 1.0E-4,
       "early_stopping": false,
@@ -2342,7 +2342,7 @@
       "nesterovs_momentum": true,
       "shuffle": true,
       "learning_rate_init": 0.001,
-      "enabled": false
+      "enabled": true
     },
     "svc_classifier": {
       "C": {
@@ -3393,7 +3393,7 @@
       "nContainers": 4
     },
     "metrics": {
-      "evaluationMetric": "R2",
+      "evaluationMetric": "MSE",
       "customEvaluationMetricGIB": true,
       "customEvaluationMetricNeedsProba": false,
       "costMatrixWeights": {

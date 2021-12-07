@@ -18,3 +18,5 @@ prediction_results_df = features_joined_df # For this sample code, simply copy i
 # Write recipe outputs
 prediction_results = dataiku.Dataset("Prediction_results")
 prediction_results.write_with_schema(prediction_results_df)
+
+print("HELLO")

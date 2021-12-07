@@ -137,13 +137,6 @@
         "appliesTo": "ALL"
       },
       "alwaysShowComment": false
-    },
-    {
-      "preview": false,
-      "metaType": "GROUP",
-      "disabled": false,
-      "steps": [],
-      "alwaysShowComment": false
     }
   ],
   "maxProcessedMemTableBytes": -1,

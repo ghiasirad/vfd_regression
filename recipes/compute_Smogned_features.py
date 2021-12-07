@@ -2,7 +2,7 @@
 import dataiku
 import pandas as pd, numpy as np
 from dataiku import pandasutils as pdu
-import smogn
+# import smogn
 
 # Read recipe inputs
 features_joined = dataiku.Dataset("Features_joined")

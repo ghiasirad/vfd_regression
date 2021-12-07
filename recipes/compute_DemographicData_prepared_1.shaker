@@ -137,6 +137,17 @@
         "appliesTo": "SINGLE_COLUMN"
       },
       "alwaysShowComment": false
+    },
+    {
+      "preview": true,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "UpDownFiller",
+      "params": {
+        "columns": [],
+        "up": false
+      },
+      "alwaysShowComment": false
     }
   ],
   "maxProcessedMemTableBytes": -1,
@@ -165,6 +176,7 @@
   },
   "analysisColumnData": {},
   "columnWidthsByName": {
+    "": 100,
     "PELOD": 100,
     "Glycine-proline": 128,
     "Pipecolic acid": 120,

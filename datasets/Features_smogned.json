@@ -59,11 +59,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 1,
+    "versionNumber": 2,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1638894090125
+    "lastModifiedOn": 1638894219034
   },
   "creationTag": {
     "versionNumber": 0,
@@ -86,6 +86,10 @@
   },
   "schema": {
     "columns": [
+      {
+        "name": "StudyID_Int",
+        "type": "bigint"
+      },
       {
         "name": "1-Methyl-histidine",
         "type": "double"
@@ -285,10 +289,6 @@
       {
         "name": "Valine",
         "type": "double"
-      },
-      {
-        "name": "Study ID",
-        "type": "bigint"
       },
       {
         "name": "Sex",

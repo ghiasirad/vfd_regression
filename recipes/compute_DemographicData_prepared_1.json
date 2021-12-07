@@ -68,18 +68,18 @@
       "items": [
         {
           "ref": "AmioAcids_cleaned",
-          "appendMode": false
+          "appendMode": true
         }
       ]
     }
   },
   "labels": [],
   "versionTag": {
-    "versionNumber": 8,
+    "versionNumber": 9,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1638891235175
+    "lastModifiedOn": 1638891369690
   },
   "creationTag": {
     "versionNumber": 0,

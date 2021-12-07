@@ -76,10 +76,8 @@
       "MAE",
       "MSE",
       "RMSE",
-      "RMSLE",
       "R2",
       "PEARSON",
-      "CUSTOM",
       "DATA_DRIFT"
     ],
     "predictionType": "REGRESSION",
@@ -90,17 +88,25 @@
       "evaluationDataset:dataset-name"
     ],
     "alsoDisplayedLabels": [],
+    "barLabels": [
+      "evaluation:date",
+      "model:name",
+      "evaluationDataset:dataset-name"
+    ],
+    "graphStyle": "BAR",
     "sortColumn": "refStr",
     "sortDescending": false,
     "showConfidenceIntervals": true,
-    "disabledMERunIds": []
+    "disabledMERunIds": [
+      "aXPdCZFtXcCx"
+    ]
   },
   "versionTag": {
-    "versionNumber": 1,
+    "versionNumber": 3,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1638897200825
+    "lastModifiedOn": 1638897366036
   },
   "creationTag": {
     "versionNumber": 0,

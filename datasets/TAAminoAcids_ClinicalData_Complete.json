@@ -1,0 +1,409 @@
+{
+  "type": "UploadedFiles",
+  "managed": false,
+  "formatType": "csv",
+  "checklists": {
+    "checklists": []
+  },
+  "customMeta": {
+    "kv": {}
+  },
+  "flowOptions": {
+    "virtualizable": false,
+    "rebuildBehavior": "NORMAL",
+    "crossProjectBuildBehavior": "DEFAULT"
+  },
+  "readWriteOptions": {
+    "preserveOrder": false,
+    "writeBuckets": 1,
+    "forceSingleOutputFile": false,
+    "defaultReadOrdering": {
+      "enabled": false,
+      "rules": []
+    }
+  },
+  "formatParams": {
+    "style": "excel",
+    "charset": "utf-8",
+    "separator": ",",
+    "quoteChar": "\"",
+    "escapeChar": "\\",
+    "dateSerializationFormat": "ISO",
+    "arrayMapFormat": "json",
+    "hiveSeparators": [
+      "\u0002",
+      "\u0003",
+      "\u0004",
+      "\u0005",
+      "\u0006",
+      "\u0007",
+      "\b"
+    ],
+    "skipRowsBeforeHeader": 0,
+    "parseHeaderRow": true,
+    "skipRowsAfterHeader": 0,
+    "probableNumberOfRecords": 59,
+    "normalizeBooleans": false,
+    "normalizeDoubles": true,
+    "readAdditionalColumnsBehavior": "INSERT_IN_DATA_WARNING",
+    "readMissingColumnsBehavior": "DISCARD_SILENT",
+    "readDataTypeMismatchBehavior": "DISCARD_WARNING",
+    "writeDataTypeMismatchBehavior": "DISCARD_WARNING",
+    "fileReadFailureBehavior": "FAIL",
+    "compress": ""
+  },
+  "partitioning": {
+    "ignoreNonMatchingFile": false,
+    "considerMissingRequestedPartitionsAsEmpty": false,
+    "dimensions": []
+  },
+  "versionTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "admin"
+    },
+    "lastModifiedOn": 1638839438055
+  },
+  "creationTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "admin"
+    },
+    "lastModifiedOn": 1638839438055
+  },
+  "tags": [],
+  "params": {
+    "uploadBoxId": "83874f73fefd545ab21d8c463a5c988436e182e7140b060d3fb71764e84ba24c",
+    "uploadConnection": "Default (in DSS data dir.)",
+    "notReadyIfEmpty": false,
+    "filesSelectionRules": {
+      "mode": "ALL",
+      "excludeRules": [],
+      "includeRules": [],
+      "explicitFiles": []
+    }
+  },
+  "schema": {
+    "columns": [
+      {
+        "name": "KEY",
+        "type": "string"
+      },
+      {
+        "name": "StudyID",
+        "type": "string"
+      },
+      {
+        "name": "StudyName",
+        "type": "string"
+      },
+      {
+        "name": "Batch",
+        "type": "string"
+      },
+      {
+        "name": "PARDS",
+        "type": "string"
+      },
+      {
+        "name": "ID_2",
+        "type": "string"
+      },
+      {
+        "name": "Severity",
+        "type": "string"
+      },
+      {
+        "name": "VFD",
+        "type": "string"
+      },
+      {
+        "name": "VFD\u003e20",
+        "type": "string"
+      },
+      {
+        "name": "1-Methyl-histidine",
+        "type": "string"
+      },
+      {
+        "name": "3-Hydroxy-tyrosine",
+        "type": "string"
+      },
+      {
+        "name": "3-Methyl-histidine",
+        "type": "string"
+      },
+      {
+        "name": "4-Aminobenzoic acid",
+        "type": "string"
+      },
+      {
+        "name": "4-Aminobutyric acid",
+        "type": "string"
+      },
+      {
+        "name": "4-Hydroxyproline",
+        "type": "string"
+      },
+      {
+        "name": "Alanine",
+        "type": "string"
+      },
+      {
+        "name": "Alanyl-alanine",
+        "type": "string"
+      },
+      {
+        "name": "α-Aminoadipic acid",
+        "type": "string"
+      },
+      {
+        "name": "α-Aminobutyric acid",
+        "type": "string"
+      },
+      {
+        "name": "Anserine",
+        "type": "string"
+      },
+      {
+        "name": "Arginine",
+        "type": "string"
+      },
+      {
+        "name": "Asparagine",
+        "type": "string"
+      },
+      {
+        "name": "Aspartic acid",
+        "type": "string"
+      },
+      {
+        "name": "β-Alanine",
+        "type": "string"
+      },
+      {
+        "name": "β-Aminobutyric acid",
+        "type": "string"
+      },
+      {
+        "name": "β-Aminoisobutyric acid",
+        "type": "string"
+      },
+      {
+        "name": "Carnosine",
+        "type": "string"
+      },
+      {
+        "name": "Citrulline",
+        "type": "string"
+      },
+      {
+        "name": "Cysteine",
+        "type": "string"
+      },
+      {
+        "name": "Cystine",
+        "type": "string"
+      },
+      {
+        "name": "Ethanolamine",
+        "type": "string"
+      },
+      {
+        "name": "γ-Glutamyl-ε-lysine",
+        "type": "string"
+      },
+      {
+        "name": "Glutamic acid",
+        "type": "string"
+      },
+      {
+        "name": "Glutamine",
+        "type": "string"
+      },
+      {
+        "name": "Glycine",
+        "type": "string"
+      },
+      {
+        "name": "Glycine-proline",
+        "type": "string"
+      },
+      {
+        "name": "Histamine",
+        "type": "string"
+      },
+      {
+        "name": "Histidine",
+        "type": "string"
+      },
+      {
+        "name": "Homocystine",
+        "type": "string"
+      },
+      {
+        "name": "Homoserine",
+        "type": "string"
+      },
+      {
+        "name": "Isoleucine",
+        "type": "string"
+      },
+      {
+        "name": "Leucine",
+        "type": "string"
+      },
+      {
+        "name": "Lysine",
+        "type": "string"
+      },
+      {
+        "name": "Methionine",
+        "type": "string"
+      },
+      {
+        "name": "Methionine sulfoxide",
+        "type": "string"
+      },
+      {
+        "name": "Ornithine",
+        "type": "string"
+      },
+      {
+        "name": "Phenylalanine",
+        "type": "string"
+      },
+      {
+        "name": "Pipecolic acid",
+        "type": "string"
+      },
+      {
+        "name": "Proline",
+        "type": "string"
+      },
+      {
+        "name": "Proline-hydroxyproline",
+        "type": "string"
+      },
+      {
+        "name": "Pyroglutamic acid",
+        "type": "string"
+      },
+      {
+        "name": "Sarcosine",
+        "type": "string"
+      },
+      {
+        "name": "Seleno-methionine",
+        "type": "string"
+      },
+      {
+        "name": "Serine",
+        "type": "string"
+      },
+      {
+        "name": "Thiaproline",
+        "type": "string"
+      },
+      {
+        "name": "Threonine",
+        "type": "string"
+      },
+      {
+        "name": "Tryptophan",
+        "type": "string"
+      },
+      {
+        "name": "Tyrosine",
+        "type": "string"
+      },
+      {
+        "name": "Valine",
+        "type": "string"
+      }
+    ],
+    "userModified": true
+  },
+  "dkuProperties": [],
+  "metrics": {
+    "probes": [
+      {
+        "type": "basic",
+        "enabled": true,
+        "computeOnBuildMode": "PARTITION",
+        "meta": {
+          "name": "Basic data",
+          "level": 0
+        },
+        "configuration": {}
+      },
+      {
+        "type": "records",
+        "enabled": true,
+        "computeOnBuildMode": "NO",
+        "meta": {
+          "name": "Record count",
+          "level": 0
+        },
+        "configuration": {}
+      }
+    ],
+    "engineConfig": {
+      "padRunsWithMetrics": false,
+      "hive": {
+        "active": true,
+        "extraConf": []
+      },
+      "basic": {},
+      "dss": {
+        "active": true,
+        "selection": {
+          "useMemTable": false,
+          "filter": {
+            "distinct": false,
+            "enabled": false
+          },
+          "partitionSelectionMethod": "ALL",
+          "latestPartitionsN": 1,
+          "ordering": {
+            "enabled": false,
+            "rules": []
+          },
+          "samplingMethod": "FULL",
+          "maxRecords": -1,
+          "targetRatio": 0.02,
+          "withinFirstN": -1,
+          "maxReadUncompressedBytes": -1
+        }
+      },
+      "sql": {
+        "active": true
+      },
+      "impala": {
+        "active": true
+      },
+      "spark": {
+        "active": true,
+        "extraConf": []
+      },
+      "python": {}
+    },
+    "displayedState": {
+      "columns": [],
+      "metrics": [
+        "basic:COUNT_COLUMNS",
+        "basic:COUNT_FILES",
+        "basic:SIZE",
+        "records:COUNT_RECORDS"
+      ]
+    }
+  },
+  "metricsChecks": {
+    "runOnBuild": false,
+    "checks": [],
+    "displayedState": {
+      "checks": []
+    }
+  },
+  "customFields": {}
+}

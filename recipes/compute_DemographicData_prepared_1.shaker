@@ -122,6 +122,28 @@
         ]
       },
       "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "FillEmptyWithComputedValue",
+      "params": {
+        "mode": "MEDIAN",
+        "columns": [
+          "3-Hydroxy-tyrosine",
+          ""
+        ],
+        "appliesTo": "ALL"
+      },
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "metaType": "GROUP",
+      "disabled": false,
+      "steps": [],
+      "alwaysShowComment": false
     }
   ],
   "maxProcessedMemTableBytes": -1,

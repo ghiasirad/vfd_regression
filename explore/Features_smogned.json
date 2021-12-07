@@ -1,0 +1,134 @@
+{
+  "script": {
+    "steps": [],
+    "maxProcessedMemTableBytes": -1,
+    "columnsSelection": {
+      "mode": "ALL"
+    },
+    "columnWidthsByName": {
+      "StudyID_Int": 100,
+      "1-Methyl-histidine": 176,
+      "3-Hydroxy-tyrosine": 176,
+      "3-Methyl-histidine": 176,
+      "4-Aminobenzoic acid": 183,
+      "4-Aminobutyric acid": 183,
+      "4-Hydroxyproline": 162,
+      "Alanine": 155,
+      "Alanyl-alanine": 162,
+      "α-Aminoadipic acid": 176,
+      "α-Aminobutyric acid": 183,
+      "Anserine": 162,
+      "Arginine": 162,
+      "Asparagine": 155,
+      "Aspartic acid": 162,
+      "β-Alanine": 162,
+      "β-Aminobutyric acid": 183,
+      "β-Aminoisobutyric acid": 204,
+      "Carnosine": 162,
+      "Citrulline": 162,
+      "Cysteine": 162,
+      "Cystine": 162,
+      "Ethanolamine": 155,
+      "γ-Glutamyl-ε-lysine": 183,
+      "Glutamic acid": 155,
+      "Glutamine": 155,
+      "Glycine": 162,
+      "Glycine-proline": 162,
+      "Histamine": 162,
+      "Histidine": 162,
+      "Homocystine": 162,
+      "Homoserine": 155,
+      "Isoleucine": 162,
+      "Leucine": 155,
+      "Lysine": 155,
+      "Methionine": 162,
+      "Methionine sulfoxide": 190,
+      "Ornithine": 155,
+      "Phenylalanine": 155,
+      "Pipecolic acid": 162,
+      "Proline": 162,
+      "Proline-hydroxyproline": 204,
+      "Pyroglutamic acid": 169,
+      "Sarcosine": 162,
+      "Seleno-methionine": 169,
+      "Serine": 155,
+      "Thiaproline": 162,
+      "Threonine": 162,
+      "Tryptophan": 162,
+      "Tyrosine": 162,
+      "Valine": 155,
+      "Sex": 100,
+      "Race": 100,
+      "Infection Status": 135,
+      "ECMO": 100,
+      "Age_years": 113,
+      "PRISM": 100,
+      "PELOD": 100,
+      "VFD": 100
+    },
+    "coloring": {
+      "scheme": "MEANING_AND_STATUS",
+      "individualColumns": [],
+      "valueColoringMode": "HASH"
+    },
+    "sorting": [
+      {
+        "column": "StudyID_Int",
+        "ascending": true
+      }
+    ],
+    "analysisColumnData": {},
+    "explorationSampling": {
+      "selection": {
+        "maxStoredBytes": 104857600,
+        "timeout": -1,
+        "filter": {
+          "distinct": false,
+          "enabled": false
+        },
+        "partitionSelectionMethod": "ALL",
+        "latestPartitionsN": 1,
+        "ordering": {
+          "enabled": false,
+          "rules": []
+        },
+        "samplingMethod": "HEAD_SEQUENTIAL",
+        "maxRecords": 10000,
+        "targetRatio": 0.02,
+        "withinFirstN": -1,
+        "maxReadUncompressedBytes": -1
+      },
+      "autoRefreshSample": false,
+      "_refreshTrigger": 0
+    },
+    "vizSampling": {
+      "selection": {
+        "useMemTable": false,
+        "filter": {
+          "distinct": false,
+          "enabled": false
+        },
+        "partitionSelectionMethod": "ALL",
+        "latestPartitionsN": 1,
+        "ordering": {
+          "enabled": false,
+          "rules": []
+        },
+        "samplingMethod": "FULL",
+        "maxRecords": -1,
+        "targetRatio": 0.02,
+        "withinFirstN": -1,
+        "maxReadUncompressedBytes": -1
+      },
+      "autoRefreshSample": false,
+      "_refreshTrigger": 0
+    },
+    "exploreUIParams": {
+      "autoRefresh": true
+    },
+    "globalSearchQuery": "",
+    "explorationFilters": [],
+    "previewMode": "ALL_ROWS"
+  },
+  "charts": []
+}

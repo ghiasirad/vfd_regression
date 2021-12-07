@@ -267,6 +267,11 @@
       "table": 0
     },
     {
+      "name": "Study ID",
+      "type": "bigint",
+      "table": 1
+    },
+    {
       "name": "Sex",
       "type": "string",
       "table": 1

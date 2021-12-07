@@ -3603,6 +3603,17 @@
                 "measureIdx": 0,
                 "label": "Average of error, ascending",
                 "sortAscending": true
+              },
+              {
+                "type": "AGGREGATION",
+                "measureIdx": 1,
+                "label": "Average of Age_years, descending"
+              },
+              {
+                "type": "AGGREGATION",
+                "measureIdx": 1,
+                "label": "Average of Age_years, ascending",
+                "sortAscending": true
               }
             ],
             "sort": {
@@ -3618,6 +3629,17 @@
         "genericMeasures": [
           {
             "column": "error",
+            "function": "AVG",
+            "type": "NUMERICAL",
+            "displayed": true,
+            "isA": "measure",
+            "displayAxis": "axis1",
+            "displayType": "column",
+            "computeMode": "NORMAL",
+            "computeModeDim": 0
+          },
+          {
+            "column": "Age_years",
             "function": "AVG",
             "type": "NUMERICAL",
             "displayed": true,

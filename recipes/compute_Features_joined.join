@@ -12,7 +12,19 @@
       },
       "type": "INNER",
       "outerJoinOnTheLeft": true,
-      "on": []
+      "on": [
+        {
+          "column1": {
+            "name": "StudyID_Int",
+            "table": 0
+          },
+          "column2": {
+            "name": "Study ID",
+            "table": 1
+          },
+          "type": "EQ"
+        }
+      ]
     }
   ],
   "selectedColumns": [
@@ -349,7 +361,8 @@
   },
   "virtualInputs": [
     {
-      "index": 1
+      "index": 1,
+      "computedColumns": []
     },
     {
       "preFilter": {
@@ -367,10 +380,6 @@
     "$status": {
       "schema": {
         "columns": [
-          {
-            "name": "StudyID_Int",
-            "type": "bigint"
-          },
           {
             "name": "1-Methyl-histidine",
             "type": "double"
@@ -570,6 +579,10 @@
           {
             "name": "Valine",
             "type": "double"
+          },
+          {
+            "name": "Study ID",
+            "type": "bigint"
           },
           {
             "name": "Sex",

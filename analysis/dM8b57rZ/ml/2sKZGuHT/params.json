@@ -3685,7 +3685,7 @@
         "colorOptions": {
           "singleColor": "#2678B1",
           "transparency": 0.75,
-          "colorPalette": "default",
+          "colorPalette": "dku_dss_next",
           "ccScaleMode": "NORMAL",
           "customPalette": {
             "id": "__dku_custom__",

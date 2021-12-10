@@ -2,9 +2,9 @@
   "guessPolicy": "ALGORITHMS",
   "preprocessing": {
     "reduce": {
-      "enable": false,
+      "enable": true,
       "disable": true,
-      "kept_variance": 0.0
+      "kept_variance": 0.9
     },
     "outliers": {
       "method": "CLUSTER",
@@ -116,7 +116,7 @@
         "binarize_threshold_mode": "MEDIAN",
         "binarize_constant_threshold": 0.0,
         "datetime_cyclical_periods": [],
-        "role": "INPUT",
+        "role": "REJECT",
         "type": "NUMERIC",
         "state": {
           "userModified": false,
@@ -1176,7 +1176,7 @@
         "binarize_threshold_mode": "MEDIAN",
         "binarize_constant_threshold": 0.0,
         "datetime_cyclical_periods": [],
-        "role": "INPUT",
+        "role": "REJECT",
         "type": "NUMERIC",
         "state": {
           "userModified": false,
@@ -1447,14 +1447,14 @@
         0.5
       ],
       "min_sample_ratio": 0.1,
-      "enabled": false
+      "enabled": true
     },
     "spectral_clustering": {
       "k": [
         3,
         5
       ],
-      "enabled": false,
+      "enabled": true,
       "affinity_rbf": false,
       "affinity_nearest_neighbors": false,
       "affinity_sigmoid": false,
@@ -1470,7 +1470,7 @@
         3,
         5
       ],
-      "enabled": false
+      "enabled": true
     },
     "kmeans_clustering": {
       "k": [
@@ -1485,14 +1485,14 @@
         3,
         5
       ],
-      "enabled": false,
+      "enabled": true,
       "seed": 1337
     },
     "gmm_clustering": {
       "k": [
         5
       ],
-      "enabled": false,
+      "enabled": true,
       "max_iterations": 100,
       "seed": 1337
     },
@@ -1525,11 +1525,11 @@
       "n_clusters": 5,
       "seed": 1337,
       "max_iterations": 30,
-      "enabled": false
+      "enabled": true
     },
     "isolation_forest": {
       "k": 2,
-      "enabled": false,
+      "enabled": true,
       "n_estimators": 100,
       "max_samples": 0.5,
       "max_features": 1.0,

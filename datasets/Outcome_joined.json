@@ -59,11 +59,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 2,
+    "versionNumber": 3,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1639372538335
+    "lastModifiedOn": 1639372687358
   },
   "creationTag": {
     "versionNumber": 0,
@@ -323,7 +323,7 @@
         "type": "bigint"
       },
       {
-        "name": "prediction",
+        "name": "Prediction_ANN",
         "type": "float"
       },
       {
@@ -335,7 +335,7 @@
         "type": "smallint"
       },
       {
-        "name": "abs_error_decile",
+        "name": "abs_error_decile_ANN",
         "type": "smallint"
       },
       {
@@ -343,12 +343,20 @@
         "type": "double"
       },
       {
-        "name": "relative_error_Extra",
-        "type": "double"
+        "name": "Prediction_Extra",
+        "type": "float"
       },
       {
-        "name": "relative_error_SGD",
-        "type": "double"
+        "name": "abs_error_decile_Extra",
+        "type": "smallint"
+      },
+      {
+        "name": "Prediction_SGD",
+        "type": "float"
+      },
+      {
+        "name": "abs_error_decile_SGD",
+        "type": "smallint"
       }
     ],
     "userModified": true

@@ -19,6 +19,10 @@
         {
           "ref": "Outcome_Extra",
           "deps": []
+        },
+        {
+          "ref": "Outcome_SGD",
+          "deps": []
         }
       ]
     }
@@ -35,11 +39,11 @@
   },
   "labels": [],
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1639372190937
+    "lastModifiedOn": 1639372538385
   },
   "creationTag": {
     "versionNumber": 0,

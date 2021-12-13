@@ -454,17 +454,25 @@
     {
       "preFilter": {
         "uiData": {
-          "mode": "\u0026\u0026",
+          "mode": "||",
           "conditions": [
             {
-              "input": "abs_error_decile",
+              "input": "error",
               "col": "1-Methyl-histidine",
               "num": 5,
               "operator": "\u003e  [number]"
+            },
+            {
+              "input": "error",
+              "col": "1-Methyl-histidine",
+              "num": -5,
+              "operator": "\u003c  [number]"
             }
           ]
         },
-        "$status": {},
+        "$status": {
+          "validated": false
+        },
         "distinct": false,
         "enabled": true
       },
@@ -476,17 +484,25 @@
     {
       "preFilter": {
         "uiData": {
-          "mode": "\u0026\u0026",
+          "mode": "||",
           "conditions": [
             {
-              "input": "abs_error_decile",
+              "input": "error",
               "col": "1-Methyl-histidine",
               "num": 5,
               "operator": "\u003e  [number]"
+            },
+            {
+              "input": "error",
+              "col": "1-Methyl-histidine",
+              "num": -5,
+              "operator": "\u003c  [number]"
             }
           ]
         },
-        "$status": {},
+        "$status": {
+          "validated": false
+        },
         "distinct": false,
         "enabled": true
       },
@@ -498,17 +514,25 @@
     {
       "preFilter": {
         "uiData": {
-          "mode": "\u0026\u0026",
+          "mode": "||",
           "conditions": [
             {
-              "input": "abs_error_decile",
+              "input": "error",
               "col": "1-Methyl-histidine",
               "num": 5,
               "operator": "\u003e  [number]"
+            },
+            {
+              "input": "error",
+              "col": "1-Methyl-histidine",
+              "num": -5,
+              "operator": "\u003c  [number]"
             }
           ]
         },
-        "$status": {},
+        "$status": {
+          "validated": false
+        },
         "enabled": true
       },
       "index": 2,

@@ -40,15 +40,31 @@
           "appendMode": false
         }
       ]
+    },
+    "main": {
+      "items": [
+        {
+          "ref": "Outcome_Extra",
+          "appendMode": false
+        }
+      ]
+    },
+    "metrics": {
+      "items": [
+        {
+          "ref": "Metrics_Extra",
+          "appendMode": false
+        }
+      ]
     }
   },
   "labels": [],
   "versionTag": {
-    "versionNumber": 1,
+    "versionNumber": 2,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1638923447400
+    "lastModifiedOn": 1639371984358
   },
   "creationTag": {
     "versionNumber": 0,

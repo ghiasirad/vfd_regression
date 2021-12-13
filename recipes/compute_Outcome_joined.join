@@ -1,0 +1,328 @@
+{
+  "joins": [
+    {
+      "table2": 1,
+      "table1": 0,
+      "conditionsMode": "AND",
+      "type": "LEFT",
+      "outerJoinOnTheLeft": true,
+      "on": []
+    }
+  ],
+  "selectedColumns": [
+    {
+      "name": "StudyID_Int",
+      "table": 0
+    },
+    {
+      "name": "1-Methyl-histidine",
+      "table": 0
+    },
+    {
+      "name": "3-Hydroxy-tyrosine",
+      "table": 0
+    },
+    {
+      "name": "3-Methyl-histidine",
+      "table": 0
+    },
+    {
+      "name": "4-Aminobenzoic acid",
+      "table": 0
+    },
+    {
+      "name": "4-Aminobutyric acid",
+      "table": 0
+    },
+    {
+      "name": "4-Hydroxyproline",
+      "table": 0
+    },
+    {
+      "name": "Alanine",
+      "table": 0
+    },
+    {
+      "name": "Alanyl-alanine",
+      "table": 0
+    },
+    {
+      "name": "α-Aminoadipic acid",
+      "table": 0
+    },
+    {
+      "name": "α-Aminobutyric acid",
+      "table": 0
+    },
+    {
+      "name": "Anserine",
+      "table": 0
+    },
+    {
+      "name": "Arginine",
+      "table": 0
+    },
+    {
+      "name": "Asparagine",
+      "table": 0
+    },
+    {
+      "name": "Aspartic acid",
+      "table": 0
+    },
+    {
+      "name": "β-Alanine",
+      "table": 0
+    },
+    {
+      "name": "β-Aminobutyric acid",
+      "table": 0
+    },
+    {
+      "name": "β-Aminoisobutyric acid",
+      "table": 0
+    },
+    {
+      "name": "Carnosine",
+      "table": 0
+    },
+    {
+      "name": "Citrulline",
+      "table": 0
+    },
+    {
+      "name": "Cysteine",
+      "table": 0
+    },
+    {
+      "name": "Cystine",
+      "table": 0
+    },
+    {
+      "name": "Ethanolamine",
+      "table": 0
+    },
+    {
+      "name": "γ-Glutamyl-ε-lysine",
+      "table": 0
+    },
+    {
+      "name": "Glutamic acid",
+      "table": 0
+    },
+    {
+      "name": "Glutamine",
+      "table": 0
+    },
+    {
+      "name": "Glycine",
+      "table": 0
+    },
+    {
+      "name": "Glycine-proline",
+      "table": 0
+    },
+    {
+      "name": "Histamine",
+      "table": 0
+    },
+    {
+      "name": "Histidine",
+      "table": 0
+    },
+    {
+      "name": "Homocystine",
+      "table": 0
+    },
+    {
+      "name": "Homoserine",
+      "table": 0
+    },
+    {
+      "name": "Isoleucine",
+      "table": 0
+    },
+    {
+      "name": "Leucine",
+      "table": 0
+    },
+    {
+      "name": "Lysine",
+      "table": 0
+    },
+    {
+      "name": "Methionine",
+      "table": 0
+    },
+    {
+      "name": "Methionine sulfoxide",
+      "table": 0
+    },
+    {
+      "name": "Ornithine",
+      "table": 0
+    },
+    {
+      "name": "Phenylalanine",
+      "table": 0
+    },
+    {
+      "name": "Pipecolic acid",
+      "table": 0
+    },
+    {
+      "name": "Proline",
+      "table": 0
+    },
+    {
+      "name": "Proline-hydroxyproline",
+      "table": 0
+    },
+    {
+      "name": "Pyroglutamic acid",
+      "table": 0
+    },
+    {
+      "name": "Sarcosine",
+      "table": 0
+    },
+    {
+      "name": "Seleno-methionine",
+      "table": 0
+    },
+    {
+      "name": "Serine",
+      "table": 0
+    },
+    {
+      "name": "Thiaproline",
+      "table": 0
+    },
+    {
+      "name": "Threonine",
+      "table": 0
+    },
+    {
+      "name": "Tryptophan",
+      "table": 0
+    },
+    {
+      "name": "Tyrosine",
+      "table": 0
+    },
+    {
+      "name": "Valine",
+      "table": 0
+    },
+    {
+      "name": "Sex",
+      "table": 0
+    },
+    {
+      "name": "Race",
+      "table": 0
+    },
+    {
+      "name": "Infection Status",
+      "table": 0
+    },
+    {
+      "name": "ECMO",
+      "table": 0
+    },
+    {
+      "name": "Age_years",
+      "table": 0
+    },
+    {
+      "name": "PRISM",
+      "table": 0
+    },
+    {
+      "name": "PELOD",
+      "table": 0
+    },
+    {
+      "name": "VFD",
+      "table": 0
+    },
+    {
+      "name": "prediction",
+      "table": 0
+    },
+    {
+      "name": "error",
+      "table": 0
+    },
+    {
+      "name": "error_decile",
+      "table": 0
+    },
+    {
+      "name": "abs_error_decile",
+      "table": 0
+    },
+    {
+      "name": "relative_error",
+      "table": 0
+    }
+  ],
+  "resolvedSelectedColumns": [],
+  "engineParams": {
+    "hive": {
+      "skipPrerunValidate": false,
+      "hiveconf": [],
+      "inheritConf": "default",
+      "addDkuUdf": false,
+      "executionEngine": "HIVESERVER2"
+    },
+    "sqlPipelineParams": {
+      "pipelineAllowMerge": true,
+      "pipelineAllowStart": true
+    },
+    "impala": {
+      "forceStreamMode": true
+    },
+    "lowerCaseSchemaIfEngineRequiresIt": true,
+    "sparkSQL": {
+      "skipPrerunValidate": false,
+      "pipelineAllowMerge": true,
+      "useGlobalMetastore": false,
+      "pipelineAllowStart": true,
+      "readParams": {
+        "mode": "AUTO",
+        "autoModeRepartitionInto": 10,
+        "map": {}
+      },
+      "overwriteOutputSchema": false,
+      "executionEngine": "SPARK_SUBMIT",
+      "sparkConfig": {
+        "inheritConf": "default",
+        "conf": []
+      }
+    }
+  },
+  "virtualInputs": [
+    {
+      "preFilter": {
+        "distinct": false,
+        "enabled": false
+      },
+      "autoSelectColumns": false,
+      "originLabel": "Outcome_ANN",
+      "index": 0,
+      "computedColumns": []
+    },
+    {
+      "preFilter": {
+        "distinct": false,
+        "enabled": false
+      },
+      "autoSelectColumns": false,
+      "originLabel": "Outcome_Extra",
+      "index": 1,
+      "computedColumns": []
+    }
+  ],
+  "enableAutoCastInJoinConditions": false
+}

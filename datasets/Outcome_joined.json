@@ -59,11 +59,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 1,
+    "versionNumber": 2,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1639372190927
+    "lastModifiedOn": 1639372538335
   },
   "creationTag": {
     "versionNumber": 0,
@@ -339,7 +339,15 @@
         "type": "smallint"
       },
       {
-        "name": "relative_error",
+        "name": "relative_error_ANN",
+        "type": "double"
+      },
+      {
+        "name": "relative_error_Extra",
+        "type": "double"
+      },
+      {
+        "name": "relative_error_SGD",
         "type": "double"
       }
     ],

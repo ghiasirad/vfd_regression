@@ -59,11 +59,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 4,
+    "versionNumber": 5,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1639408147731
+    "lastModifiedOn": 1639408473281
   },
   "creationTag": {
     "versionNumber": 0,
@@ -327,11 +327,7 @@
         "type": "float"
       },
       {
-        "name": "abs_error_decile_ANN",
-        "type": "smallint"
-      },
-      {
-        "name": "relative_error_ANN",
+        "name": "error_ANN",
         "type": "double"
       },
       {
@@ -339,11 +335,7 @@
         "type": "float"
       },
       {
-        "name": "abs_error_decile_Extra",
-        "type": "smallint"
-      },
-      {
-        "name": "relative_error_Extra",
+        "name": "error_Extra",
         "type": "double"
       },
       {
@@ -351,11 +343,7 @@
         "type": "float"
       },
       {
-        "name": "abs_error_decile_SGD",
-        "type": "smallint"
-      },
-      {
-        "name": "relative_error_SGD",
+        "name": "error_SGD",
         "type": "double"
       }
     ],

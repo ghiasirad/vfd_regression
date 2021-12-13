@@ -44,7 +44,7 @@
     "metrics": {
       "items": [
         {
-          "ref": "Metrics",
+          "ref": "Metrics_SGD",
           "appendMode": false
         }
       ]
@@ -60,11 +60,11 @@
   },
   "labels": [],
   "versionTag": {
-    "versionNumber": 2,
+    "versionNumber": 3,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1639371900114
+    "lastModifiedOn": 1639372007948
   },
   "creationTag": {
     "versionNumber": 0,

@@ -367,16 +367,6 @@
       "table": 0
     },
     {
-      "name": "error",
-      "type": "double",
-      "table": 0
-    },
-    {
-      "name": "error_decile",
-      "type": "smallint",
-      "table": 0
-    },
-    {
       "name": "abs_error_decile",
       "alias": "abs_error_decile_ANN",
       "type": "smallint",
@@ -401,6 +391,12 @@
       "table": 1
     },
     {
+      "name": "relative_error",
+      "alias": "relative_error_Extra",
+      "type": "double",
+      "table": 1
+    },
+    {
       "name": "prediction",
       "alias": "Prediction_SGD",
       "type": "float",
@@ -410,6 +406,12 @@
       "name": "abs_error_decile",
       "alias": "abs_error_decile_SGD",
       "type": "smallint",
+      "table": 2
+    },
+    {
+      "name": "relative_error",
+      "alias": "relative_error_SGD",
+      "type": "double",
       "table": 2
     }
   ],
@@ -759,14 +761,6 @@
             "type": "float"
           },
           {
-            "name": "error",
-            "type": "double"
-          },
-          {
-            "name": "error_decile",
-            "type": "smallint"
-          },
-          {
             "name": "abs_error_decile_ANN",
             "type": "smallint"
           },
@@ -783,12 +777,20 @@
             "type": "smallint"
           },
           {
+            "name": "relative_error_Extra",
+            "type": "double"
+          },
+          {
             "name": "Prediction_SGD",
             "type": "float"
           },
           {
             "name": "abs_error_decile_SGD",
             "type": "smallint"
+          },
+          {
+            "name": "relative_error_SGD",
+            "type": "double"
           }
         ],
         "userModified": false

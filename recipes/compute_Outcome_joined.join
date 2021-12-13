@@ -367,14 +367,8 @@
       "table": 0
     },
     {
-      "name": "abs_error_decile",
-      "alias": "abs_error_decile_ANN",
-      "type": "smallint",
-      "table": 0
-    },
-    {
-      "name": "relative_error",
-      "alias": "relative_error_ANN",
+      "name": "error",
+      "alias": "error_ANN",
       "type": "double",
       "table": 0
     },
@@ -385,14 +379,8 @@
       "table": 1
     },
     {
-      "name": "abs_error_decile",
-      "alias": "abs_error_decile_Extra",
-      "type": "smallint",
-      "table": 1
-    },
-    {
-      "name": "relative_error",
-      "alias": "relative_error_Extra",
+      "name": "error",
+      "alias": "error_Extra",
       "type": "double",
       "table": 1
     },
@@ -403,14 +391,8 @@
       "table": 2
     },
     {
-      "name": "abs_error_decile",
-      "alias": "abs_error_decile_SGD",
-      "type": "smallint",
-      "table": 2
-    },
-    {
-      "name": "relative_error",
-      "alias": "relative_error_SGD",
+      "name": "error",
+      "alias": "error_SGD",
       "type": "double",
       "table": 2
     }
@@ -785,11 +767,7 @@
             "type": "float"
           },
           {
-            "name": "abs_error_decile_ANN",
-            "type": "smallint"
-          },
-          {
-            "name": "relative_error_ANN",
+            "name": "error_ANN",
             "type": "double"
           },
           {
@@ -797,11 +775,7 @@
             "type": "float"
           },
           {
-            "name": "abs_error_decile_Extra",
-            "type": "smallint"
-          },
-          {
-            "name": "relative_error_Extra",
+            "name": "error_Extra",
             "type": "double"
           },
           {
@@ -809,11 +783,7 @@
             "type": "float"
           },
           {
-            "name": "abs_error_decile_SGD",
-            "type": "smallint"
-          },
-          {
-            "name": "relative_error_SGD",
+            "name": "error_SGD",
             "type": "double"
           }
         ],

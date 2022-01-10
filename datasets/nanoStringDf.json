@@ -58,11 +58,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 1,
+    "versionNumber": 2,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1640316084053
+    "lastModifiedOn": 1641797153788
   },
   "creationTag": {
     "versionNumber": 0,
@@ -86,7 +86,7 @@
     "columns": [
       {
         "name": "StudyIDUniversal",
-        "type": "string"
+        "type": "int"
       },
       {
         "name": "ABCB1",

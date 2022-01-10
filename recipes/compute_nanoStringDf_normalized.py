@@ -33,7 +33,7 @@ nanoString_cleaned_df = nanoStringDf_df.set_index('StudyIDUniversal')
 
 # Remove the empty cells and replace them with median of the column
 nanoString_cleaned_df.fillna(nanoString_cleaned_df.median(), inplace=True)
-amioAcids_normalized_values = normalize(amioAcids_cleaned_df.values, axis=1, norm='l1')
+nanoString_normalized_values = normalize(nanoString_cleaned_df.values, axis=1, norm='l1')
 
 amioAcids_normalized_df = pd.DataFrame(data=amioAcids_normalized_values, columns=amioAcids_cleaned_df.columns)
 amioAcids_normalized_df['StudyID_Int'] = amioAcids_cleaned_df.index

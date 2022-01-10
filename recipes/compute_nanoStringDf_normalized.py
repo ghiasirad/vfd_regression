@@ -29,7 +29,7 @@ nanoStringDf_df = nanoStringDf.get_dataframe()
 
 
 # Normalize and return it as a dataframe
-amioAcids_cleaned_df = nanoStringDf_df.set_index('StudyID_Int')
+amioAcids_cleaned_df = nanoStringDf_df.set_index('StudyIDUniversal')
 
 # Remove the empty cells and replace them with median of the column
 amioAcids_cleaned_df.fillna(amioAcids_cleaned_df.median(), inplace=True)

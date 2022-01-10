@@ -5,12 +5,11 @@
       "table1": 0,
       "conditionsMode": "AND",
       "rightLimit": {
-        "decisionColumn": {},
         "maxMatches": 1,
         "type": "KEEP_LARGEST",
         "enabled": false
       },
-      "type": "LEFT",
+      "type": "INNER",
       "outerJoinOnTheLeft": true,
       "on": [
         {
@@ -30,7 +29,7 @@
   "selectedColumns": [
     {
       "name": "StudyID_Int",
-      "type": "bigint",
+      "type": "int",
       "table": 0
     },
     {
@@ -3401,22 +3400,10 @@
   },
   "virtualInputs": [
     {
-      "preFilter": {
-        "distinct": false,
-        "enabled": false
-      },
-      "autoSelectColumns": false,
-      "originLabel": "Features_smogned",
       "index": 0,
       "computedColumns": []
     },
     {
-      "preFilter": {
-        "distinct": false,
-        "enabled": false
-      },
-      "autoSelectColumns": false,
-      "originLabel": "nanoStringDf",
       "index": 1,
       "computedColumns": []
     }
@@ -3428,7 +3415,7 @@
         "columns": [
           {
             "name": "StudyID_Int",
-            "type": "bigint"
+            "type": "int"
           },
           {
             "name": "1-Methyl-histidine",
@@ -3635,10 +3622,12 @@
             "type": "string"
           },
           {
+            "meaning": "race",
             "name": "Race",
             "type": "string"
           },
           {
+            "meaning": "infectionstatus",
             "name": "Infection Status",
             "type": "string"
           },

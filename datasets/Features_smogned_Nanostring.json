@@ -59,11 +59,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 2,
+    "versionNumber": 3,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1641797811277
+    "lastModifiedOn": 1641799117655
   },
   "creationTag": {
     "versionNumber": 0,
@@ -88,7 +88,7 @@
     "columns": [
       {
         "name": "StudyID_Int",
-        "type": "bigint"
+        "type": "int"
       },
       {
         "name": "1-Methyl-histidine",

@@ -1,22 +1,3 @@
-# Read recipe inputs
-nanoStringDf = dataiku.Dataset("nanoStringDf")
-nanoStringDf_df = nanoStringDf.get_dataframe()
-
-
-# Compute recipe outputs from inputs
-# TODO: Replace this part by your actual code that computes the output, as a Pandas dataframe
-# NB: DSS also supports other kinds of APIs for reading and writing data. Please see doc.
-
-nanoStringDf_normalized_df = nanoStringDf_df # For this sample code, simply copy input to output
-
-
-# Write recipe outputs
-nanoStringDf_normalized = dataiku.Dataset("nanoStringDf_normalized")
-nanoStringDf_normalized.write_with_schema(nanoStringDf_normalized_df)
-
-
-
-
 # -*- coding: utf-8 -*-
 import dataiku
 import pandas as pd, numpy as np
@@ -42,11 +23,8 @@ first_column = nanoString_normalized_df.pop('StudyIDUniversal')
 nanoString_normalized_df.insert(0, 'StudyIDUniversal', first_column)
 
 
-aminoacids_normalized_df = amioAcids_normalized_df # For this sample code, simply copy input to output
-
-
 # Write recipe outputs
-aminoacids_normalized = dataiku.Dataset("Aminoacids_normalized")
-aminoacids_normalized.write_with_schema(aminoacids_normalized_df)
+nanoStringDf_normalized = dataiku.Dataset("nanoStringDf_normalized")
+nanoStringDf_normalized.write_with_schema(nanoStringDf_normalized_df)
 
 

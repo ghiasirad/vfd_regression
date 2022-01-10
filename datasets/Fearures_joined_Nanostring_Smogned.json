@@ -59,11 +59,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 1,
+    "versionNumber": 2,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1641799828253
+    "lastModifiedOn": 1641826559738
   },
   "creationTag": {
     "versionNumber": 0,
@@ -324,2435 +324,2435 @@
       },
       {
         "name": "ABCB1",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "ABL1",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "ADA",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "AHR",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "AICDA",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "AIRE",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "APP",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "ARG1",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "ARG2",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "ARHGDIB",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "ATG10",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "ATG12",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "ATG16L1",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "ATG5",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "ATG7",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "ATM",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "B2M",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "B3GAT1",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "BATF",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "BATF3",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "BAX",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "BCAP31",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "BCL10",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "BCL2",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "BCL2L11",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "BCL3",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "BCL6",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "BID",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "BLNK",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "BST1",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "BST2",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "BTK",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "BTLA",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "C14orf166",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "C1QA",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "C1QB",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "C1QBP",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "C1R",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "C1S",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "C2",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "C3",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "C4A/B",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "C4BPA",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "C5",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "C6",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "C7",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "C8A",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "C8B",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "C8G",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "C9",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "CAMP",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "CARD9",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "CASP1",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "CASP10",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "CASP2",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "CASP3",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "CASP8",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "CCBP2",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "CCL11",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "CCL13",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "CCL15",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "CCL16",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "CCL18",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "CCL19",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "CCL2",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "CCL20",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "CCL22",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "CCL23",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "CCL24",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "CCL26",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "CCL3",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "CCL4",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "CCL5",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "CCL7",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "CCL8",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "CCND3",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "CCR1",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "CCR10",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "CCR2",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "CCR5",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "CCR6",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "CCR7",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "CCR8",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "CCRL1",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "CCRL2",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "CD14",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "CD160",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "CD163",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "CD164",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "CD19",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "CD1A",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "CD1D",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "CD2",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "CD209",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "CD22",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "CD24",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "CD244",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "CD247",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "CD27",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "CD274",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "CD276",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "CD28",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "CD34",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "CD36",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "CD3D",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "CD3E",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "CD3EAP",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "CD4",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "CD40",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "CD40LG",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "CD44",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "CD45R0",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "CD45RA",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "CD45RB",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "CD46",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "CD48",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "CD5",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "CD53",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "CD55",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "CD58",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "CD59",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "CD6",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "CD7",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "CD70",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "CD74",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "CD79A",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "CD79B",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "CD80",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "CD81",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "CD82",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "CD83",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "CD86",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "CD8A",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "CD8B",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "CD9",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "CD96",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "CD97",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "CD99",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "CDH5",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "CDKN1A",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "CEACAM1",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "CEACAM6",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "CEACAM8",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "CEBPB",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "CFB",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "CFD",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "CFH",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "CFI",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "CFP",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "CHUK",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "CIITA",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "CISH",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "CLEC4A",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "CLEC4E",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "CLEC5A",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "CLEC6A",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "CLEC7A",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "CLU",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "CMKLR1",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "CR1",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "CR2",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "CRADD",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "CSF1",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "CSF1R",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "CSF2",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "CSF2RB",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "CSF3R",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "CTLA4-TM",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "CTLA4_all",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "CTNNB1",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "CTSC",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "CTSG",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "CTSS",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "CUL9",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "CX3CL1",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "CX3CR1",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "CXCL1",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "CXCL10",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "CXCL11",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "CXCL12",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "CXCL13",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "CXCL2",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "CXCL9",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "CXCR1",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "CXCR2",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "CXCR3",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "CXCR4",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "CXCR6",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "CYBB",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "DEFB1",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "DEFB103A",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "DEFB103B",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "DEFB4A",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "DPP4",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "DUSP4",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "EBI3",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "EDNRB",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "EGR1",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "EGR2",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "ENTPD1",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "EOMES",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "ETS1",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "FADD",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "FAS",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "FCAR",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "FCER1A",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "FCER1G",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "FCGR1A/B",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "FCGR2A",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "FCGR2A/C",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "FCGR2B",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "FCGR3A/B",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "FCGRT",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "FKBP5",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "FN1",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "FOXP3",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "FYN",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "GATA3",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "GBP1",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "GBP5",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "GFI1",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "GNLY",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "GP1BB",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "GPI",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "GPR183",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "GZMA",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "GZMB",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "GZMK",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "HAMP",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "HAVCR2",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "HFE",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "HLA-A",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "HLA-B",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "HLA-C",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "HLA-DMA",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "HLA-DMB",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "HLA-DOB",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "HLA-DPA1",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "HLA-DPB1",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "HLA-DQA1",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "HLA-DQB1",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "HLA-DRA",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "HLA-DRB1",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "HLA-DRB3",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "HRAS",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "ICAM1",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "ICAM2",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "ICAM3",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "ICAM4",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "ICAM5",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "ICOS",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "ICOSLG",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "IDO1",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "IFI16",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "IFI35",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "IFIH1",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "IFIT2",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "IFITM1",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "IFNA1/13",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "IFNA2",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "IFNAR1",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "IFNAR2",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "IFNB1",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "IFNG",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "IFNGR1",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "IGF2R",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "IKBKAP",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "IKBKB",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "IKBKE",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "IKBKG",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "IKZF1",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "IKZF2",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "IKZF3",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "IL10",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "IL10RA",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "IL11RA",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "IL12A",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "IL12B",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "IL12RB1",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "IL13",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "IL13RA1",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "IL15",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "IL16",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "IL17A",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "IL17B",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "IL17F",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "IL18",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "IL18R1",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "IL18RAP",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "IL19",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "IL1A",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "IL1B",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "IL1R1",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "IL1R2",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "IL1RAP",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "IL1RL1",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "IL1RL2",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "IL1RN",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "IL2",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "IL20",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "IL21",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "IL21R",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "IL22",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "IL22RA2",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "IL23A",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "IL23R",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "IL26",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "IL27",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "IL28A",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "IL28A/B",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "IL29",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "IL2RA",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "IL2RB",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "IL2RG",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "IL3",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "IL32",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "IL4",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "IL4R",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "IL5",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "IL6",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "IL6R",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "IL6ST",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "IL7",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "IL7R",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "IL8",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "IL9",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "ILF3",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "IRAK1",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "IRAK2",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "IRAK3",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "IRAK4",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "IRF1",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "IRF3",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "IRF4",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "IRF5",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "IRF7",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "IRF8",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "IRGM",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "ITGA2B",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "ITGA4",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "ITGA5",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "ITGA6",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "ITGAE",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "ITGAL",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "ITGAM",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "ITGAX",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "ITGB1",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "ITGB2",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "ITLN1",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "ITLN2",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "JAK1",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "JAK2",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "JAK3",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "KCNJ2",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "KIR3DL1",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "KIR3DL2",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "KIR3DL3",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "KIR_Activating_Subgroup_1",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "KIR_Activating_Subgroup_2",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "KIR_Inhibiting_Subgroup_1",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "KIR_Inhibiting_Subgroup_2",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "KIT",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "KLRAP1",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "KLRB1",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "KLRC1",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "KLRC2",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "KLRC3",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "KLRC4",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "KLRD1",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "KLRF1",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "KLRF2",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "KLRG1",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "KLRG2",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "KLRK1",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "LAG3",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "LAIR1",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "LAMP3",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "LCK",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "LCP2",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "LEF1",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "LGALS3",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "LIF",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "LILRA1",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "LILRA2",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "LILRA3",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "LILRA4",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "LILRA5",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "LILRA6",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "LILRB1",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "LILRB2",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "LILRB3",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "LILRB4",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "LILRB5",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "LITAF",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "LTA",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "LTB4R",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "LTB4R2",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "LTBR",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "LTF",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "LY96",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "MAF",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "MALT1",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "MAP4K1",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "MAP4K2",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "MAP4K4",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "MAPK1",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "MAPK11",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "MAPK14",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "MAPKAPK2",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "MARCO",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "MASP1",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "MASP2",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "MBL2",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "MBP",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "MCL1",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "MIF",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "MME",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "MR1",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "MRC1",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "MS4A1",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "MSR1",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "MUC1",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "MX1",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "MYD88",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "NCAM1",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "NCF4",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "NCR1",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "NFATC1",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "NFATC2",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "NFATC3",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "NFIL3",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "NFKB1",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "NFKB2",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "NFKBIA",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "NFKBIZ",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "NLRP3",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "NOD1",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "NOD2",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "NOS2",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "NOTCH1",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "NOTCH2",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "NT5E",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "PAX5",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "PDCD1",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "PDCD1LG2",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "PDCD2",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "PDGFB",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "PDGFRB",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "PECAM1",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "PIGR",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "PLA2G2A",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "PLA2G2E",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "PLAU",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "PLAUR",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "PML",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "POU2F2",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "PPARG",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "PPBP",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "PRDM1",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "PRF1",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "PRKCD",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "PSMB10",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "PSMB5",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "PSMB7",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "PSMB8",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "PSMB9",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "PSMC2",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "PSMD7",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "PTAFR",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "PTGER4",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "PTGS2",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "PTK2",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "PTPN2",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "PTPN22",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "PTPN6",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "PTPRC_all",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "PYCARD",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "RAF1",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "RAG1",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "RAG2",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "RARRES3",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "RELA",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "RELB",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "RORC",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "RUNX1",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "S100A8",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "S100A9",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "S1PR1",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "SELE",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "SELL",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "SELPLG",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "SERPING1",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "SH2D1A",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "SIGIRR",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "SKI",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "SLAMF1",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "SLAMF6",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "SLAMF7",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "SLC2A1",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "SMAD3",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "SMAD5",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "SOCS1",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "SOCS3",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "SPP1",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "SRC",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "STAT1",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "STAT2",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "STAT3",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "STAT4",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "STAT5A",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "STAT5B",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "STAT6",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "SYK",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "TAGAP",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "TAL1",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "TAP1",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "TAP2",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "TAPBP",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "TBK1",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "TBX21",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "TCF4",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "TCF7",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "TFRC",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "TGFB1",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "TGFBI",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "TGFBR1",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "TGFBR2",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "THY1",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "TICAM1",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "TIGIT",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "TIRAP",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "TLR1",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "TLR2",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "TLR3",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "TLR4",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "TLR5",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "TLR7",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "TLR8",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "TLR9",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "TMEM173",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "TNF",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "TNFAIP3",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "TNFAIP6",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "TNFRSF10C",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "TNFRSF11A",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "TNFRSF13B",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "TNFRSF13C",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "TNFRSF14",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "TNFRSF17",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "TNFRSF1B",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "TNFRSF4",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "TNFRSF8",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "TNFRSF9",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "TNFSF10",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "TNFSF11",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "TNFSF12",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "TNFSF13B",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "TNFSF15",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "TNFSF4",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "TNFSF8",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "TOLLIP",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "TP53",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "TRAF1",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "TRAF2",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "TRAF3",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "TRAF4",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "TRAF5",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "TRAF6",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "TYK2",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "UBE2L3",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "VCAM1",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "VTN",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "XBP1",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "XCL1",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "XCR1",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "ZAP70",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "ZBTB16",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "ZEB1",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "sCTLA4",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "ABCF1",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "ALAS1",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "EEF1G",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "G6PD",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "GAPDH",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "GUSB",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "HPRT1",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "OAZ1",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "POLR1B",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "POLR2A",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "PPIA",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "RPL19",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "SDHA",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "TBP",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "TUBB",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "NEG_A",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "NEG_B",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "NEG_C",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "NEG_D",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "NEG_E",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "NEG_F",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "NEG_G",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "NEG_H",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "POS_A",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "POS_B",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "POS_C",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "POS_D",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "POS_E",
-        "type": "bigint"
+        "type": "double"
       },
       {
         "name": "POS_F",
-        "type": "bigint"
+        "type": "double"
       }
     ],
     "userModified": false

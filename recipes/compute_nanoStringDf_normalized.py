@@ -24,7 +24,7 @@ nanoString_normalized_df.insert(0, 'StudyIDUniversal', first_column)
 
 
 # Write recipe outputs
-nanoStringDf_normalized = dataiku.Dataset("nanoString_normalized")
+nanoString_normalized = dataiku.Dataset("nanoString_normalized")
 nanoStringDf_normalized.write_with_schema(nanoString_normalized_df)
 
 

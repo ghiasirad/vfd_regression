@@ -38,8 +38,8 @@ nanoString_normalized_values = normalize(nanoString_cleaned_df.values, axis=1, n
 amioAcids_normalized_df = pd.DataFrame(data=nanoString_normalized_values, columns=nanoString_cleaned_df.columns)
 amioAcids_normalized_df['StudyIDUniversal'] = nanoString_cleaned_df.index
 
-first_column = amioAcids_normalized_df.pop('StudyID_Int')
-amioAcids_normalized_df.insert(0, 'StudyID_Int', first_column)
+first_column = amioAcids_normalized_df.pop('StudyIDUniversal')
+amioAcids_normalized_df.insert(0, 'StudyIDUniversal', first_column)
 
 
 aminoacids_normalized_df = amioAcids_normalized_df # For this sample code, simply copy input to output

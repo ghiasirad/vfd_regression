@@ -33,7 +33,7 @@
   },
   "preprocessing": {
     "feature_selection_params": {
-      "method": "NONE",
+      "method": "PCA",
       "random_forest_params": {
         "n_trees": 30,
         "depth": 10,
@@ -8554,7 +8554,7 @@
         "binarize_threshold_mode": "MEDIAN",
         "binarize_constant_threshold": 0.0,
         "datetime_cyclical_periods": [],
-        "role": "INPUT",
+        "role": "REJECT",
         "type": "NUMERIC",
         "state": {
           "userModified": false,
@@ -15562,7 +15562,7 @@
           "scaling": "LINEAR"
         }
       },
-      "enabled": true
+      "enabled": false
     },
     "random_forest_classification": {
       "n_estimators": {
@@ -16093,7 +16093,7 @@
           "scaling": "LOGARITHMIC"
         }
       },
-      "enabled": true
+      "enabled": false
     },
     "lasso_regression": {
       "alphaMode": "AUTO_CV",
@@ -16327,7 +16327,7 @@
       "nesterovs_momentum": true,
       "shuffle": true,
       "learning_rate_init": 0.001,
-      "enabled": false
+      "enabled": true
     },
     "svc_classifier": {
       "C": {
@@ -16461,7 +16461,7 @@
       "coef0": 0.0,
       "tol": 0.001,
       "max_iter": -1,
-      "enabled": true
+      "enabled": false
     },
     "lars_params": {
       "max_features": 0,

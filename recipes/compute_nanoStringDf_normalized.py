@@ -35,8 +35,8 @@ nanoString_cleaned_df = nanoStringDf_df.set_index('StudyIDUniversal')
 nanoString_cleaned_df.fillna(nanoString_cleaned_df.median(), inplace=True)
 nanoString_normalized_values = normalize(nanoString_cleaned_df.values, axis=1, norm='l1')
 
-amioAcids_normalized_df = pd.DataFrame(data=amioAcids_normalized_values, columns=amioAcids_cleaned_df.columns)
-amioAcids_normalized_df['StudyID_Int'] = amioAcids_cleaned_df.index
+amioAcids_normalized_df = pd.DataFrame(data=nanoString_normalized_values, columns=nanoString_cleaned_df.columns)
+amioAcids_normalized_df['StudyIDUniversal'] = nanoString_cleaned_df.index
 
 first_column = amioAcids_normalized_df.pop('StudyID_Int')
 amioAcids_normalized_df.insert(0, 'StudyID_Int', first_column)

@@ -19,6 +19,10 @@
         {
           "ref": "Aminoacids_normalized",
           "deps": []
+        },
+        {
+          "ref": "nanoStringDf",
+          "deps": []
         }
       ]
     }
@@ -35,11 +39,11 @@
   },
   "labels": [],
   "versionTag": {
-    "versionNumber": 8,
+    "versionNumber": 9,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1638894203991
+    "lastModifiedOn": 1641797117980
   },
   "creationTag": {
     "versionNumber": 0,

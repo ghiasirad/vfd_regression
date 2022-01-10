@@ -59,11 +59,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1641800219027
+    "lastModifiedOn": 1641800237249
   },
   "creationTag": {
     "versionNumber": 0,
@@ -85,7 +85,2696 @@
     }
   },
   "schema": {
-    "columns": [],
+    "columns": [
+      {
+        "name": "StudyID_Int",
+        "type": "bigint"
+      },
+      {
+        "name": "1-Methyl-histidine",
+        "type": "double"
+      },
+      {
+        "name": "3-Hydroxy-tyrosine",
+        "type": "double"
+      },
+      {
+        "name": "3-Methyl-histidine",
+        "type": "double"
+      },
+      {
+        "name": "4-Aminobenzoic acid",
+        "type": "double"
+      },
+      {
+        "name": "4-Aminobutyric acid",
+        "type": "double"
+      },
+      {
+        "name": "4-Hydroxyproline",
+        "type": "double"
+      },
+      {
+        "name": "Alanine",
+        "type": "double"
+      },
+      {
+        "name": "Alanyl-alanine",
+        "type": "double"
+      },
+      {
+        "name": "α-Aminoadipic acid",
+        "type": "double"
+      },
+      {
+        "name": "α-Aminobutyric acid",
+        "type": "double"
+      },
+      {
+        "name": "Anserine",
+        "type": "double"
+      },
+      {
+        "name": "Arginine",
+        "type": "double"
+      },
+      {
+        "name": "Asparagine",
+        "type": "double"
+      },
+      {
+        "name": "Aspartic acid",
+        "type": "double"
+      },
+      {
+        "name": "β-Alanine",
+        "type": "double"
+      },
+      {
+        "name": "β-Aminobutyric acid",
+        "type": "double"
+      },
+      {
+        "name": "β-Aminoisobutyric acid",
+        "type": "double"
+      },
+      {
+        "name": "Carnosine",
+        "type": "double"
+      },
+      {
+        "name": "Citrulline",
+        "type": "double"
+      },
+      {
+        "name": "Cysteine",
+        "type": "double"
+      },
+      {
+        "name": "Cystine",
+        "type": "double"
+      },
+      {
+        "name": "Ethanolamine",
+        "type": "double"
+      },
+      {
+        "name": "γ-Glutamyl-ε-lysine",
+        "type": "double"
+      },
+      {
+        "name": "Glutamic acid",
+        "type": "double"
+      },
+      {
+        "name": "Glutamine",
+        "type": "double"
+      },
+      {
+        "name": "Glycine",
+        "type": "double"
+      },
+      {
+        "name": "Glycine-proline",
+        "type": "double"
+      },
+      {
+        "name": "Histamine",
+        "type": "double"
+      },
+      {
+        "name": "Histidine",
+        "type": "double"
+      },
+      {
+        "name": "Homocystine",
+        "type": "double"
+      },
+      {
+        "name": "Homoserine",
+        "type": "double"
+      },
+      {
+        "name": "Isoleucine",
+        "type": "double"
+      },
+      {
+        "name": "Leucine",
+        "type": "double"
+      },
+      {
+        "name": "Lysine",
+        "type": "double"
+      },
+      {
+        "name": "Methionine",
+        "type": "double"
+      },
+      {
+        "name": "Methionine sulfoxide",
+        "type": "double"
+      },
+      {
+        "name": "Ornithine",
+        "type": "double"
+      },
+      {
+        "name": "Phenylalanine",
+        "type": "double"
+      },
+      {
+        "name": "Pipecolic acid",
+        "type": "double"
+      },
+      {
+        "name": "Proline",
+        "type": "double"
+      },
+      {
+        "name": "Proline-hydroxyproline",
+        "type": "double"
+      },
+      {
+        "name": "Pyroglutamic acid",
+        "type": "double"
+      },
+      {
+        "name": "Sarcosine",
+        "type": "double"
+      },
+      {
+        "name": "Seleno-methionine",
+        "type": "double"
+      },
+      {
+        "name": "Serine",
+        "type": "double"
+      },
+      {
+        "name": "Thiaproline",
+        "type": "double"
+      },
+      {
+        "name": "Threonine",
+        "type": "double"
+      },
+      {
+        "name": "Tryptophan",
+        "type": "double"
+      },
+      {
+        "name": "Tyrosine",
+        "type": "double"
+      },
+      {
+        "name": "Valine",
+        "type": "double"
+      },
+      {
+        "name": "Sex",
+        "type": "string"
+      },
+      {
+        "name": "Race",
+        "type": "string"
+      },
+      {
+        "name": "Infection Status",
+        "type": "string"
+      },
+      {
+        "name": "ECMO",
+        "type": "boolean"
+      },
+      {
+        "name": "Age_years",
+        "type": "double"
+      },
+      {
+        "name": "PRISM",
+        "type": "bigint"
+      },
+      {
+        "name": "PELOD",
+        "type": "bigint"
+      },
+      {
+        "name": "VFD",
+        "type": "bigint"
+      },
+      {
+        "name": "ABCB1",
+        "type": "bigint"
+      },
+      {
+        "name": "ABL1",
+        "type": "bigint"
+      },
+      {
+        "name": "ADA",
+        "type": "bigint"
+      },
+      {
+        "name": "AHR",
+        "type": "bigint"
+      },
+      {
+        "name": "AICDA",
+        "type": "bigint"
+      },
+      {
+        "name": "AIRE",
+        "type": "bigint"
+      },
+      {
+        "name": "APP",
+        "type": "bigint"
+      },
+      {
+        "name": "ARG1",
+        "type": "bigint"
+      },
+      {
+        "name": "ARG2",
+        "type": "bigint"
+      },
+      {
+        "name": "ARHGDIB",
+        "type": "bigint"
+      },
+      {
+        "name": "ATG10",
+        "type": "bigint"
+      },
+      {
+        "name": "ATG12",
+        "type": "bigint"
+      },
+      {
+        "name": "ATG16L1",
+        "type": "bigint"
+      },
+      {
+        "name": "ATG5",
+        "type": "bigint"
+      },
+      {
+        "name": "ATG7",
+        "type": "bigint"
+      },
+      {
+        "name": "ATM",
+        "type": "bigint"
+      },
+      {
+        "name": "B2M",
+        "type": "bigint"
+      },
+      {
+        "name": "B3GAT1",
+        "type": "bigint"
+      },
+      {
+        "name": "BATF",
+        "type": "bigint"
+      },
+      {
+        "name": "BATF3",
+        "type": "bigint"
+      },
+      {
+        "name": "BAX",
+        "type": "bigint"
+      },
+      {
+        "name": "BCAP31",
+        "type": "bigint"
+      },
+      {
+        "name": "BCL10",
+        "type": "bigint"
+      },
+      {
+        "name": "BCL2",
+        "type": "bigint"
+      },
+      {
+        "name": "BCL2L11",
+        "type": "bigint"
+      },
+      {
+        "name": "BCL3",
+        "type": "bigint"
+      },
+      {
+        "name": "BCL6",
+        "type": "bigint"
+      },
+      {
+        "name": "BID",
+        "type": "bigint"
+      },
+      {
+        "name": "BLNK",
+        "type": "bigint"
+      },
+      {
+        "name": "BST1",
+        "type": "bigint"
+      },
+      {
+        "name": "BST2",
+        "type": "bigint"
+      },
+      {
+        "name": "BTK",
+        "type": "bigint"
+      },
+      {
+        "name": "BTLA",
+        "type": "bigint"
+      },
+      {
+        "name": "C14orf166",
+        "type": "bigint"
+      },
+      {
+        "name": "C1QA",
+        "type": "bigint"
+      },
+      {
+        "name": "C1QB",
+        "type": "bigint"
+      },
+      {
+        "name": "C1QBP",
+        "type": "bigint"
+      },
+      {
+        "name": "C1R",
+        "type": "bigint"
+      },
+      {
+        "name": "C1S",
+        "type": "bigint"
+      },
+      {
+        "name": "C2",
+        "type": "bigint"
+      },
+      {
+        "name": "C3",
+        "type": "bigint"
+      },
+      {
+        "name": "C4A/B",
+        "type": "bigint"
+      },
+      {
+        "name": "C4BPA",
+        "type": "bigint"
+      },
+      {
+        "name": "C5",
+        "type": "bigint"
+      },
+      {
+        "name": "C6",
+        "type": "bigint"
+      },
+      {
+        "name": "C7",
+        "type": "bigint"
+      },
+      {
+        "name": "C8A",
+        "type": "bigint"
+      },
+      {
+        "name": "C8B",
+        "type": "bigint"
+      },
+      {
+        "name": "C8G",
+        "type": "bigint"
+      },
+      {
+        "name": "C9",
+        "type": "bigint"
+      },
+      {
+        "name": "CAMP",
+        "type": "bigint"
+      },
+      {
+        "name": "CARD9",
+        "type": "bigint"
+      },
+      {
+        "name": "CASP1",
+        "type": "bigint"
+      },
+      {
+        "name": "CASP10",
+        "type": "bigint"
+      },
+      {
+        "name": "CASP2",
+        "type": "bigint"
+      },
+      {
+        "name": "CASP3",
+        "type": "bigint"
+      },
+      {
+        "name": "CASP8",
+        "type": "bigint"
+      },
+      {
+        "name": "CCBP2",
+        "type": "bigint"
+      },
+      {
+        "name": "CCL11",
+        "type": "bigint"
+      },
+      {
+        "name": "CCL13",
+        "type": "bigint"
+      },
+      {
+        "name": "CCL15",
+        "type": "bigint"
+      },
+      {
+        "name": "CCL16",
+        "type": "bigint"
+      },
+      {
+        "name": "CCL18",
+        "type": "bigint"
+      },
+      {
+        "name": "CCL19",
+        "type": "bigint"
+      },
+      {
+        "name": "CCL2",
+        "type": "bigint"
+      },
+      {
+        "name": "CCL20",
+        "type": "bigint"
+      },
+      {
+        "name": "CCL22",
+        "type": "bigint"
+      },
+      {
+        "name": "CCL23",
+        "type": "bigint"
+      },
+      {
+        "name": "CCL24",
+        "type": "bigint"
+      },
+      {
+        "name": "CCL26",
+        "type": "bigint"
+      },
+      {
+        "name": "CCL3",
+        "type": "bigint"
+      },
+      {
+        "name": "CCL4",
+        "type": "bigint"
+      },
+      {
+        "name": "CCL5",
+        "type": "bigint"
+      },
+      {
+        "name": "CCL7",
+        "type": "bigint"
+      },
+      {
+        "name": "CCL8",
+        "type": "bigint"
+      },
+      {
+        "name": "CCND3",
+        "type": "bigint"
+      },
+      {
+        "name": "CCR1",
+        "type": "bigint"
+      },
+      {
+        "name": "CCR10",
+        "type": "bigint"
+      },
+      {
+        "name": "CCR2",
+        "type": "bigint"
+      },
+      {
+        "name": "CCR5",
+        "type": "bigint"
+      },
+      {
+        "name": "CCR6",
+        "type": "bigint"
+      },
+      {
+        "name": "CCR7",
+        "type": "bigint"
+      },
+      {
+        "name": "CCR8",
+        "type": "bigint"
+      },
+      {
+        "name": "CCRL1",
+        "type": "bigint"
+      },
+      {
+        "name": "CCRL2",
+        "type": "bigint"
+      },
+      {
+        "name": "CD14",
+        "type": "bigint"
+      },
+      {
+        "name": "CD160",
+        "type": "bigint"
+      },
+      {
+        "name": "CD163",
+        "type": "bigint"
+      },
+      {
+        "name": "CD164",
+        "type": "bigint"
+      },
+      {
+        "name": "CD19",
+        "type": "bigint"
+      },
+      {
+        "name": "CD1A",
+        "type": "bigint"
+      },
+      {
+        "name": "CD1D",
+        "type": "bigint"
+      },
+      {
+        "name": "CD2",
+        "type": "bigint"
+      },
+      {
+        "name": "CD209",
+        "type": "bigint"
+      },
+      {
+        "name": "CD22",
+        "type": "bigint"
+      },
+      {
+        "name": "CD24",
+        "type": "bigint"
+      },
+      {
+        "name": "CD244",
+        "type": "bigint"
+      },
+      {
+        "name": "CD247",
+        "type": "bigint"
+      },
+      {
+        "name": "CD27",
+        "type": "bigint"
+      },
+      {
+        "name": "CD274",
+        "type": "bigint"
+      },
+      {
+        "name": "CD276",
+        "type": "bigint"
+      },
+      {
+        "name": "CD28",
+        "type": "bigint"
+      },
+      {
+        "name": "CD34",
+        "type": "bigint"
+      },
+      {
+        "name": "CD36",
+        "type": "bigint"
+      },
+      {
+        "name": "CD3D",
+        "type": "bigint"
+      },
+      {
+        "name": "CD3E",
+        "type": "bigint"
+      },
+      {
+        "name": "CD3EAP",
+        "type": "bigint"
+      },
+      {
+        "name": "CD4",
+        "type": "bigint"
+      },
+      {
+        "name": "CD40",
+        "type": "bigint"
+      },
+      {
+        "name": "CD40LG",
+        "type": "bigint"
+      },
+      {
+        "name": "CD44",
+        "type": "bigint"
+      },
+      {
+        "name": "CD45R0",
+        "type": "bigint"
+      },
+      {
+        "name": "CD45RA",
+        "type": "bigint"
+      },
+      {
+        "name": "CD45RB",
+        "type": "bigint"
+      },
+      {
+        "name": "CD46",
+        "type": "bigint"
+      },
+      {
+        "name": "CD48",
+        "type": "bigint"
+      },
+      {
+        "name": "CD5",
+        "type": "bigint"
+      },
+      {
+        "name": "CD53",
+        "type": "bigint"
+      },
+      {
+        "name": "CD55",
+        "type": "bigint"
+      },
+      {
+        "name": "CD58",
+        "type": "bigint"
+      },
+      {
+        "name": "CD59",
+        "type": "bigint"
+      },
+      {
+        "name": "CD6",
+        "type": "bigint"
+      },
+      {
+        "name": "CD7",
+        "type": "bigint"
+      },
+      {
+        "name": "CD70",
+        "type": "bigint"
+      },
+      {
+        "name": "CD74",
+        "type": "bigint"
+      },
+      {
+        "name": "CD79A",
+        "type": "bigint"
+      },
+      {
+        "name": "CD79B",
+        "type": "bigint"
+      },
+      {
+        "name": "CD80",
+        "type": "bigint"
+      },
+      {
+        "name": "CD81",
+        "type": "bigint"
+      },
+      {
+        "name": "CD82",
+        "type": "bigint"
+      },
+      {
+        "name": "CD83",
+        "type": "bigint"
+      },
+      {
+        "name": "CD86",
+        "type": "bigint"
+      },
+      {
+        "name": "CD8A",
+        "type": "bigint"
+      },
+      {
+        "name": "CD8B",
+        "type": "bigint"
+      },
+      {
+        "name": "CD9",
+        "type": "bigint"
+      },
+      {
+        "name": "CD96",
+        "type": "bigint"
+      },
+      {
+        "name": "CD97",
+        "type": "bigint"
+      },
+      {
+        "name": "CD99",
+        "type": "bigint"
+      },
+      {
+        "name": "CDH5",
+        "type": "bigint"
+      },
+      {
+        "name": "CDKN1A",
+        "type": "bigint"
+      },
+      {
+        "name": "CEACAM1",
+        "type": "bigint"
+      },
+      {
+        "name": "CEACAM6",
+        "type": "bigint"
+      },
+      {
+        "name": "CEACAM8",
+        "type": "bigint"
+      },
+      {
+        "name": "CEBPB",
+        "type": "bigint"
+      },
+      {
+        "name": "CFB",
+        "type": "bigint"
+      },
+      {
+        "name": "CFD",
+        "type": "bigint"
+      },
+      {
+        "name": "CFH",
+        "type": "bigint"
+      },
+      {
+        "name": "CFI",
+        "type": "bigint"
+      },
+      {
+        "name": "CFP",
+        "type": "bigint"
+      },
+      {
+        "name": "CHUK",
+        "type": "bigint"
+      },
+      {
+        "name": "CIITA",
+        "type": "bigint"
+      },
+      {
+        "name": "CISH",
+        "type": "bigint"
+      },
+      {
+        "name": "CLEC4A",
+        "type": "bigint"
+      },
+      {
+        "name": "CLEC4E",
+        "type": "bigint"
+      },
+      {
+        "name": "CLEC5A",
+        "type": "bigint"
+      },
+      {
+        "name": "CLEC6A",
+        "type": "bigint"
+      },
+      {
+        "name": "CLEC7A",
+        "type": "bigint"
+      },
+      {
+        "name": "CLU",
+        "type": "bigint"
+      },
+      {
+        "name": "CMKLR1",
+        "type": "bigint"
+      },
+      {
+        "name": "CR1",
+        "type": "bigint"
+      },
+      {
+        "name": "CR2",
+        "type": "bigint"
+      },
+      {
+        "name": "CRADD",
+        "type": "bigint"
+      },
+      {
+        "name": "CSF1",
+        "type": "bigint"
+      },
+      {
+        "name": "CSF1R",
+        "type": "bigint"
+      },
+      {
+        "name": "CSF2",
+        "type": "bigint"
+      },
+      {
+        "name": "CSF2RB",
+        "type": "bigint"
+      },
+      {
+        "name": "CSF3R",
+        "type": "bigint"
+      },
+      {
+        "name": "CTLA4-TM",
+        "type": "bigint"
+      },
+      {
+        "name": "CTLA4_all",
+        "type": "bigint"
+      },
+      {
+        "name": "CTNNB1",
+        "type": "bigint"
+      },
+      {
+        "name": "CTSC",
+        "type": "bigint"
+      },
+      {
+        "name": "CTSG",
+        "type": "bigint"
+      },
+      {
+        "name": "CTSS",
+        "type": "bigint"
+      },
+      {
+        "name": "CUL9",
+        "type": "bigint"
+      },
+      {
+        "name": "CX3CL1",
+        "type": "bigint"
+      },
+      {
+        "name": "CX3CR1",
+        "type": "bigint"
+      },
+      {
+        "name": "CXCL1",
+        "type": "bigint"
+      },
+      {
+        "name": "CXCL10",
+        "type": "bigint"
+      },
+      {
+        "name": "CXCL11",
+        "type": "bigint"
+      },
+      {
+        "name": "CXCL12",
+        "type": "bigint"
+      },
+      {
+        "name": "CXCL13",
+        "type": "bigint"
+      },
+      {
+        "name": "CXCL2",
+        "type": "bigint"
+      },
+      {
+        "name": "CXCL9",
+        "type": "bigint"
+      },
+      {
+        "name": "CXCR1",
+        "type": "bigint"
+      },
+      {
+        "name": "CXCR2",
+        "type": "bigint"
+      },
+      {
+        "name": "CXCR3",
+        "type": "bigint"
+      },
+      {
+        "name": "CXCR4",
+        "type": "bigint"
+      },
+      {
+        "name": "CXCR6",
+        "type": "bigint"
+      },
+      {
+        "name": "CYBB",
+        "type": "bigint"
+      },
+      {
+        "name": "DEFB1",
+        "type": "bigint"
+      },
+      {
+        "name": "DEFB103A",
+        "type": "bigint"
+      },
+      {
+        "name": "DEFB103B",
+        "type": "bigint"
+      },
+      {
+        "name": "DEFB4A",
+        "type": "bigint"
+      },
+      {
+        "name": "DPP4",
+        "type": "bigint"
+      },
+      {
+        "name": "DUSP4",
+        "type": "bigint"
+      },
+      {
+        "name": "EBI3",
+        "type": "bigint"
+      },
+      {
+        "name": "EDNRB",
+        "type": "bigint"
+      },
+      {
+        "name": "EGR1",
+        "type": "bigint"
+      },
+      {
+        "name": "EGR2",
+        "type": "bigint"
+      },
+      {
+        "name": "ENTPD1",
+        "type": "bigint"
+      },
+      {
+        "name": "EOMES",
+        "type": "bigint"
+      },
+      {
+        "name": "ETS1",
+        "type": "bigint"
+      },
+      {
+        "name": "FADD",
+        "type": "bigint"
+      },
+      {
+        "name": "FAS",
+        "type": "bigint"
+      },
+      {
+        "name": "FCAR",
+        "type": "bigint"
+      },
+      {
+        "name": "FCER1A",
+        "type": "bigint"
+      },
+      {
+        "name": "FCER1G",
+        "type": "bigint"
+      },
+      {
+        "name": "FCGR1A/B",
+        "type": "bigint"
+      },
+      {
+        "name": "FCGR2A",
+        "type": "bigint"
+      },
+      {
+        "name": "FCGR2A/C",
+        "type": "bigint"
+      },
+      {
+        "name": "FCGR2B",
+        "type": "bigint"
+      },
+      {
+        "name": "FCGR3A/B",
+        "type": "bigint"
+      },
+      {
+        "name": "FCGRT",
+        "type": "bigint"
+      },
+      {
+        "name": "FKBP5",
+        "type": "bigint"
+      },
+      {
+        "name": "FN1",
+        "type": "bigint"
+      },
+      {
+        "name": "FOXP3",
+        "type": "bigint"
+      },
+      {
+        "name": "FYN",
+        "type": "bigint"
+      },
+      {
+        "name": "GATA3",
+        "type": "bigint"
+      },
+      {
+        "name": "GBP1",
+        "type": "bigint"
+      },
+      {
+        "name": "GBP5",
+        "type": "bigint"
+      },
+      {
+        "name": "GFI1",
+        "type": "bigint"
+      },
+      {
+        "name": "GNLY",
+        "type": "bigint"
+      },
+      {
+        "name": "GP1BB",
+        "type": "bigint"
+      },
+      {
+        "name": "GPI",
+        "type": "bigint"
+      },
+      {
+        "name": "GPR183",
+        "type": "bigint"
+      },
+      {
+        "name": "GZMA",
+        "type": "bigint"
+      },
+      {
+        "name": "GZMB",
+        "type": "bigint"
+      },
+      {
+        "name": "GZMK",
+        "type": "bigint"
+      },
+      {
+        "name": "HAMP",
+        "type": "bigint"
+      },
+      {
+        "name": "HAVCR2",
+        "type": "bigint"
+      },
+      {
+        "name": "HFE",
+        "type": "bigint"
+      },
+      {
+        "name": "HLA-A",
+        "type": "bigint"
+      },
+      {
+        "name": "HLA-B",
+        "type": "bigint"
+      },
+      {
+        "name": "HLA-C",
+        "type": "bigint"
+      },
+      {
+        "name": "HLA-DMA",
+        "type": "bigint"
+      },
+      {
+        "name": "HLA-DMB",
+        "type": "bigint"
+      },
+      {
+        "name": "HLA-DOB",
+        "type": "bigint"
+      },
+      {
+        "name": "HLA-DPA1",
+        "type": "bigint"
+      },
+      {
+        "name": "HLA-DPB1",
+        "type": "bigint"
+      },
+      {
+        "name": "HLA-DQA1",
+        "type": "bigint"
+      },
+      {
+        "name": "HLA-DQB1",
+        "type": "bigint"
+      },
+      {
+        "name": "HLA-DRA",
+        "type": "bigint"
+      },
+      {
+        "name": "HLA-DRB1",
+        "type": "bigint"
+      },
+      {
+        "name": "HLA-DRB3",
+        "type": "bigint"
+      },
+      {
+        "name": "HRAS",
+        "type": "bigint"
+      },
+      {
+        "name": "ICAM1",
+        "type": "bigint"
+      },
+      {
+        "name": "ICAM2",
+        "type": "bigint"
+      },
+      {
+        "name": "ICAM3",
+        "type": "bigint"
+      },
+      {
+        "name": "ICAM4",
+        "type": "bigint"
+      },
+      {
+        "name": "ICAM5",
+        "type": "bigint"
+      },
+      {
+        "name": "ICOS",
+        "type": "bigint"
+      },
+      {
+        "name": "ICOSLG",
+        "type": "bigint"
+      },
+      {
+        "name": "IDO1",
+        "type": "bigint"
+      },
+      {
+        "name": "IFI16",
+        "type": "bigint"
+      },
+      {
+        "name": "IFI35",
+        "type": "bigint"
+      },
+      {
+        "name": "IFIH1",
+        "type": "bigint"
+      },
+      {
+        "name": "IFIT2",
+        "type": "bigint"
+      },
+      {
+        "name": "IFITM1",
+        "type": "bigint"
+      },
+      {
+        "name": "IFNA1/13",
+        "type": "bigint"
+      },
+      {
+        "name": "IFNA2",
+        "type": "bigint"
+      },
+      {
+        "name": "IFNAR1",
+        "type": "bigint"
+      },
+      {
+        "name": "IFNAR2",
+        "type": "bigint"
+      },
+      {
+        "name": "IFNB1",
+        "type": "bigint"
+      },
+      {
+        "name": "IFNG",
+        "type": "bigint"
+      },
+      {
+        "name": "IFNGR1",
+        "type": "bigint"
+      },
+      {
+        "name": "IGF2R",
+        "type": "bigint"
+      },
+      {
+        "name": "IKBKAP",
+        "type": "bigint"
+      },
+      {
+        "name": "IKBKB",
+        "type": "bigint"
+      },
+      {
+        "name": "IKBKE",
+        "type": "bigint"
+      },
+      {
+        "name": "IKBKG",
+        "type": "bigint"
+      },
+      {
+        "name": "IKZF1",
+        "type": "bigint"
+      },
+      {
+        "name": "IKZF2",
+        "type": "bigint"
+      },
+      {
+        "name": "IKZF3",
+        "type": "bigint"
+      },
+      {
+        "name": "IL10",
+        "type": "bigint"
+      },
+      {
+        "name": "IL10RA",
+        "type": "bigint"
+      },
+      {
+        "name": "IL11RA",
+        "type": "bigint"
+      },
+      {
+        "name": "IL12A",
+        "type": "bigint"
+      },
+      {
+        "name": "IL12B",
+        "type": "bigint"
+      },
+      {
+        "name": "IL12RB1",
+        "type": "bigint"
+      },
+      {
+        "name": "IL13",
+        "type": "bigint"
+      },
+      {
+        "name": "IL13RA1",
+        "type": "bigint"
+      },
+      {
+        "name": "IL15",
+        "type": "bigint"
+      },
+      {
+        "name": "IL16",
+        "type": "bigint"
+      },
+      {
+        "name": "IL17A",
+        "type": "bigint"
+      },
+      {
+        "name": "IL17B",
+        "type": "bigint"
+      },
+      {
+        "name": "IL17F",
+        "type": "bigint"
+      },
+      {
+        "name": "IL18",
+        "type": "bigint"
+      },
+      {
+        "name": "IL18R1",
+        "type": "bigint"
+      },
+      {
+        "name": "IL18RAP",
+        "type": "bigint"
+      },
+      {
+        "name": "IL19",
+        "type": "bigint"
+      },
+      {
+        "name": "IL1A",
+        "type": "bigint"
+      },
+      {
+        "name": "IL1B",
+        "type": "bigint"
+      },
+      {
+        "name": "IL1R1",
+        "type": "bigint"
+      },
+      {
+        "name": "IL1R2",
+        "type": "bigint"
+      },
+      {
+        "name": "IL1RAP",
+        "type": "bigint"
+      },
+      {
+        "name": "IL1RL1",
+        "type": "bigint"
+      },
+      {
+        "name": "IL1RL2",
+        "type": "bigint"
+      },
+      {
+        "name": "IL1RN",
+        "type": "bigint"
+      },
+      {
+        "name": "IL2",
+        "type": "bigint"
+      },
+      {
+        "name": "IL20",
+        "type": "bigint"
+      },
+      {
+        "name": "IL21",
+        "type": "bigint"
+      },
+      {
+        "name": "IL21R",
+        "type": "bigint"
+      },
+      {
+        "name": "IL22",
+        "type": "bigint"
+      },
+      {
+        "name": "IL22RA2",
+        "type": "bigint"
+      },
+      {
+        "name": "IL23A",
+        "type": "bigint"
+      },
+      {
+        "name": "IL23R",
+        "type": "bigint"
+      },
+      {
+        "name": "IL26",
+        "type": "bigint"
+      },
+      {
+        "name": "IL27",
+        "type": "bigint"
+      },
+      {
+        "name": "IL28A",
+        "type": "bigint"
+      },
+      {
+        "name": "IL28A/B",
+        "type": "bigint"
+      },
+      {
+        "name": "IL29",
+        "type": "bigint"
+      },
+      {
+        "name": "IL2RA",
+        "type": "bigint"
+      },
+      {
+        "name": "IL2RB",
+        "type": "bigint"
+      },
+      {
+        "name": "IL2RG",
+        "type": "bigint"
+      },
+      {
+        "name": "IL3",
+        "type": "bigint"
+      },
+      {
+        "name": "IL32",
+        "type": "bigint"
+      },
+      {
+        "name": "IL4",
+        "type": "bigint"
+      },
+      {
+        "name": "IL4R",
+        "type": "bigint"
+      },
+      {
+        "name": "IL5",
+        "type": "bigint"
+      },
+      {
+        "name": "IL6",
+        "type": "bigint"
+      },
+      {
+        "name": "IL6R",
+        "type": "bigint"
+      },
+      {
+        "name": "IL6ST",
+        "type": "bigint"
+      },
+      {
+        "name": "IL7",
+        "type": "bigint"
+      },
+      {
+        "name": "IL7R",
+        "type": "bigint"
+      },
+      {
+        "name": "IL8",
+        "type": "bigint"
+      },
+      {
+        "name": "IL9",
+        "type": "bigint"
+      },
+      {
+        "name": "ILF3",
+        "type": "bigint"
+      },
+      {
+        "name": "IRAK1",
+        "type": "bigint"
+      },
+      {
+        "name": "IRAK2",
+        "type": "bigint"
+      },
+      {
+        "name": "IRAK3",
+        "type": "bigint"
+      },
+      {
+        "name": "IRAK4",
+        "type": "bigint"
+      },
+      {
+        "name": "IRF1",
+        "type": "bigint"
+      },
+      {
+        "name": "IRF3",
+        "type": "bigint"
+      },
+      {
+        "name": "IRF4",
+        "type": "bigint"
+      },
+      {
+        "name": "IRF5",
+        "type": "bigint"
+      },
+      {
+        "name": "IRF7",
+        "type": "bigint"
+      },
+      {
+        "name": "IRF8",
+        "type": "bigint"
+      },
+      {
+        "name": "IRGM",
+        "type": "bigint"
+      },
+      {
+        "name": "ITGA2B",
+        "type": "bigint"
+      },
+      {
+        "name": "ITGA4",
+        "type": "bigint"
+      },
+      {
+        "name": "ITGA5",
+        "type": "bigint"
+      },
+      {
+        "name": "ITGA6",
+        "type": "bigint"
+      },
+      {
+        "name": "ITGAE",
+        "type": "bigint"
+      },
+      {
+        "name": "ITGAL",
+        "type": "bigint"
+      },
+      {
+        "name": "ITGAM",
+        "type": "bigint"
+      },
+      {
+        "name": "ITGAX",
+        "type": "bigint"
+      },
+      {
+        "name": "ITGB1",
+        "type": "bigint"
+      },
+      {
+        "name": "ITGB2",
+        "type": "bigint"
+      },
+      {
+        "name": "ITLN1",
+        "type": "bigint"
+      },
+      {
+        "name": "ITLN2",
+        "type": "bigint"
+      },
+      {
+        "name": "JAK1",
+        "type": "bigint"
+      },
+      {
+        "name": "JAK2",
+        "type": "bigint"
+      },
+      {
+        "name": "JAK3",
+        "type": "bigint"
+      },
+      {
+        "name": "KCNJ2",
+        "type": "bigint"
+      },
+      {
+        "name": "KIR3DL1",
+        "type": "bigint"
+      },
+      {
+        "name": "KIR3DL2",
+        "type": "bigint"
+      },
+      {
+        "name": "KIR3DL3",
+        "type": "bigint"
+      },
+      {
+        "name": "KIR_Activating_Subgroup_1",
+        "type": "bigint"
+      },
+      {
+        "name": "KIR_Activating_Subgroup_2",
+        "type": "bigint"
+      },
+      {
+        "name": "KIR_Inhibiting_Subgroup_1",
+        "type": "bigint"
+      },
+      {
+        "name": "KIR_Inhibiting_Subgroup_2",
+        "type": "bigint"
+      },
+      {
+        "name": "KIT",
+        "type": "bigint"
+      },
+      {
+        "name": "KLRAP1",
+        "type": "bigint"
+      },
+      {
+        "name": "KLRB1",
+        "type": "bigint"
+      },
+      {
+        "name": "KLRC1",
+        "type": "bigint"
+      },
+      {
+        "name": "KLRC2",
+        "type": "bigint"
+      },
+      {
+        "name": "KLRC3",
+        "type": "bigint"
+      },
+      {
+        "name": "KLRC4",
+        "type": "bigint"
+      },
+      {
+        "name": "KLRD1",
+        "type": "bigint"
+      },
+      {
+        "name": "KLRF1",
+        "type": "bigint"
+      },
+      {
+        "name": "KLRF2",
+        "type": "bigint"
+      },
+      {
+        "name": "KLRG1",
+        "type": "bigint"
+      },
+      {
+        "name": "KLRG2",
+        "type": "bigint"
+      },
+      {
+        "name": "KLRK1",
+        "type": "bigint"
+      },
+      {
+        "name": "LAG3",
+        "type": "bigint"
+      },
+      {
+        "name": "LAIR1",
+        "type": "bigint"
+      },
+      {
+        "name": "LAMP3",
+        "type": "bigint"
+      },
+      {
+        "name": "LCK",
+        "type": "bigint"
+      },
+      {
+        "name": "LCP2",
+        "type": "bigint"
+      },
+      {
+        "name": "LEF1",
+        "type": "bigint"
+      },
+      {
+        "name": "LGALS3",
+        "type": "bigint"
+      },
+      {
+        "name": "LIF",
+        "type": "bigint"
+      },
+      {
+        "name": "LILRA1",
+        "type": "bigint"
+      },
+      {
+        "name": "LILRA2",
+        "type": "bigint"
+      },
+      {
+        "name": "LILRA3",
+        "type": "bigint"
+      },
+      {
+        "name": "LILRA4",
+        "type": "bigint"
+      },
+      {
+        "name": "LILRA5",
+        "type": "bigint"
+      },
+      {
+        "name": "LILRA6",
+        "type": "bigint"
+      },
+      {
+        "name": "LILRB1",
+        "type": "bigint"
+      },
+      {
+        "name": "LILRB2",
+        "type": "bigint"
+      },
+      {
+        "name": "LILRB3",
+        "type": "bigint"
+      },
+      {
+        "name": "LILRB4",
+        "type": "bigint"
+      },
+      {
+        "name": "LILRB5",
+        "type": "bigint"
+      },
+      {
+        "name": "LITAF",
+        "type": "bigint"
+      },
+      {
+        "name": "LTA",
+        "type": "bigint"
+      },
+      {
+        "name": "LTB4R",
+        "type": "bigint"
+      },
+      {
+        "name": "LTB4R2",
+        "type": "bigint"
+      },
+      {
+        "name": "LTBR",
+        "type": "bigint"
+      },
+      {
+        "name": "LTF",
+        "type": "bigint"
+      },
+      {
+        "name": "LY96",
+        "type": "bigint"
+      },
+      {
+        "name": "MAF",
+        "type": "bigint"
+      },
+      {
+        "name": "MALT1",
+        "type": "bigint"
+      },
+      {
+        "name": "MAP4K1",
+        "type": "bigint"
+      },
+      {
+        "name": "MAP4K2",
+        "type": "bigint"
+      },
+      {
+        "name": "MAP4K4",
+        "type": "bigint"
+      },
+      {
+        "name": "MAPK1",
+        "type": "bigint"
+      },
+      {
+        "name": "MAPK11",
+        "type": "bigint"
+      },
+      {
+        "name": "MAPK14",
+        "type": "bigint"
+      },
+      {
+        "name": "MAPKAPK2",
+        "type": "bigint"
+      },
+      {
+        "name": "MARCO",
+        "type": "bigint"
+      },
+      {
+        "name": "MASP1",
+        "type": "bigint"
+      },
+      {
+        "name": "MASP2",
+        "type": "bigint"
+      },
+      {
+        "name": "MBL2",
+        "type": "bigint"
+      },
+      {
+        "name": "MBP",
+        "type": "bigint"
+      },
+      {
+        "name": "MCL1",
+        "type": "bigint"
+      },
+      {
+        "name": "MIF",
+        "type": "bigint"
+      },
+      {
+        "name": "MME",
+        "type": "bigint"
+      },
+      {
+        "name": "MR1",
+        "type": "bigint"
+      },
+      {
+        "name": "MRC1",
+        "type": "bigint"
+      },
+      {
+        "name": "MS4A1",
+        "type": "bigint"
+      },
+      {
+        "name": "MSR1",
+        "type": "bigint"
+      },
+      {
+        "name": "MUC1",
+        "type": "bigint"
+      },
+      {
+        "name": "MX1",
+        "type": "bigint"
+      },
+      {
+        "name": "MYD88",
+        "type": "bigint"
+      },
+      {
+        "name": "NCAM1",
+        "type": "bigint"
+      },
+      {
+        "name": "NCF4",
+        "type": "bigint"
+      },
+      {
+        "name": "NCR1",
+        "type": "bigint"
+      },
+      {
+        "name": "NFATC1",
+        "type": "bigint"
+      },
+      {
+        "name": "NFATC2",
+        "type": "bigint"
+      },
+      {
+        "name": "NFATC3",
+        "type": "bigint"
+      },
+      {
+        "name": "NFIL3",
+        "type": "bigint"
+      },
+      {
+        "name": "NFKB1",
+        "type": "bigint"
+      },
+      {
+        "name": "NFKB2",
+        "type": "bigint"
+      },
+      {
+        "name": "NFKBIA",
+        "type": "bigint"
+      },
+      {
+        "name": "NFKBIZ",
+        "type": "bigint"
+      },
+      {
+        "name": "NLRP3",
+        "type": "bigint"
+      },
+      {
+        "name": "NOD1",
+        "type": "bigint"
+      },
+      {
+        "name": "NOD2",
+        "type": "bigint"
+      },
+      {
+        "name": "NOS2",
+        "type": "bigint"
+      },
+      {
+        "name": "NOTCH1",
+        "type": "bigint"
+      },
+      {
+        "name": "NOTCH2",
+        "type": "bigint"
+      },
+      {
+        "name": "NT5E",
+        "type": "bigint"
+      },
+      {
+        "name": "PAX5",
+        "type": "bigint"
+      },
+      {
+        "name": "PDCD1",
+        "type": "bigint"
+      },
+      {
+        "name": "PDCD1LG2",
+        "type": "bigint"
+      },
+      {
+        "name": "PDCD2",
+        "type": "bigint"
+      },
+      {
+        "name": "PDGFB",
+        "type": "bigint"
+      },
+      {
+        "name": "PDGFRB",
+        "type": "bigint"
+      },
+      {
+        "name": "PECAM1",
+        "type": "bigint"
+      },
+      {
+        "name": "PIGR",
+        "type": "bigint"
+      },
+      {
+        "name": "PLA2G2A",
+        "type": "bigint"
+      },
+      {
+        "name": "PLA2G2E",
+        "type": "bigint"
+      },
+      {
+        "name": "PLAU",
+        "type": "bigint"
+      },
+      {
+        "name": "PLAUR",
+        "type": "bigint"
+      },
+      {
+        "name": "PML",
+        "type": "bigint"
+      },
+      {
+        "name": "POU2F2",
+        "type": "bigint"
+      },
+      {
+        "name": "PPARG",
+        "type": "bigint"
+      },
+      {
+        "name": "PPBP",
+        "type": "bigint"
+      },
+      {
+        "name": "PRDM1",
+        "type": "bigint"
+      },
+      {
+        "name": "PRF1",
+        "type": "bigint"
+      },
+      {
+        "name": "PRKCD",
+        "type": "bigint"
+      },
+      {
+        "name": "PSMB10",
+        "type": "bigint"
+      },
+      {
+        "name": "PSMB5",
+        "type": "bigint"
+      },
+      {
+        "name": "PSMB7",
+        "type": "bigint"
+      },
+      {
+        "name": "PSMB8",
+        "type": "bigint"
+      },
+      {
+        "name": "PSMB9",
+        "type": "bigint"
+      },
+      {
+        "name": "PSMC2",
+        "type": "bigint"
+      },
+      {
+        "name": "PSMD7",
+        "type": "bigint"
+      },
+      {
+        "name": "PTAFR",
+        "type": "bigint"
+      },
+      {
+        "name": "PTGER4",
+        "type": "bigint"
+      },
+      {
+        "name": "PTGS2",
+        "type": "bigint"
+      },
+      {
+        "name": "PTK2",
+        "type": "bigint"
+      },
+      {
+        "name": "PTPN2",
+        "type": "bigint"
+      },
+      {
+        "name": "PTPN22",
+        "type": "bigint"
+      },
+      {
+        "name": "PTPN6",
+        "type": "bigint"
+      },
+      {
+        "name": "PTPRC_all",
+        "type": "bigint"
+      },
+      {
+        "name": "PYCARD",
+        "type": "bigint"
+      },
+      {
+        "name": "RAF1",
+        "type": "bigint"
+      },
+      {
+        "name": "RAG1",
+        "type": "bigint"
+      },
+      {
+        "name": "RAG2",
+        "type": "bigint"
+      },
+      {
+        "name": "RARRES3",
+        "type": "bigint"
+      },
+      {
+        "name": "RELA",
+        "type": "bigint"
+      },
+      {
+        "name": "RELB",
+        "type": "bigint"
+      },
+      {
+        "name": "RORC",
+        "type": "bigint"
+      },
+      {
+        "name": "RUNX1",
+        "type": "bigint"
+      },
+      {
+        "name": "S100A8",
+        "type": "bigint"
+      },
+      {
+        "name": "S100A9",
+        "type": "bigint"
+      },
+      {
+        "name": "S1PR1",
+        "type": "bigint"
+      },
+      {
+        "name": "SELE",
+        "type": "bigint"
+      },
+      {
+        "name": "SELL",
+        "type": "bigint"
+      },
+      {
+        "name": "SELPLG",
+        "type": "bigint"
+      },
+      {
+        "name": "SERPING1",
+        "type": "bigint"
+      },
+      {
+        "name": "SH2D1A",
+        "type": "bigint"
+      },
+      {
+        "name": "SIGIRR",
+        "type": "bigint"
+      },
+      {
+        "name": "SKI",
+        "type": "bigint"
+      },
+      {
+        "name": "SLAMF1",
+        "type": "bigint"
+      },
+      {
+        "name": "SLAMF6",
+        "type": "bigint"
+      },
+      {
+        "name": "SLAMF7",
+        "type": "bigint"
+      },
+      {
+        "name": "SLC2A1",
+        "type": "bigint"
+      },
+      {
+        "name": "SMAD3",
+        "type": "bigint"
+      },
+      {
+        "name": "SMAD5",
+        "type": "bigint"
+      },
+      {
+        "name": "SOCS1",
+        "type": "bigint"
+      },
+      {
+        "name": "SOCS3",
+        "type": "bigint"
+      },
+      {
+        "name": "SPP1",
+        "type": "bigint"
+      },
+      {
+        "name": "SRC",
+        "type": "bigint"
+      },
+      {
+        "name": "STAT1",
+        "type": "bigint"
+      },
+      {
+        "name": "STAT2",
+        "type": "bigint"
+      },
+      {
+        "name": "STAT3",
+        "type": "bigint"
+      },
+      {
+        "name": "STAT4",
+        "type": "bigint"
+      },
+      {
+        "name": "STAT5A",
+        "type": "bigint"
+      },
+      {
+        "name": "STAT5B",
+        "type": "bigint"
+      },
+      {
+        "name": "STAT6",
+        "type": "bigint"
+      },
+      {
+        "name": "SYK",
+        "type": "bigint"
+      },
+      {
+        "name": "TAGAP",
+        "type": "bigint"
+      },
+      {
+        "name": "TAL1",
+        "type": "bigint"
+      },
+      {
+        "name": "TAP1",
+        "type": "bigint"
+      },
+      {
+        "name": "TAP2",
+        "type": "bigint"
+      },
+      {
+        "name": "TAPBP",
+        "type": "bigint"
+      },
+      {
+        "name": "TBK1",
+        "type": "bigint"
+      },
+      {
+        "name": "TBX21",
+        "type": "bigint"
+      },
+      {
+        "name": "TCF4",
+        "type": "bigint"
+      },
+      {
+        "name": "TCF7",
+        "type": "bigint"
+      },
+      {
+        "name": "TFRC",
+        "type": "bigint"
+      },
+      {
+        "name": "TGFB1",
+        "type": "bigint"
+      },
+      {
+        "name": "TGFBI",
+        "type": "bigint"
+      },
+      {
+        "name": "TGFBR1",
+        "type": "bigint"
+      },
+      {
+        "name": "TGFBR2",
+        "type": "bigint"
+      },
+      {
+        "name": "THY1",
+        "type": "bigint"
+      },
+      {
+        "name": "TICAM1",
+        "type": "bigint"
+      },
+      {
+        "name": "TIGIT",
+        "type": "bigint"
+      },
+      {
+        "name": "TIRAP",
+        "type": "bigint"
+      },
+      {
+        "name": "TLR1",
+        "type": "bigint"
+      },
+      {
+        "name": "TLR2",
+        "type": "bigint"
+      },
+      {
+        "name": "TLR3",
+        "type": "bigint"
+      },
+      {
+        "name": "TLR4",
+        "type": "bigint"
+      },
+      {
+        "name": "TLR5",
+        "type": "bigint"
+      },
+      {
+        "name": "TLR7",
+        "type": "bigint"
+      },
+      {
+        "name": "TLR8",
+        "type": "bigint"
+      },
+      {
+        "name": "TLR9",
+        "type": "bigint"
+      },
+      {
+        "name": "TMEM173",
+        "type": "bigint"
+      },
+      {
+        "name": "TNF",
+        "type": "bigint"
+      },
+      {
+        "name": "TNFAIP3",
+        "type": "bigint"
+      },
+      {
+        "name": "TNFAIP6",
+        "type": "bigint"
+      },
+      {
+        "name": "TNFRSF10C",
+        "type": "bigint"
+      },
+      {
+        "name": "TNFRSF11A",
+        "type": "bigint"
+      },
+      {
+        "name": "TNFRSF13B",
+        "type": "bigint"
+      },
+      {
+        "name": "TNFRSF13C",
+        "type": "bigint"
+      },
+      {
+        "name": "TNFRSF14",
+        "type": "bigint"
+      },
+      {
+        "name": "TNFRSF17",
+        "type": "bigint"
+      },
+      {
+        "name": "TNFRSF1B",
+        "type": "bigint"
+      },
+      {
+        "name": "TNFRSF4",
+        "type": "bigint"
+      },
+      {
+        "name": "TNFRSF8",
+        "type": "bigint"
+      },
+      {
+        "name": "TNFRSF9",
+        "type": "bigint"
+      },
+      {
+        "name": "TNFSF10",
+        "type": "bigint"
+      },
+      {
+        "name": "TNFSF11",
+        "type": "bigint"
+      },
+      {
+        "name": "TNFSF12",
+        "type": "bigint"
+      },
+      {
+        "name": "TNFSF13B",
+        "type": "bigint"
+      },
+      {
+        "name": "TNFSF15",
+        "type": "bigint"
+      },
+      {
+        "name": "TNFSF4",
+        "type": "bigint"
+      },
+      {
+        "name": "TNFSF8",
+        "type": "bigint"
+      },
+      {
+        "name": "TOLLIP",
+        "type": "bigint"
+      },
+      {
+        "name": "TP53",
+        "type": "bigint"
+      },
+      {
+        "name": "TRAF1",
+        "type": "bigint"
+      },
+      {
+        "name": "TRAF2",
+        "type": "bigint"
+      },
+      {
+        "name": "TRAF3",
+        "type": "bigint"
+      },
+      {
+        "name": "TRAF4",
+        "type": "bigint"
+      },
+      {
+        "name": "TRAF5",
+        "type": "bigint"
+      },
+      {
+        "name": "TRAF6",
+        "type": "bigint"
+      },
+      {
+        "name": "TYK2",
+        "type": "bigint"
+      },
+      {
+        "name": "UBE2L3",
+        "type": "bigint"
+      },
+      {
+        "name": "VCAM1",
+        "type": "bigint"
+      },
+      {
+        "name": "VTN",
+        "type": "bigint"
+      },
+      {
+        "name": "XBP1",
+        "type": "bigint"
+      },
+      {
+        "name": "XCL1",
+        "type": "bigint"
+      },
+      {
+        "name": "XCR1",
+        "type": "bigint"
+      },
+      {
+        "name": "ZAP70",
+        "type": "bigint"
+      },
+      {
+        "name": "ZBTB16",
+        "type": "bigint"
+      },
+      {
+        "name": "ZEB1",
+        "type": "bigint"
+      },
+      {
+        "name": "sCTLA4",
+        "type": "bigint"
+      },
+      {
+        "name": "ABCF1",
+        "type": "bigint"
+      },
+      {
+        "name": "ALAS1",
+        "type": "bigint"
+      },
+      {
+        "name": "EEF1G",
+        "type": "bigint"
+      },
+      {
+        "name": "G6PD",
+        "type": "bigint"
+      },
+      {
+        "name": "GAPDH",
+        "type": "bigint"
+      },
+      {
+        "name": "GUSB",
+        "type": "bigint"
+      },
+      {
+        "name": "HPRT1",
+        "type": "bigint"
+      },
+      {
+        "name": "OAZ1",
+        "type": "bigint"
+      },
+      {
+        "name": "POLR1B",
+        "type": "bigint"
+      },
+      {
+        "name": "POLR2A",
+        "type": "bigint"
+      },
+      {
+        "name": "PPIA",
+        "type": "bigint"
+      },
+      {
+        "name": "RPL19",
+        "type": "bigint"
+      },
+      {
+        "name": "SDHA",
+        "type": "bigint"
+      },
+      {
+        "name": "TBP",
+        "type": "bigint"
+      },
+      {
+        "name": "TUBB",
+        "type": "bigint"
+      },
+      {
+        "name": "NEG_A",
+        "type": "bigint"
+      },
+      {
+        "name": "NEG_B",
+        "type": "bigint"
+      },
+      {
+        "name": "NEG_C",
+        "type": "bigint"
+      },
+      {
+        "name": "NEG_D",
+        "type": "bigint"
+      },
+      {
+        "name": "NEG_E",
+        "type": "bigint"
+      },
+      {
+        "name": "NEG_F",
+        "type": "bigint"
+      },
+      {
+        "name": "NEG_G",
+        "type": "bigint"
+      },
+      {
+        "name": "NEG_H",
+        "type": "bigint"
+      },
+      {
+        "name": "POS_A",
+        "type": "bigint"
+      },
+      {
+        "name": "POS_B",
+        "type": "bigint"
+      },
+      {
+        "name": "POS_C",
+        "type": "bigint"
+      },
+      {
+        "name": "POS_D",
+        "type": "bigint"
+      },
+      {
+        "name": "POS_E",
+        "type": "bigint"
+      },
+      {
+        "name": "POS_F",
+        "type": "bigint"
+      },
+      {
+        "name": "prediction",
+        "type": "float"
+      },
+      {
+        "name": "error",
+        "type": "double"
+      },
+      {
+        "name": "error_decile",
+        "type": "smallint"
+      },
+      {
+        "name": "abs_error_decile",
+        "type": "smallint"
+      },
+      {
+        "name": "relative_error",
+        "type": "double"
+      }
+    ],
     "userModified": true
   },
   "dkuProperties": [],

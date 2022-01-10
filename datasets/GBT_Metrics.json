@@ -59,11 +59,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1641800225955
+    "lastModifiedOn": 1641800237253
   },
   "creationTag": {
     "versionNumber": 0,
@@ -85,7 +85,48 @@
     }
   },
   "schema": {
-    "columns": [],
+    "columns": [
+      {
+        "name": "date",
+        "type": "date"
+      },
+      {
+        "name": "evs",
+        "type": "double"
+      },
+      {
+        "name": "mae",
+        "type": "double"
+      },
+      {
+        "name": "mse",
+        "type": "double"
+      },
+      {
+        "name": "mape",
+        "type": "double"
+      },
+      {
+        "name": "rmse",
+        "type": "double"
+      },
+      {
+        "name": "rmsle",
+        "type": "double"
+      },
+      {
+        "name": "r2",
+        "type": "double"
+      },
+      {
+        "name": "pearson",
+        "type": "double"
+      },
+      {
+        "name": "customScore",
+        "type": "double"
+      }
+    ],
     "userModified": true
   },
   "dkuProperties": [],

@@ -283,7 +283,42 @@
       "table": 0
     },
     {
-      "name": "Study ID",
+      "name": "Sex",
+      "type": "string",
+      "table": 1
+    },
+    {
+      "name": "Race",
+      "type": "string",
+      "table": 1
+    },
+    {
+      "name": "Infection Status",
+      "type": "string",
+      "table": 1
+    },
+    {
+      "name": "ECMO",
+      "type": "string",
+      "table": 1
+    },
+    {
+      "name": "Age_years",
+      "type": "double",
+      "table": 1
+    },
+    {
+      "name": "PRISM",
+      "type": "double",
+      "table": 1
+    },
+    {
+      "name": "PELOD",
+      "type": "double",
+      "table": 1
+    },
+    {
+      "name": "VFD",
       "type": "bigint",
       "table": 1
     }
@@ -329,7 +364,8 @@
       "computedColumns": []
     },
     {
-      "index": 1
+      "index": 1,
+      "computedColumns": []
     }
   ],
   "computedColumns": [],
@@ -542,7 +578,35 @@
             "type": "double"
           },
           {
-            "name": "Study ID",
+            "name": "Sex",
+            "type": "string"
+          },
+          {
+            "name": "Race",
+            "type": "string"
+          },
+          {
+            "name": "Infection Status",
+            "type": "string"
+          },
+          {
+            "name": "ECMO",
+            "type": "string"
+          },
+          {
+            "name": "Age_years",
+            "type": "double"
+          },
+          {
+            "name": "PRISM",
+            "type": "double"
+          },
+          {
+            "name": "PELOD",
+            "type": "double"
+          },
+          {
+            "name": "VFD",
             "type": "bigint"
           }
         ],

@@ -96,6 +96,11 @@ def applyLimitOnRemainedFeatures(totalDf, cutoff=0):
     featuresDfReducedSmoteTotal = featuresDfReduced
     featuresDfReducedSmoteTotal['VFD'] = tgt
     
+    featuresDfReducedSmoteTotal['VFD'] = sex
+    featuresDfReducedSmoteTotal['VFD'] = race
+    featuresDfReducedSmoteTotal['VFD'] = ecmo
+    featuresDfReducedSmoteTotal['VFD'] = infection
+    
     return keys, featuresDfReducedSmoteTotal
 
 keysReturned, Features_joined_Nanostring_df = applyLimitOnRemainedFeatures(Features_joined_Nanostring_df, cutoff = 0.8)

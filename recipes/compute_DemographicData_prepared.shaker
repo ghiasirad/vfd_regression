@@ -37,7 +37,7 @@
       "disabled": false,
       "type": "MeasureNormalize",
       "params": {
-        "column": "Age_years"
+        "column": "PELOD"
       },
       "alwaysShowComment": false
     }

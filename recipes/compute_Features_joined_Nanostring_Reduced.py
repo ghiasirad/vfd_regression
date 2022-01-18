@@ -84,14 +84,7 @@ def applyLimitOnRemainedFeatures(totalDf, cutoff=0):
     
     # Drop the low score columns
     featuresDfReduced = fDf[keys]
-    print(featuresDfReduced.shape)
-    
-    plt.figure(figsize=(10,6))
-    plt.xticks(rotation=90)
-    plt.bar(keys, vals)
-    plt.ylabel('Normalized ElasticNet Importance Coefs')
-
-    plt.savefig('figs/topFeatures_' + str(cutoff) + '.pdf')
+#     print(featuresDfReduced.shape)
     
     featuresDfReducedSmoteTotal = featuresDfReduced
     featuresDfReducedSmoteTotal['VFD'] = tgt

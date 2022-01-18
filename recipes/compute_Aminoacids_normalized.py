@@ -2,7 +2,8 @@
 import dataiku
 import pandas as pd, numpy as np
 from dataiku import pandasutils as pdu
-from sklearn.preprocessing import normalize
+# from sklearn.preprocessing import normalize
+from sklearn import preprocessing
 
 # Read recipe inputs
 amioAcids_cleaned = dataiku.Dataset("AmioAcids_cleaned")
@@ -14,7 +15,9 @@ amioAcids_cleaned_df = amioAcids_cleaned_df.set_index('StudyID_Int')
 
 # Remove the empty cells and replace them with median of the column
 amioAcids_cleaned_df.fillna(amioAcids_cleaned_df.median(), inplace=True)
-amioAcids_normalized_values = normalize(amioAcids_cleaned_df.values, axis=1, norm='l1')
+# amioAcids_normalized_values = normalize(amioAcids_cleaned_df.values, axis=1, norm='l1')
+min_max_scaler = preprocessing.MinMaxScaler()
+amioAcids_normalized_values = min_max_scaler.fit_transform(amioAcids_cleaned_df.values)
 
 amioAcids_normalized_df = pd.DataFrame(data=amioAcids_normalized_values, columns=amioAcids_cleaned_df.columns)
 amioAcids_normalized_df['StudyID_Int'] = amioAcids_cleaned_df.index

@@ -59,11 +59,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 2,
+    "versionNumber": 3,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1642484521247
+    "lastModifiedOn": 1642484642603
   },
   "creationTag": {
     "versionNumber": 0,
@@ -89,6 +89,22 @@
       {
         "name": "VFD",
         "type": "bigint"
+      },
+      {
+        "name": "Sex",
+        "type": "string"
+      },
+      {
+        "name": "Race",
+        "type": "string"
+      },
+      {
+        "name": "ECMO",
+        "type": "string"
+      },
+      {
+        "name": "Infection Status",
+        "type": "string"
       }
     ],
     "userModified": false

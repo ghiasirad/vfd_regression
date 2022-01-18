@@ -11,7 +11,7 @@ DemographicData_prepared_df = DemographicData_prepared.get_dataframe()
 
 
 # Normalize and return it as a dataframe
-DemographicData_prepared_df = DemographicData_prepared_df.set_index('StudyID')
+DemographicData_prepared_df = DemographicData_prepared_df.set_index('Study ID')
 
 # Remove the empty cells and replace them with median of the column
 DemographicData_prepared_df.fillna(DemographicData_prepared_df.median(), inplace=True)
@@ -22,8 +22,8 @@ DemographicData_normalized_values = min_max_scaler.fit_transform(DemographicData
 DemographicData_prepared_normal_df = pd.DataFrame(data=DemographicData_normalized_values, columns=DemographicData_prepared_df.columns)
 DemographicData_prepared_normal_df['StudyID'] = DemographicData_prepared_df.index
 
-first_column = nanoString_normalized_df.pop('StudyID')
-DemographicData_prepared_normal_df.insert(0, 'StudyID', first_column)
+first_column = nanoString_normalized_df.pop('Study ID')
+DemographicData_prepared_normal_df.insert(0, 'Study ID', first_column)
 
 
 # Write recipe outputs

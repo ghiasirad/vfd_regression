@@ -9,7 +9,7 @@
         "type": "KEEP_LARGEST",
         "enabled": false
       },
-      "type": "LEFT",
+      "type": "INNER",
       "outerJoinOnTheLeft": true,
       "on": [
         {

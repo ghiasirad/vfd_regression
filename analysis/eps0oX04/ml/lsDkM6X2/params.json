@@ -8554,7 +8554,7 @@
         "binarize_threshold_mode": "MEDIAN",
         "binarize_constant_threshold": 0.0,
         "datetime_cyclical_periods": [],
-        "role": "INPUT",
+        "role": "REJECT",
         "type": "NUMERIC",
         "state": {
           "userModified": false,
@@ -15734,7 +15734,7 @@
           "scaling": "LINEAR"
         }
       },
-      "enabled": false
+      "enabled": true
     },
     "gbt_classification": {
       "n_estimators": {
@@ -15961,7 +15961,7 @@
           }
         }
       },
-      "enabled": false
+      "enabled": true
     },
     "decision_tree_classification": {
       "max_depth": {
@@ -16071,7 +16071,7 @@
           }
         }
       },
-      "enabled": false
+      "enabled": true
     },
     "ridge_regression": {
       "alphaMode": "MANUAL",
@@ -16115,11 +16115,11 @@
           "scaling": "LOGARITHMIC"
         }
       },
-      "enabled": false
+      "enabled": true
     },
     "leastsquare_regression": {
       "n_jobs": 2,
-      "enabled": false
+      "enabled": true
     },
     "sgd_regression": {
       "epsilon": {
@@ -16183,7 +16183,7 @@
       "max_iter": 1000,
       "tol": 0.001,
       "n_jobs": 2,
-      "enabled": false
+      "enabled": true
     },
     "sgd_classifier": {
       "loss": {
@@ -16235,14 +16235,12 @@
     },
     "knn": {
       "k": {
-        "gridMode": "EXPLICIT",
+        "gridMode": "RANGE",
         "randomMode": "RANGE",
         "limit": {
           "min": 1
         },
-        "values": [
-          5
-        ],
+        "values": [],
         "range": {
           "min": 3,
           "max": 7,
@@ -16254,7 +16252,7 @@
       "algorithm": "auto",
       "p": 2,
       "leaf_size": 30,
-      "enabled": false
+      "enabled": true
     },
     "logistic_regression": {
       "multi_class": "ovr",
@@ -16299,7 +16297,9 @@
           "min": 1
         },
         "values": [
-          10
+          100,
+          100,
+          100
         ],
         "range": {
           "min": 8,
@@ -16326,8 +16326,8 @@
       "momentum": 0.8,
       "nesterovs_momentum": true,
       "shuffle": true,
-      "learning_rate_init": 0.001,
-      "enabled": false
+      "learning_rate_init": 0.01,
+      "enabled": true
     },
     "svc_classifier": {
       "C": {
@@ -16466,7 +16466,7 @@
     "lars_params": {
       "max_features": 0,
       "K": 100,
-      "enabled": false
+      "enabled": true
     },
     "lightgbm_regression": {
       "boosting_type": {
@@ -16638,7 +16638,7 @@
       "subsample": 0.9,
       "subsample_freq": 1,
       "use_bagging": false,
-      "enabled": false
+      "enabled": true
     },
     "lightgbm_classification": {
       "boosting_type": {
@@ -17020,7 +17020,7 @@
       "seed": 1337,
       "enable_early_stopping": true,
       "early_stopping_rounds": 4,
-      "enabled": false
+      "enabled": true
     },
     "deep_learning_sparkling": {
       "enabled": false,
@@ -17378,7 +17378,7 @@
       "nContainers": 4
     },
     "metrics": {
-      "evaluationMetric": "R2",
+      "evaluationMetric": "MSE",
       "customEvaluationMetricGIB": true,
       "customEvaluationMetricNeedsProba": false,
       "costMatrixWeights": {

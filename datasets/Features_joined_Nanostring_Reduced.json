@@ -59,11 +59,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1642483977505
+    "lastModifiedOn": 1642484451073
   },
   "creationTag": {
     "versionNumber": 0,
@@ -85,8 +85,29 @@
     }
   },
   "schema": {
-    "columns": [],
-    "userModified": true
+    "columns": [
+      {
+        "name": "VFD",
+        "type": "bigint"
+      },
+      {
+        "name": "Sex",
+        "type": "string"
+      },
+      {
+        "name": "Race",
+        "type": "string"
+      },
+      {
+        "name": "ECMO",
+        "type": "string"
+      },
+      {
+        "name": "Infection Status",
+        "type": "string"
+      }
+    ],
+    "userModified": false
   },
   "dkuProperties": [],
   "metrics": {

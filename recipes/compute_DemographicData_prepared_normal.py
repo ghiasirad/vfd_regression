@@ -16,7 +16,7 @@ DemographicData_prepared_df = DemographicData_prepared_df.set_index('Study ID')
 # Remove the empty cells and replace them with median of the column
 DemographicData_prepared_df.fillna(DemographicData_prepared_df.median(), inplace=True)
 min_max_scaler = preprocessing.MinMaxScaler()
-DemographicData_normalized_values = min_max_scaler.fit_transform(DemographicData_prepared_df.values)
+DemographicData_normalized_values = min_max_scaler.fit_transform(DemographicData_prepared_df[['Age_years', 'PRISM', 'PELOD']].values)
 
 DemographicData_prepared_normal_df = pd.DataFrame(data=DemographicData_normalized_values, columns=DemographicData_prepared_df.columns)
 DemographicData_prepared_normal_df['Study ID'] = DemographicData_prepared_df.index
@@ -31,3 +31,6 @@ DemographicData_prepared_normal.write_with_schema(DemographicData_prepared_norma
 
 
 
+Age_years
+PRISM
+PELOD

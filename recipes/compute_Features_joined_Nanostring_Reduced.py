@@ -96,10 +96,10 @@ def applyLimitOnRemainedFeatures(totalDf, cutoff=0):
     featuresDfReducedSmoteTotal = featuresDfReduced
     featuresDfReducedSmoteTotal['VFD'] = tgt
     
-    featuresDfReducedSmoteTotal['VFD'] = sex
-    featuresDfReducedSmoteTotal['VFD'] = race
-    featuresDfReducedSmoteTotal['VFD'] = ecmo
-    featuresDfReducedSmoteTotal['VFD'] = infection
+    featuresDfReducedSmoteTotal['Sex'] = sex
+    featuresDfReducedSmoteTotal['Race'] = race
+    featuresDfReducedSmoteTotal['ECMO'] = ecmo
+    featuresDfReducedSmoteTotal['Infection Status'] = infection
     
     return keys, featuresDfReducedSmoteTotal
 

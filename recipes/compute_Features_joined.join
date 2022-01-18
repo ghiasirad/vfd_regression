@@ -5,12 +5,11 @@
       "table1": 0,
       "conditionsMode": "AND",
       "rightLimit": {
-        "decisionColumn": {},
         "maxMatches": 1,
         "type": "KEEP_LARGEST",
         "enabled": false
       },
-      "type": "INNER",
+      "type": "LEFT",
       "outerJoinOnTheLeft": true,
       "on": [
         {
@@ -30,7 +29,7 @@
   "selectedColumns": [
     {
       "name": "StudyID_Int",
-      "type": "int",
+      "type": "bigint",
       "table": 0
     },
     {
@@ -284,42 +283,7 @@
       "table": 0
     },
     {
-      "name": "Sex",
-      "type": "string",
-      "table": 1
-    },
-    {
-      "name": "Race",
-      "type": "string",
-      "table": 1
-    },
-    {
-      "name": "Infection Status",
-      "type": "string",
-      "table": 1
-    },
-    {
-      "name": "ECMO",
-      "type": "boolean",
-      "table": 1
-    },
-    {
-      "name": "Age_years",
-      "type": "double",
-      "table": 1
-    },
-    {
-      "name": "PRISM",
-      "type": "bigint",
-      "table": 1
-    },
-    {
-      "name": "PELOD",
-      "type": "bigint",
-      "table": 1
-    },
-    {
-      "name": "VFD",
+      "name": "Study ID",
       "type": "bigint",
       "table": 1
     }
@@ -361,18 +325,11 @@
   },
   "virtualInputs": [
     {
-      "index": 1,
+      "index": 0,
       "computedColumns": []
     },
     {
-      "preFilter": {
-        "distinct": false,
-        "enabled": false
-      },
-      "autoSelectColumns": false,
-      "originLabel": "DemographicData_prepared",
-      "index": 0,
-      "computedColumns": []
+      "index": 1
     }
   ],
   "computedColumns": [],
@@ -382,7 +339,7 @@
         "columns": [
           {
             "name": "StudyID_Int",
-            "type": "int"
+            "type": "bigint"
           },
           {
             "name": "1-Methyl-histidine",
@@ -585,37 +542,7 @@
             "type": "double"
           },
           {
-            "name": "Sex",
-            "type": "string"
-          },
-          {
-            "meaning": "race",
-            "name": "Race",
-            "type": "string"
-          },
-          {
-            "meaning": "infectionstatus",
-            "name": "Infection Status",
-            "type": "string"
-          },
-          {
-            "name": "ECMO",
-            "type": "boolean"
-          },
-          {
-            "name": "Age_years",
-            "type": "double"
-          },
-          {
-            "name": "PRISM",
-            "type": "bigint"
-          },
-          {
-            "name": "PELOD",
-            "type": "bigint"
-          },
-          {
-            "name": "VFD",
+            "name": "Study ID",
             "type": "bigint"
           }
         ],

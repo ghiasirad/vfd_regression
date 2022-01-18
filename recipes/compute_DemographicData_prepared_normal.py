@@ -18,19 +18,18 @@ DemographicData_prepared_df.fillna(DemographicData_prepared_df.median(), inplace
 min_max_scaler = preprocessing.MinMaxScaler()
 DemographicData_normalized_values = min_max_scaler.fit_transform(DemographicData_prepared_df[['Age_years', 'PRISM', 'PELOD']].values)
 
-DemographicData_prepared_normal_df = pd.DataFrame(data=DemographicData_normalized_values, columns=DemographicData_prepared_df.columns)
-DemographicData_prepared_normal_df['Study ID'] = DemographicData_prepared_df.index
+# DemographicData_prepared_normal_df = pd.DataFrame(data=DemographicData_normalized_values, columns=DemographicData_prepared_df.columns)
+# DemographicData_prepared_normal_df['Study ID'] = DemographicData_prepared_df.index
 
-first_column = nanoString_normalized_df.pop('Study ID')
-DemographicData_prepared_normal_df.insert(0, 'Study ID', first_column)
+# first_column = nanoString_normalized_df.pop('Study ID')
+# DemographicData_prepared_normal_df.insert(0, 'Study ID', first_column)
+
+DemographicData_prepared_normal_df = DemographicData_prepared_df
+DemographicData_prepared_normal_df['Age_years'] = DemographicData_normalized_values[:,0]
+DemographicData_prepared_normal_df['PRISM'] = DemographicData_normalized_values[:,1]
+DemographicData_prepared_normal_df['PELOD'] = DemographicData_normalized_values[:,2]
 
 
 # Write recipe outputs
 DemographicData_prepared_normal = dataiku.Dataset("DemographicData_prepared_normal")
 DemographicData_prepared_normal.write_with_schema(DemographicData_prepared_normal_df)
-
-
-
-Age_years
-PRISM
-PELOD

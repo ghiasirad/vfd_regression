@@ -43,7 +43,7 @@ def applyLimitOnRemainedFeatures(totalDf, cutoff=0):
 #     featuresDf_nonCorr = fDf
 
 #     print(featuresDf_nonCorr)
-    print(featuresDf_nonCorr.shape)
+#     print(featuresDf_nonCorr.shape)
 #     print(featuresDf_nonCorr.columns)
 
     from sklearn.linear_model import ElasticNetCV

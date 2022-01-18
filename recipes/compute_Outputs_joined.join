@@ -4,7 +4,13 @@
       "table2": 1,
       "table1": 0,
       "conditionsMode": "AND",
-      "type": "LEFT",
+      "rightLimit": {
+        "decisionColumn": {},
+        "maxMatches": 1,
+        "type": "KEEP_LARGEST",
+        "enabled": false
+      },
+      "type": "INNER",
       "outerJoinOnTheLeft": true,
       "on": [
         {
@@ -15,74 +21,6 @@
           "dateDiffUnit": "DAY",
           "column2": {
             "name": "StudyID_Int",
-            "table": 1
-          },
-          "maxMatches": 1,
-          "caseInsensitive": false,
-          "maxDistance": 0,
-          "normalizeText": false,
-          "type": "EQ",
-          "strict": false
-        },
-        {
-          "column1": {
-            "name": "1-Methyl-histidine",
-            "table": 0
-          },
-          "dateDiffUnit": "DAY",
-          "column2": {
-            "name": "1-Methyl-histidine",
-            "table": 1
-          },
-          "maxMatches": 1,
-          "caseInsensitive": false,
-          "maxDistance": 0,
-          "normalizeText": false,
-          "type": "EQ",
-          "strict": false
-        },
-        {
-          "column1": {
-            "name": "3-Hydroxy-tyrosine",
-            "table": 0
-          },
-          "dateDiffUnit": "DAY",
-          "column2": {
-            "name": "3-Hydroxy-tyrosine",
-            "table": 1
-          },
-          "maxMatches": 1,
-          "caseInsensitive": false,
-          "maxDistance": 0,
-          "normalizeText": false,
-          "type": "EQ",
-          "strict": false
-        },
-        {
-          "column1": {
-            "name": "3-Methyl-histidine",
-            "table": 0
-          },
-          "dateDiffUnit": "DAY",
-          "column2": {
-            "name": "3-Methyl-histidine",
-            "table": 1
-          },
-          "maxMatches": 1,
-          "caseInsensitive": false,
-          "maxDistance": 0,
-          "normalizeText": false,
-          "type": "EQ",
-          "strict": false
-        },
-        {
-          "column1": {
-            "name": "4-Aminobenzoic acid",
-            "table": 0
-          },
-          "dateDiffUnit": "DAY",
-          "column2": {
-            "name": "4-Aminobenzoic acid",
             "table": 1
           },
           "maxMatches": 1,

@@ -25,7 +25,7 @@
           "deps": []
         },
         {
-          "ref": "XGB_Output",
+          "ref": "XGB_GradientBoostTree_Output",
           "deps": []
         }
       ]
@@ -43,11 +43,11 @@
   },
   "labels": [],
   "versionTag": {
-    "versionNumber": 9,
+    "versionNumber": 10,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1642487834664
+    "lastModifiedOn": 1642488362217
   },
   "creationTag": {
     "versionNumber": 0,

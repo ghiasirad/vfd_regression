@@ -13,7 +13,15 @@ import matplotlib.pyplot as plt
 # Apply ElasticNet
 def applyLimitOnRemainedFeatures(totalDf, cutoff=0):
     
+    ['Sex', 'Race', 'ECMO', 'Infection Status']
+    
     tgt = totalDf.pop('VFD')
+    
+    sex = totalDf.pop('Sex')
+    sex = totalDf.pop('Race')
+    sex = totalDf.pop('ECMO')
+    sex = totalDf.pop('Infection Status')
+    
     fDf = totalDf
     
     # Create correlation matrix

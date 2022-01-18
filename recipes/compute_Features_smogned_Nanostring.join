@@ -29,7 +29,7 @@
   "selectedColumns": [
     {
       "name": "StudyID_Int",
-      "type": "int",
+      "type": "bigint",
       "table": 0
     },
     {
@@ -299,7 +299,7 @@
     },
     {
       "name": "ECMO",
-      "type": "boolean",
+      "type": "string",
       "table": 0
     },
     {
@@ -309,12 +309,12 @@
     },
     {
       "name": "PRISM",
-      "type": "bigint",
+      "type": "double",
       "table": 0
     },
     {
       "name": "PELOD",
-      "type": "bigint",
+      "type": "double",
       "table": 0
     },
     {
@@ -3414,7 +3414,7 @@
         "columns": [
           {
             "name": "StudyID_Int",
-            "type": "int"
+            "type": "bigint"
           },
           {
             "name": "1-Methyl-histidine",
@@ -3621,18 +3621,16 @@
             "type": "string"
           },
           {
-            "meaning": "race",
             "name": "Race",
             "type": "string"
           },
           {
-            "meaning": "infectionstatus",
             "name": "Infection Status",
             "type": "string"
           },
           {
             "name": "ECMO",
-            "type": "boolean"
+            "type": "string"
           },
           {
             "name": "Age_years",
@@ -3640,11 +3638,11 @@
           },
           {
             "name": "PRISM",
-            "type": "bigint"
+            "type": "double"
           },
           {
             "name": "PELOD",
-            "type": "bigint"
+            "type": "double"
           },
           {
             "name": "VFD",

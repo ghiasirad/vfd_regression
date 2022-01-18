@@ -62,6 +62,37 @@
           "strict": false
         }
       ]
+    },
+    {
+      "table2": 3,
+      "table1": 0,
+      "conditionsMode": "AND",
+      "rightLimit": {
+        "maxMatches": 1,
+        "type": "KEEP_LARGEST",
+        "enabled": false
+      },
+      "type": "INNER",
+      "outerJoinOnTheLeft": true,
+      "on": [
+        {
+          "column1": {
+            "name": "StudyID_Int",
+            "table": 0
+          },
+          "dateDiffUnit": "DAY",
+          "column2": {
+            "name": "StudyID_Int",
+            "table": 3
+          },
+          "maxMatches": 1,
+          "caseInsensitive": false,
+          "maxDistance": 0,
+          "normalizeText": false,
+          "type": "EQ",
+          "strict": false
+        }
+      ]
     }
   ],
   "selectedColumns": [
@@ -202,6 +233,32 @@
         "enabled": true
       },
       "index": 2
+    },
+    {
+      "preFilter": {
+        "uiData": {
+          "mode": "||",
+          "conditions": [
+            {
+              "input": "error",
+              "col": "1-Methyl-histidine",
+              "num": 5,
+              "operator": "\u003e  [number]"
+            },
+            {
+              "input": "StudyID_Int",
+              "col": "1-Methyl-histidine",
+              "num": -5,
+              "operator": "\u003c  [number]"
+            }
+          ]
+        },
+        "$status": {
+          "validated": false
+        },
+        "enabled": true
+      },
+      "index": 3
     }
   ],
   "computedColumns": [],

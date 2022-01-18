@@ -23,6 +23,10 @@
         {
           "ref": "GBT_Output",
           "deps": []
+        },
+        {
+          "ref": "XGB_Output",
+          "deps": []
         }
       ]
     }
@@ -39,11 +43,11 @@
   },
   "labels": [],
   "versionTag": {
-    "versionNumber": 8,
+    "versionNumber": 9,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1642486596289
+    "lastModifiedOn": 1642487834664
   },
   "creationTag": {
     "versionNumber": 0,

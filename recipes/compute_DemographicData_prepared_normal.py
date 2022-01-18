@@ -15,7 +15,6 @@ DemographicData_prepared_df = DemographicData_prepared_df.set_index('Study ID')
 
 # Remove the empty cells and replace them with median of the column
 DemographicData_prepared_df.fillna(DemographicData_prepared_df.median(), inplace=True)
-# nanoString_normalized_values = normalize(nanoString_cleaned_df.values, axis=1, norm='l1')
 min_max_scaler = preprocessing.MinMaxScaler()
 DemographicData_normalized_values = min_max_scaler.fit_transform(DemographicData_prepared_df.values)
 

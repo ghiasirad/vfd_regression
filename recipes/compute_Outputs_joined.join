@@ -98,7 +98,7 @@
               "operator": "\u003e  [number]"
             },
             {
-              "input": "StudyID_Int",
+              "input": "error",
               "col": "1-Methyl-histidine",
               "num": -5,
               "operator": "\u003c  [number]"

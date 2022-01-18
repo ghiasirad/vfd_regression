@@ -79,8 +79,8 @@ def applyLimitOnRemainedFeatures(totalDf, cutoff=0):
         vals.append(remainedColsSorted[-i][1])
 
 #     print(len(keys))
-    print(keys)
-    print(vals)
+#     print(keys)
+#     print(vals)
     
     # Drop the low score columns
     featuresDfReduced = fDf[keys]

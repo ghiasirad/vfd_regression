@@ -59,11 +59,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 4,
+    "versionNumber": 5,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1641797177776
+    "lastModifiedOn": 1642480123376
   },
   "creationTag": {
     "versionNumber": 0,
@@ -88,7 +88,7 @@
     "columns": [
       {
         "name": "StudyID_Int",
-        "type": "int"
+        "type": "bigint"
       },
       {
         "name": "1-Methyl-histidine",
@@ -291,7 +291,7 @@
         "type": "double"
       }
     ],
-    "userModified": true
+    "userModified": false
   },
   "dkuProperties": [],
   "metrics": {

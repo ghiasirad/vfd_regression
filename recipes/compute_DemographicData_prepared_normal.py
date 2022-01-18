@@ -40,16 +40,16 @@ DemographicData_prepared_df.fillna(DemographicData_prepared_df.median(), inplace
 min_max_scaler = preprocessing.MinMaxScaler()
 DemographicData_normalized_values = min_max_scaler.fit_transform(DemographicData_prepared_df.values)
 
-nanoString_normalized_df = pd.DataFrame(data=DemographicData_normalized_values, columns=DemographicData_prepared_df.columns)
-nanoString_normalized_df['StudyID'] = DemographicData_prepared_df.index
+DemographicData_prepared_normal_df = pd.DataFrame(data=DemographicData_normalized_values, columns=DemographicData_prepared_df.columns)
+DemographicData_prepared_normal_df['StudyID'] = DemographicData_prepared_df.index
 
 first_column = nanoString_normalized_df.pop('StudyID')
-nanoString_normalized_df.insert(0, 'StudyID', first_column)
+DemographicData_prepared_normal_df.insert(0, 'StudyID', first_column)
 
 
 # Write recipe outputs
-nanoStringDf_normalized = dataiku.Dataset("nanoStringDf_normalized")
-nanoStringDf_normalized.write_with_schema(nanoString_normalized_df)
+DemographicData_prepared_normal = dataiku.Dataset("DemographicData_prepared_normal")
+DemographicData_prepared_normal.write_with_schema(DemographicData_prepared_normal_df)
 
 
 

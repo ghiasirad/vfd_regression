@@ -11,7 +11,7 @@ DemographicData_prepared_df = DemographicData_prepared.get_dataframe()
 
 
 # Normalize and return it as a dataframe
-DemographicData_prepared_df = DemographicData_prepared_df.set_index('Study ID')
+DemographicData_prepared_df = DemographicData_prepared_df
 
 # Remove the empty cells and replace them with median of the column
 DemographicData_prepared_df.fillna(DemographicData_prepared_df.median(), inplace=True)

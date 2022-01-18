@@ -18,9 +18,9 @@ def applyLimitOnRemainedFeatures(totalDf, cutoff=0):
     tgt = totalDf.pop('VFD')
     
     sex = totalDf.pop('Sex')
-    sex = totalDf.pop('Race')
-    sex = totalDf.pop('ECMO')
-    sex = totalDf.pop('Infection Status')
+    race = totalDf.pop('Race')
+    ecmo = totalDf.pop('ECMO')
+    infection = totalDf.pop('Infection Status')
     
     fDf = totalDf
     

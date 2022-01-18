@@ -20,7 +20,7 @@ min_max_scaler = preprocessing.MinMaxScaler()
 DemographicData_normalized_values = min_max_scaler.fit_transform(DemographicData_prepared_df.values)
 
 DemographicData_prepared_normal_df = pd.DataFrame(data=DemographicData_normalized_values, columns=DemographicData_prepared_df.columns)
-DemographicData_prepared_normal_df['StudyID'] = DemographicData_prepared_df.index
+DemographicData_prepared_normal_df['Study ID'] = DemographicData_prepared_df.index
 
 first_column = nanoString_normalized_df.pop('Study ID')
 DemographicData_prepared_normal_df.insert(0, 'Study ID', first_column)

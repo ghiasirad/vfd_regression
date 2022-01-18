@@ -59,11 +59,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 7,
+    "versionNumber": 8,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1641797289257
+    "lastModifiedOn": 1642481330049
   },
   "creationTag": {
     "versionNumber": 0,
@@ -88,7 +88,7 @@
     "columns": [
       {
         "name": "StudyID_Int",
-        "type": "int"
+        "type": "bigint"
       },
       {
         "name": "1-Methyl-histidine",
@@ -291,37 +291,7 @@
         "type": "double"
       },
       {
-        "name": "Sex",
-        "type": "string"
-      },
-      {
-        "name": "Race",
-        "type": "string",
-        "meaning": "race"
-      },
-      {
-        "name": "Infection Status",
-        "type": "string",
-        "meaning": "infectionstatus"
-      },
-      {
-        "name": "ECMO",
-        "type": "boolean"
-      },
-      {
-        "name": "Age_years",
-        "type": "double"
-      },
-      {
-        "name": "PRISM",
-        "type": "bigint"
-      },
-      {
-        "name": "PELOD",
-        "type": "bigint"
-      },
-      {
-        "name": "VFD",
+        "name": "Study ID",
         "type": "bigint"
       }
     ],

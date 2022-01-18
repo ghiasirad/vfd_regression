@@ -33,7 +33,7 @@ def applyLimitOnRemainedFeatures(totalDf, cutoff=0):
     # print(upper)
 
     # Find index of feature columns with correlation greater than 0.95
-    to_drop = [column for column in upper.columns if any(upper[column] > 0.8)]
+    to_drop = [column for column in upper.columns if any(upper[column] > cutoff)]
 
 #     print(to_drop)
     # print(len(to_drop))

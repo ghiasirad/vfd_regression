@@ -38,10 +38,10 @@ DemographicData_prepared_df = DemographicData_prepared_df.set_index('StudyID')
 DemographicData_prepared_df.fillna(DemographicData_prepared_df.median(), inplace=True)
 # nanoString_normalized_values = normalize(nanoString_cleaned_df.values, axis=1, norm='l1')
 min_max_scaler = preprocessing.MinMaxScaler()
-nanoString_normalized_values = min_max_scaler.fit_transform(DemographicData_prepared_df.values)
+DemographicData_normalized_values = min_max_scaler.fit_transform(DemographicData_prepared_df.values)
 
-nanoString_normalized_df = pd.DataFrame(data=nanoString_normalized_values, columns=nanoString_cleaned_df.columns)
-nanoString_normalized_df['StudyIDUniversal'] = nanoString_cleaned_df.index
+nanoString_normalized_df = pd.DataFrame(data=DemographicData_normalized_values, columns=DemographicData_prepared_df.columns)
+nanoString_normalized_df['StudyID'] = nanoString_cleaned_df.index
 
 first_column = nanoString_normalized_df.pop('StudyIDUniversal')
 nanoString_normalized_df.insert(0, 'StudyIDUniversal', first_column)

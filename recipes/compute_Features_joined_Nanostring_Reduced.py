@@ -96,7 +96,7 @@ def applyLimitOnRemainedFeatures(totalDf, cutoff=0):
     
     return keys, featuresDfReducedSmoteTotal
 
-keysReturned, Features_joined_Nanostring_df = applyLimitOnRemainedFeatures(Features_joined_Nanostring_df, cutoff = 0.5)
+keysReturned, Features_joined_Nanostring_df = applyLimitOnRemainedFeatures(Features_joined_Nanostring_df)
 
 Features_joined_Nanostring_Reduced_df = Features_joined_Nanostring_df # For this sample code, simply copy input to output
 

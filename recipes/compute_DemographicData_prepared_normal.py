@@ -41,10 +41,10 @@ min_max_scaler = preprocessing.MinMaxScaler()
 DemographicData_normalized_values = min_max_scaler.fit_transform(DemographicData_prepared_df.values)
 
 nanoString_normalized_df = pd.DataFrame(data=DemographicData_normalized_values, columns=DemographicData_prepared_df.columns)
-nanoString_normalized_df['StudyID'] = nanoString_cleaned_df.index
+nanoString_normalized_df['StudyID'] = DemographicData_prepared_df.index
 
-first_column = nanoString_normalized_df.pop('StudyIDUniversal')
-nanoString_normalized_df.insert(0, 'StudyIDUniversal', first_column)
+first_column = nanoString_normalized_df.pop('StudyID')
+nanoString_normalized_df.insert(0, 'StudyID', first_column)
 
 
 # Write recipe outputs

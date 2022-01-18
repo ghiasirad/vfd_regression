@@ -1,0 +1,2760 @@
+{
+  "joins": [
+    {
+      "table2": 1,
+      "table1": 0,
+      "conditionsMode": "AND",
+      "type": "LEFT",
+      "outerJoinOnTheLeft": true,
+      "on": []
+    }
+  ],
+  "selectedColumns": [
+    {
+      "name": "StudyID_Int",
+      "table": 0
+    },
+    {
+      "name": "1-Methyl-histidine",
+      "table": 0
+    },
+    {
+      "name": "3-Hydroxy-tyrosine",
+      "table": 0
+    },
+    {
+      "name": "3-Methyl-histidine",
+      "table": 0
+    },
+    {
+      "name": "4-Aminobenzoic acid",
+      "table": 0
+    },
+    {
+      "name": "4-Aminobutyric acid",
+      "table": 0
+    },
+    {
+      "name": "4-Hydroxyproline",
+      "table": 0
+    },
+    {
+      "name": "Alanine",
+      "table": 0
+    },
+    {
+      "name": "Alanyl-alanine",
+      "table": 0
+    },
+    {
+      "name": "α-Aminoadipic acid",
+      "table": 0
+    },
+    {
+      "name": "α-Aminobutyric acid",
+      "table": 0
+    },
+    {
+      "name": "Anserine",
+      "table": 0
+    },
+    {
+      "name": "Arginine",
+      "table": 0
+    },
+    {
+      "name": "Asparagine",
+      "table": 0
+    },
+    {
+      "name": "Aspartic acid",
+      "table": 0
+    },
+    {
+      "name": "β-Alanine",
+      "table": 0
+    },
+    {
+      "name": "β-Aminobutyric acid",
+      "table": 0
+    },
+    {
+      "name": "β-Aminoisobutyric acid",
+      "table": 0
+    },
+    {
+      "name": "Carnosine",
+      "table": 0
+    },
+    {
+      "name": "Citrulline",
+      "table": 0
+    },
+    {
+      "name": "Cysteine",
+      "table": 0
+    },
+    {
+      "name": "Cystine",
+      "table": 0
+    },
+    {
+      "name": "Ethanolamine",
+      "table": 0
+    },
+    {
+      "name": "γ-Glutamyl-ε-lysine",
+      "table": 0
+    },
+    {
+      "name": "Glutamic acid",
+      "table": 0
+    },
+    {
+      "name": "Glutamine",
+      "table": 0
+    },
+    {
+      "name": "Glycine",
+      "table": 0
+    },
+    {
+      "name": "Glycine-proline",
+      "table": 0
+    },
+    {
+      "name": "Histamine",
+      "table": 0
+    },
+    {
+      "name": "Histidine",
+      "table": 0
+    },
+    {
+      "name": "Homocystine",
+      "table": 0
+    },
+    {
+      "name": "Homoserine",
+      "table": 0
+    },
+    {
+      "name": "Isoleucine",
+      "table": 0
+    },
+    {
+      "name": "Leucine",
+      "table": 0
+    },
+    {
+      "name": "Lysine",
+      "table": 0
+    },
+    {
+      "name": "Methionine",
+      "table": 0
+    },
+    {
+      "name": "Methionine sulfoxide",
+      "table": 0
+    },
+    {
+      "name": "Ornithine",
+      "table": 0
+    },
+    {
+      "name": "Phenylalanine",
+      "table": 0
+    },
+    {
+      "name": "Pipecolic acid",
+      "table": 0
+    },
+    {
+      "name": "Proline",
+      "table": 0
+    },
+    {
+      "name": "Proline-hydroxyproline",
+      "table": 0
+    },
+    {
+      "name": "Pyroglutamic acid",
+      "table": 0
+    },
+    {
+      "name": "Sarcosine",
+      "table": 0
+    },
+    {
+      "name": "Seleno-methionine",
+      "table": 0
+    },
+    {
+      "name": "Serine",
+      "table": 0
+    },
+    {
+      "name": "Thiaproline",
+      "table": 0
+    },
+    {
+      "name": "Threonine",
+      "table": 0
+    },
+    {
+      "name": "Tryptophan",
+      "table": 0
+    },
+    {
+      "name": "Tyrosine",
+      "table": 0
+    },
+    {
+      "name": "Valine",
+      "table": 0
+    },
+    {
+      "name": "Sex",
+      "table": 0
+    },
+    {
+      "name": "Race",
+      "table": 0
+    },
+    {
+      "name": "Infection Status",
+      "table": 0
+    },
+    {
+      "name": "ECMO",
+      "table": 0
+    },
+    {
+      "name": "Age_years",
+      "table": 0
+    },
+    {
+      "name": "PRISM",
+      "table": 0
+    },
+    {
+      "name": "PELOD",
+      "table": 0
+    },
+    {
+      "name": "VFD",
+      "table": 0
+    },
+    {
+      "name": "ABCB1",
+      "table": 0
+    },
+    {
+      "name": "ABL1",
+      "table": 0
+    },
+    {
+      "name": "ADA",
+      "table": 0
+    },
+    {
+      "name": "AHR",
+      "table": 0
+    },
+    {
+      "name": "AICDA",
+      "table": 0
+    },
+    {
+      "name": "AIRE",
+      "table": 0
+    },
+    {
+      "name": "APP",
+      "table": 0
+    },
+    {
+      "name": "ARG1",
+      "table": 0
+    },
+    {
+      "name": "ARG2",
+      "table": 0
+    },
+    {
+      "name": "ARHGDIB",
+      "table": 0
+    },
+    {
+      "name": "ATG10",
+      "table": 0
+    },
+    {
+      "name": "ATG12",
+      "table": 0
+    },
+    {
+      "name": "ATG16L1",
+      "table": 0
+    },
+    {
+      "name": "ATG5",
+      "table": 0
+    },
+    {
+      "name": "ATG7",
+      "table": 0
+    },
+    {
+      "name": "ATM",
+      "table": 0
+    },
+    {
+      "name": "B2M",
+      "table": 0
+    },
+    {
+      "name": "B3GAT1",
+      "table": 0
+    },
+    {
+      "name": "BATF",
+      "table": 0
+    },
+    {
+      "name": "BATF3",
+      "table": 0
+    },
+    {
+      "name": "BAX",
+      "table": 0
+    },
+    {
+      "name": "BCAP31",
+      "table": 0
+    },
+    {
+      "name": "BCL10",
+      "table": 0
+    },
+    {
+      "name": "BCL2",
+      "table": 0
+    },
+    {
+      "name": "BCL2L11",
+      "table": 0
+    },
+    {
+      "name": "BCL3",
+      "table": 0
+    },
+    {
+      "name": "BCL6",
+      "table": 0
+    },
+    {
+      "name": "BID",
+      "table": 0
+    },
+    {
+      "name": "BLNK",
+      "table": 0
+    },
+    {
+      "name": "BST1",
+      "table": 0
+    },
+    {
+      "name": "BST2",
+      "table": 0
+    },
+    {
+      "name": "BTK",
+      "table": 0
+    },
+    {
+      "name": "BTLA",
+      "table": 0
+    },
+    {
+      "name": "C14orf166",
+      "table": 0
+    },
+    {
+      "name": "C1QA",
+      "table": 0
+    },
+    {
+      "name": "C1QB",
+      "table": 0
+    },
+    {
+      "name": "C1QBP",
+      "table": 0
+    },
+    {
+      "name": "C1R",
+      "table": 0
+    },
+    {
+      "name": "C1S",
+      "table": 0
+    },
+    {
+      "name": "C2",
+      "table": 0
+    },
+    {
+      "name": "C3",
+      "table": 0
+    },
+    {
+      "name": "C4A/B",
+      "table": 0
+    },
+    {
+      "name": "C4BPA",
+      "table": 0
+    },
+    {
+      "name": "C5",
+      "table": 0
+    },
+    {
+      "name": "C6",
+      "table": 0
+    },
+    {
+      "name": "C7",
+      "table": 0
+    },
+    {
+      "name": "C8A",
+      "table": 0
+    },
+    {
+      "name": "C8B",
+      "table": 0
+    },
+    {
+      "name": "C8G",
+      "table": 0
+    },
+    {
+      "name": "C9",
+      "table": 0
+    },
+    {
+      "name": "CAMP",
+      "table": 0
+    },
+    {
+      "name": "CARD9",
+      "table": 0
+    },
+    {
+      "name": "CASP1",
+      "table": 0
+    },
+    {
+      "name": "CASP10",
+      "table": 0
+    },
+    {
+      "name": "CASP2",
+      "table": 0
+    },
+    {
+      "name": "CASP3",
+      "table": 0
+    },
+    {
+      "name": "CASP8",
+      "table": 0
+    },
+    {
+      "name": "CCBP2",
+      "table": 0
+    },
+    {
+      "name": "CCL11",
+      "table": 0
+    },
+    {
+      "name": "CCL13",
+      "table": 0
+    },
+    {
+      "name": "CCL15",
+      "table": 0
+    },
+    {
+      "name": "CCL16",
+      "table": 0
+    },
+    {
+      "name": "CCL18",
+      "table": 0
+    },
+    {
+      "name": "CCL19",
+      "table": 0
+    },
+    {
+      "name": "CCL2",
+      "table": 0
+    },
+    {
+      "name": "CCL20",
+      "table": 0
+    },
+    {
+      "name": "CCL22",
+      "table": 0
+    },
+    {
+      "name": "CCL23",
+      "table": 0
+    },
+    {
+      "name": "CCL24",
+      "table": 0
+    },
+    {
+      "name": "CCL26",
+      "table": 0
+    },
+    {
+      "name": "CCL3",
+      "table": 0
+    },
+    {
+      "name": "CCL4",
+      "table": 0
+    },
+    {
+      "name": "CCL5",
+      "table": 0
+    },
+    {
+      "name": "CCL7",
+      "table": 0
+    },
+    {
+      "name": "CCL8",
+      "table": 0
+    },
+    {
+      "name": "CCND3",
+      "table": 0
+    },
+    {
+      "name": "CCR1",
+      "table": 0
+    },
+    {
+      "name": "CCR10",
+      "table": 0
+    },
+    {
+      "name": "CCR2",
+      "table": 0
+    },
+    {
+      "name": "CCR5",
+      "table": 0
+    },
+    {
+      "name": "CCR6",
+      "table": 0
+    },
+    {
+      "name": "CCR7",
+      "table": 0
+    },
+    {
+      "name": "CCR8",
+      "table": 0
+    },
+    {
+      "name": "CCRL1",
+      "table": 0
+    },
+    {
+      "name": "CCRL2",
+      "table": 0
+    },
+    {
+      "name": "CD14",
+      "table": 0
+    },
+    {
+      "name": "CD160",
+      "table": 0
+    },
+    {
+      "name": "CD163",
+      "table": 0
+    },
+    {
+      "name": "CD164",
+      "table": 0
+    },
+    {
+      "name": "CD19",
+      "table": 0
+    },
+    {
+      "name": "CD1A",
+      "table": 0
+    },
+    {
+      "name": "CD1D",
+      "table": 0
+    },
+    {
+      "name": "CD2",
+      "table": 0
+    },
+    {
+      "name": "CD209",
+      "table": 0
+    },
+    {
+      "name": "CD22",
+      "table": 0
+    },
+    {
+      "name": "CD24",
+      "table": 0
+    },
+    {
+      "name": "CD244",
+      "table": 0
+    },
+    {
+      "name": "CD247",
+      "table": 0
+    },
+    {
+      "name": "CD27",
+      "table": 0
+    },
+    {
+      "name": "CD274",
+      "table": 0
+    },
+    {
+      "name": "CD276",
+      "table": 0
+    },
+    {
+      "name": "CD28",
+      "table": 0
+    },
+    {
+      "name": "CD34",
+      "table": 0
+    },
+    {
+      "name": "CD36",
+      "table": 0
+    },
+    {
+      "name": "CD3D",
+      "table": 0
+    },
+    {
+      "name": "CD3E",
+      "table": 0
+    },
+    {
+      "name": "CD3EAP",
+      "table": 0
+    },
+    {
+      "name": "CD4",
+      "table": 0
+    },
+    {
+      "name": "CD40",
+      "table": 0
+    },
+    {
+      "name": "CD40LG",
+      "table": 0
+    },
+    {
+      "name": "CD44",
+      "table": 0
+    },
+    {
+      "name": "CD45R0",
+      "table": 0
+    },
+    {
+      "name": "CD45RA",
+      "table": 0
+    },
+    {
+      "name": "CD45RB",
+      "table": 0
+    },
+    {
+      "name": "CD46",
+      "table": 0
+    },
+    {
+      "name": "CD48",
+      "table": 0
+    },
+    {
+      "name": "CD5",
+      "table": 0
+    },
+    {
+      "name": "CD53",
+      "table": 0
+    },
+    {
+      "name": "CD55",
+      "table": 0
+    },
+    {
+      "name": "CD58",
+      "table": 0
+    },
+    {
+      "name": "CD59",
+      "table": 0
+    },
+    {
+      "name": "CD6",
+      "table": 0
+    },
+    {
+      "name": "CD7",
+      "table": 0
+    },
+    {
+      "name": "CD70",
+      "table": 0
+    },
+    {
+      "name": "CD74",
+      "table": 0
+    },
+    {
+      "name": "CD79A",
+      "table": 0
+    },
+    {
+      "name": "CD79B",
+      "table": 0
+    },
+    {
+      "name": "CD80",
+      "table": 0
+    },
+    {
+      "name": "CD81",
+      "table": 0
+    },
+    {
+      "name": "CD82",
+      "table": 0
+    },
+    {
+      "name": "CD83",
+      "table": 0
+    },
+    {
+      "name": "CD86",
+      "table": 0
+    },
+    {
+      "name": "CD8A",
+      "table": 0
+    },
+    {
+      "name": "CD8B",
+      "table": 0
+    },
+    {
+      "name": "CD9",
+      "table": 0
+    },
+    {
+      "name": "CD96",
+      "table": 0
+    },
+    {
+      "name": "CD97",
+      "table": 0
+    },
+    {
+      "name": "CD99",
+      "table": 0
+    },
+    {
+      "name": "CDH5",
+      "table": 0
+    },
+    {
+      "name": "CDKN1A",
+      "table": 0
+    },
+    {
+      "name": "CEACAM1",
+      "table": 0
+    },
+    {
+      "name": "CEACAM6",
+      "table": 0
+    },
+    {
+      "name": "CEACAM8",
+      "table": 0
+    },
+    {
+      "name": "CEBPB",
+      "table": 0
+    },
+    {
+      "name": "CFB",
+      "table": 0
+    },
+    {
+      "name": "CFD",
+      "table": 0
+    },
+    {
+      "name": "CFH",
+      "table": 0
+    },
+    {
+      "name": "CFI",
+      "table": 0
+    },
+    {
+      "name": "CFP",
+      "table": 0
+    },
+    {
+      "name": "CHUK",
+      "table": 0
+    },
+    {
+      "name": "CIITA",
+      "table": 0
+    },
+    {
+      "name": "CISH",
+      "table": 0
+    },
+    {
+      "name": "CLEC4A",
+      "table": 0
+    },
+    {
+      "name": "CLEC4E",
+      "table": 0
+    },
+    {
+      "name": "CLEC5A",
+      "table": 0
+    },
+    {
+      "name": "CLEC6A",
+      "table": 0
+    },
+    {
+      "name": "CLEC7A",
+      "table": 0
+    },
+    {
+      "name": "CLU",
+      "table": 0
+    },
+    {
+      "name": "CMKLR1",
+      "table": 0
+    },
+    {
+      "name": "CR1",
+      "table": 0
+    },
+    {
+      "name": "CR2",
+      "table": 0
+    },
+    {
+      "name": "CRADD",
+      "table": 0
+    },
+    {
+      "name": "CSF1",
+      "table": 0
+    },
+    {
+      "name": "CSF1R",
+      "table": 0
+    },
+    {
+      "name": "CSF2",
+      "table": 0
+    },
+    {
+      "name": "CSF2RB",
+      "table": 0
+    },
+    {
+      "name": "CSF3R",
+      "table": 0
+    },
+    {
+      "name": "CTLA4-TM",
+      "table": 0
+    },
+    {
+      "name": "CTLA4_all",
+      "table": 0
+    },
+    {
+      "name": "CTNNB1",
+      "table": 0
+    },
+    {
+      "name": "CTSC",
+      "table": 0
+    },
+    {
+      "name": "CTSG",
+      "table": 0
+    },
+    {
+      "name": "CTSS",
+      "table": 0
+    },
+    {
+      "name": "CUL9",
+      "table": 0
+    },
+    {
+      "name": "CX3CL1",
+      "table": 0
+    },
+    {
+      "name": "CX3CR1",
+      "table": 0
+    },
+    {
+      "name": "CXCL1",
+      "table": 0
+    },
+    {
+      "name": "CXCL10",
+      "table": 0
+    },
+    {
+      "name": "CXCL11",
+      "table": 0
+    },
+    {
+      "name": "CXCL12",
+      "table": 0
+    },
+    {
+      "name": "CXCL13",
+      "table": 0
+    },
+    {
+      "name": "CXCL2",
+      "table": 0
+    },
+    {
+      "name": "CXCL9",
+      "table": 0
+    },
+    {
+      "name": "CXCR1",
+      "table": 0
+    },
+    {
+      "name": "CXCR2",
+      "table": 0
+    },
+    {
+      "name": "CXCR3",
+      "table": 0
+    },
+    {
+      "name": "CXCR4",
+      "table": 0
+    },
+    {
+      "name": "CXCR6",
+      "table": 0
+    },
+    {
+      "name": "CYBB",
+      "table": 0
+    },
+    {
+      "name": "DEFB1",
+      "table": 0
+    },
+    {
+      "name": "DEFB103A",
+      "table": 0
+    },
+    {
+      "name": "DEFB103B",
+      "table": 0
+    },
+    {
+      "name": "DEFB4A",
+      "table": 0
+    },
+    {
+      "name": "DPP4",
+      "table": 0
+    },
+    {
+      "name": "DUSP4",
+      "table": 0
+    },
+    {
+      "name": "EBI3",
+      "table": 0
+    },
+    {
+      "name": "EDNRB",
+      "table": 0
+    },
+    {
+      "name": "EGR1",
+      "table": 0
+    },
+    {
+      "name": "EGR2",
+      "table": 0
+    },
+    {
+      "name": "ENTPD1",
+      "table": 0
+    },
+    {
+      "name": "EOMES",
+      "table": 0
+    },
+    {
+      "name": "ETS1",
+      "table": 0
+    },
+    {
+      "name": "FADD",
+      "table": 0
+    },
+    {
+      "name": "FAS",
+      "table": 0
+    },
+    {
+      "name": "FCAR",
+      "table": 0
+    },
+    {
+      "name": "FCER1A",
+      "table": 0
+    },
+    {
+      "name": "FCER1G",
+      "table": 0
+    },
+    {
+      "name": "FCGR1A/B",
+      "table": 0
+    },
+    {
+      "name": "FCGR2A",
+      "table": 0
+    },
+    {
+      "name": "FCGR2A/C",
+      "table": 0
+    },
+    {
+      "name": "FCGR2B",
+      "table": 0
+    },
+    {
+      "name": "FCGR3A/B",
+      "table": 0
+    },
+    {
+      "name": "FCGRT",
+      "table": 0
+    },
+    {
+      "name": "FKBP5",
+      "table": 0
+    },
+    {
+      "name": "FN1",
+      "table": 0
+    },
+    {
+      "name": "FOXP3",
+      "table": 0
+    },
+    {
+      "name": "FYN",
+      "table": 0
+    },
+    {
+      "name": "GATA3",
+      "table": 0
+    },
+    {
+      "name": "GBP1",
+      "table": 0
+    },
+    {
+      "name": "GBP5",
+      "table": 0
+    },
+    {
+      "name": "GFI1",
+      "table": 0
+    },
+    {
+      "name": "GNLY",
+      "table": 0
+    },
+    {
+      "name": "GP1BB",
+      "table": 0
+    },
+    {
+      "name": "GPI",
+      "table": 0
+    },
+    {
+      "name": "GPR183",
+      "table": 0
+    },
+    {
+      "name": "GZMA",
+      "table": 0
+    },
+    {
+      "name": "GZMB",
+      "table": 0
+    },
+    {
+      "name": "GZMK",
+      "table": 0
+    },
+    {
+      "name": "HAMP",
+      "table": 0
+    },
+    {
+      "name": "HAVCR2",
+      "table": 0
+    },
+    {
+      "name": "HFE",
+      "table": 0
+    },
+    {
+      "name": "HLA-A",
+      "table": 0
+    },
+    {
+      "name": "HLA-B",
+      "table": 0
+    },
+    {
+      "name": "HLA-C",
+      "table": 0
+    },
+    {
+      "name": "HLA-DMA",
+      "table": 0
+    },
+    {
+      "name": "HLA-DMB",
+      "table": 0
+    },
+    {
+      "name": "HLA-DOB",
+      "table": 0
+    },
+    {
+      "name": "HLA-DPA1",
+      "table": 0
+    },
+    {
+      "name": "HLA-DPB1",
+      "table": 0
+    },
+    {
+      "name": "HLA-DQA1",
+      "table": 0
+    },
+    {
+      "name": "HLA-DQB1",
+      "table": 0
+    },
+    {
+      "name": "HLA-DRA",
+      "table": 0
+    },
+    {
+      "name": "HLA-DRB1",
+      "table": 0
+    },
+    {
+      "name": "HLA-DRB3",
+      "table": 0
+    },
+    {
+      "name": "HRAS",
+      "table": 0
+    },
+    {
+      "name": "ICAM1",
+      "table": 0
+    },
+    {
+      "name": "ICAM2",
+      "table": 0
+    },
+    {
+      "name": "ICAM3",
+      "table": 0
+    },
+    {
+      "name": "ICAM4",
+      "table": 0
+    },
+    {
+      "name": "ICAM5",
+      "table": 0
+    },
+    {
+      "name": "ICOS",
+      "table": 0
+    },
+    {
+      "name": "ICOSLG",
+      "table": 0
+    },
+    {
+      "name": "IDO1",
+      "table": 0
+    },
+    {
+      "name": "IFI16",
+      "table": 0
+    },
+    {
+      "name": "IFI35",
+      "table": 0
+    },
+    {
+      "name": "IFIH1",
+      "table": 0
+    },
+    {
+      "name": "IFIT2",
+      "table": 0
+    },
+    {
+      "name": "IFITM1",
+      "table": 0
+    },
+    {
+      "name": "IFNA1/13",
+      "table": 0
+    },
+    {
+      "name": "IFNA2",
+      "table": 0
+    },
+    {
+      "name": "IFNAR1",
+      "table": 0
+    },
+    {
+      "name": "IFNAR2",
+      "table": 0
+    },
+    {
+      "name": "IFNB1",
+      "table": 0
+    },
+    {
+      "name": "IFNG",
+      "table": 0
+    },
+    {
+      "name": "IFNGR1",
+      "table": 0
+    },
+    {
+      "name": "IGF2R",
+      "table": 0
+    },
+    {
+      "name": "IKBKAP",
+      "table": 0
+    },
+    {
+      "name": "IKBKB",
+      "table": 0
+    },
+    {
+      "name": "IKBKE",
+      "table": 0
+    },
+    {
+      "name": "IKBKG",
+      "table": 0
+    },
+    {
+      "name": "IKZF1",
+      "table": 0
+    },
+    {
+      "name": "IKZF2",
+      "table": 0
+    },
+    {
+      "name": "IKZF3",
+      "table": 0
+    },
+    {
+      "name": "IL10",
+      "table": 0
+    },
+    {
+      "name": "IL10RA",
+      "table": 0
+    },
+    {
+      "name": "IL11RA",
+      "table": 0
+    },
+    {
+      "name": "IL12A",
+      "table": 0
+    },
+    {
+      "name": "IL12B",
+      "table": 0
+    },
+    {
+      "name": "IL12RB1",
+      "table": 0
+    },
+    {
+      "name": "IL13",
+      "table": 0
+    },
+    {
+      "name": "IL13RA1",
+      "table": 0
+    },
+    {
+      "name": "IL15",
+      "table": 0
+    },
+    {
+      "name": "IL16",
+      "table": 0
+    },
+    {
+      "name": "IL17A",
+      "table": 0
+    },
+    {
+      "name": "IL17B",
+      "table": 0
+    },
+    {
+      "name": "IL17F",
+      "table": 0
+    },
+    {
+      "name": "IL18",
+      "table": 0
+    },
+    {
+      "name": "IL18R1",
+      "table": 0
+    },
+    {
+      "name": "IL18RAP",
+      "table": 0
+    },
+    {
+      "name": "IL19",
+      "table": 0
+    },
+    {
+      "name": "IL1A",
+      "table": 0
+    },
+    {
+      "name": "IL1B",
+      "table": 0
+    },
+    {
+      "name": "IL1R1",
+      "table": 0
+    },
+    {
+      "name": "IL1R2",
+      "table": 0
+    },
+    {
+      "name": "IL1RAP",
+      "table": 0
+    },
+    {
+      "name": "IL1RL1",
+      "table": 0
+    },
+    {
+      "name": "IL1RL2",
+      "table": 0
+    },
+    {
+      "name": "IL1RN",
+      "table": 0
+    },
+    {
+      "name": "IL2",
+      "table": 0
+    },
+    {
+      "name": "IL20",
+      "table": 0
+    },
+    {
+      "name": "IL21",
+      "table": 0
+    },
+    {
+      "name": "IL21R",
+      "table": 0
+    },
+    {
+      "name": "IL22",
+      "table": 0
+    },
+    {
+      "name": "IL22RA2",
+      "table": 0
+    },
+    {
+      "name": "IL23A",
+      "table": 0
+    },
+    {
+      "name": "IL23R",
+      "table": 0
+    },
+    {
+      "name": "IL26",
+      "table": 0
+    },
+    {
+      "name": "IL27",
+      "table": 0
+    },
+    {
+      "name": "IL28A",
+      "table": 0
+    },
+    {
+      "name": "IL28A/B",
+      "table": 0
+    },
+    {
+      "name": "IL29",
+      "table": 0
+    },
+    {
+      "name": "IL2RA",
+      "table": 0
+    },
+    {
+      "name": "IL2RB",
+      "table": 0
+    },
+    {
+      "name": "IL2RG",
+      "table": 0
+    },
+    {
+      "name": "IL3",
+      "table": 0
+    },
+    {
+      "name": "IL32",
+      "table": 0
+    },
+    {
+      "name": "IL4",
+      "table": 0
+    },
+    {
+      "name": "IL4R",
+      "table": 0
+    },
+    {
+      "name": "IL5",
+      "table": 0
+    },
+    {
+      "name": "IL6",
+      "table": 0
+    },
+    {
+      "name": "IL6R",
+      "table": 0
+    },
+    {
+      "name": "IL6ST",
+      "table": 0
+    },
+    {
+      "name": "IL7",
+      "table": 0
+    },
+    {
+      "name": "IL7R",
+      "table": 0
+    },
+    {
+      "name": "IL8",
+      "table": 0
+    },
+    {
+      "name": "IL9",
+      "table": 0
+    },
+    {
+      "name": "ILF3",
+      "table": 0
+    },
+    {
+      "name": "IRAK1",
+      "table": 0
+    },
+    {
+      "name": "IRAK2",
+      "table": 0
+    },
+    {
+      "name": "IRAK3",
+      "table": 0
+    },
+    {
+      "name": "IRAK4",
+      "table": 0
+    },
+    {
+      "name": "IRF1",
+      "table": 0
+    },
+    {
+      "name": "IRF3",
+      "table": 0
+    },
+    {
+      "name": "IRF4",
+      "table": 0
+    },
+    {
+      "name": "IRF5",
+      "table": 0
+    },
+    {
+      "name": "IRF7",
+      "table": 0
+    },
+    {
+      "name": "IRF8",
+      "table": 0
+    },
+    {
+      "name": "IRGM",
+      "table": 0
+    },
+    {
+      "name": "ITGA2B",
+      "table": 0
+    },
+    {
+      "name": "ITGA4",
+      "table": 0
+    },
+    {
+      "name": "ITGA5",
+      "table": 0
+    },
+    {
+      "name": "ITGA6",
+      "table": 0
+    },
+    {
+      "name": "ITGAE",
+      "table": 0
+    },
+    {
+      "name": "ITGAL",
+      "table": 0
+    },
+    {
+      "name": "ITGAM",
+      "table": 0
+    },
+    {
+      "name": "ITGAX",
+      "table": 0
+    },
+    {
+      "name": "ITGB1",
+      "table": 0
+    },
+    {
+      "name": "ITGB2",
+      "table": 0
+    },
+    {
+      "name": "ITLN1",
+      "table": 0
+    },
+    {
+      "name": "ITLN2",
+      "table": 0
+    },
+    {
+      "name": "JAK1",
+      "table": 0
+    },
+    {
+      "name": "JAK2",
+      "table": 0
+    },
+    {
+      "name": "JAK3",
+      "table": 0
+    },
+    {
+      "name": "KCNJ2",
+      "table": 0
+    },
+    {
+      "name": "KIR3DL1",
+      "table": 0
+    },
+    {
+      "name": "KIR3DL2",
+      "table": 0
+    },
+    {
+      "name": "KIR3DL3",
+      "table": 0
+    },
+    {
+      "name": "KIR_Activating_Subgroup_1",
+      "table": 0
+    },
+    {
+      "name": "KIR_Activating_Subgroup_2",
+      "table": 0
+    },
+    {
+      "name": "KIR_Inhibiting_Subgroup_1",
+      "table": 0
+    },
+    {
+      "name": "KIR_Inhibiting_Subgroup_2",
+      "table": 0
+    },
+    {
+      "name": "KIT",
+      "table": 0
+    },
+    {
+      "name": "KLRAP1",
+      "table": 0
+    },
+    {
+      "name": "KLRB1",
+      "table": 0
+    },
+    {
+      "name": "KLRC1",
+      "table": 0
+    },
+    {
+      "name": "KLRC2",
+      "table": 0
+    },
+    {
+      "name": "KLRC3",
+      "table": 0
+    },
+    {
+      "name": "KLRC4",
+      "table": 0
+    },
+    {
+      "name": "KLRD1",
+      "table": 0
+    },
+    {
+      "name": "KLRF1",
+      "table": 0
+    },
+    {
+      "name": "KLRF2",
+      "table": 0
+    },
+    {
+      "name": "KLRG1",
+      "table": 0
+    },
+    {
+      "name": "KLRG2",
+      "table": 0
+    },
+    {
+      "name": "KLRK1",
+      "table": 0
+    },
+    {
+      "name": "LAG3",
+      "table": 0
+    },
+    {
+      "name": "LAIR1",
+      "table": 0
+    },
+    {
+      "name": "LAMP3",
+      "table": 0
+    },
+    {
+      "name": "LCK",
+      "table": 0
+    },
+    {
+      "name": "LCP2",
+      "table": 0
+    },
+    {
+      "name": "LEF1",
+      "table": 0
+    },
+    {
+      "name": "LGALS3",
+      "table": 0
+    },
+    {
+      "name": "LIF",
+      "table": 0
+    },
+    {
+      "name": "LILRA1",
+      "table": 0
+    },
+    {
+      "name": "LILRA2",
+      "table": 0
+    },
+    {
+      "name": "LILRA3",
+      "table": 0
+    },
+    {
+      "name": "LILRA4",
+      "table": 0
+    },
+    {
+      "name": "LILRA5",
+      "table": 0
+    },
+    {
+      "name": "LILRA6",
+      "table": 0
+    },
+    {
+      "name": "LILRB1",
+      "table": 0
+    },
+    {
+      "name": "LILRB2",
+      "table": 0
+    },
+    {
+      "name": "LILRB3",
+      "table": 0
+    },
+    {
+      "name": "LILRB4",
+      "table": 0
+    },
+    {
+      "name": "LILRB5",
+      "table": 0
+    },
+    {
+      "name": "LITAF",
+      "table": 0
+    },
+    {
+      "name": "LTA",
+      "table": 0
+    },
+    {
+      "name": "LTB4R",
+      "table": 0
+    },
+    {
+      "name": "LTB4R2",
+      "table": 0
+    },
+    {
+      "name": "LTBR",
+      "table": 0
+    },
+    {
+      "name": "LTF",
+      "table": 0
+    },
+    {
+      "name": "LY96",
+      "table": 0
+    },
+    {
+      "name": "MAF",
+      "table": 0
+    },
+    {
+      "name": "MALT1",
+      "table": 0
+    },
+    {
+      "name": "MAP4K1",
+      "table": 0
+    },
+    {
+      "name": "MAP4K2",
+      "table": 0
+    },
+    {
+      "name": "MAP4K4",
+      "table": 0
+    },
+    {
+      "name": "MAPK1",
+      "table": 0
+    },
+    {
+      "name": "MAPK11",
+      "table": 0
+    },
+    {
+      "name": "MAPK14",
+      "table": 0
+    },
+    {
+      "name": "MAPKAPK2",
+      "table": 0
+    },
+    {
+      "name": "MARCO",
+      "table": 0
+    },
+    {
+      "name": "MASP1",
+      "table": 0
+    },
+    {
+      "name": "MASP2",
+      "table": 0
+    },
+    {
+      "name": "MBL2",
+      "table": 0
+    },
+    {
+      "name": "MBP",
+      "table": 0
+    },
+    {
+      "name": "MCL1",
+      "table": 0
+    },
+    {
+      "name": "MIF",
+      "table": 0
+    },
+    {
+      "name": "MME",
+      "table": 0
+    },
+    {
+      "name": "MR1",
+      "table": 0
+    },
+    {
+      "name": "MRC1",
+      "table": 0
+    },
+    {
+      "name": "MS4A1",
+      "table": 0
+    },
+    {
+      "name": "MSR1",
+      "table": 0
+    },
+    {
+      "name": "MUC1",
+      "table": 0
+    },
+    {
+      "name": "MX1",
+      "table": 0
+    },
+    {
+      "name": "MYD88",
+      "table": 0
+    },
+    {
+      "name": "NCAM1",
+      "table": 0
+    },
+    {
+      "name": "NCF4",
+      "table": 0
+    },
+    {
+      "name": "NCR1",
+      "table": 0
+    },
+    {
+      "name": "NFATC1",
+      "table": 0
+    },
+    {
+      "name": "NFATC2",
+      "table": 0
+    },
+    {
+      "name": "NFATC3",
+      "table": 0
+    },
+    {
+      "name": "NFIL3",
+      "table": 0
+    },
+    {
+      "name": "NFKB1",
+      "table": 0
+    },
+    {
+      "name": "NFKB2",
+      "table": 0
+    },
+    {
+      "name": "NFKBIA",
+      "table": 0
+    },
+    {
+      "name": "NFKBIZ",
+      "table": 0
+    },
+    {
+      "name": "NLRP3",
+      "table": 0
+    },
+    {
+      "name": "NOD1",
+      "table": 0
+    },
+    {
+      "name": "NOD2",
+      "table": 0
+    },
+    {
+      "name": "NOS2",
+      "table": 0
+    },
+    {
+      "name": "NOTCH1",
+      "table": 0
+    },
+    {
+      "name": "NOTCH2",
+      "table": 0
+    },
+    {
+      "name": "NT5E",
+      "table": 0
+    },
+    {
+      "name": "PAX5",
+      "table": 0
+    },
+    {
+      "name": "PDCD1",
+      "table": 0
+    },
+    {
+      "name": "PDCD1LG2",
+      "table": 0
+    },
+    {
+      "name": "PDCD2",
+      "table": 0
+    },
+    {
+      "name": "PDGFB",
+      "table": 0
+    },
+    {
+      "name": "PDGFRB",
+      "table": 0
+    },
+    {
+      "name": "PECAM1",
+      "table": 0
+    },
+    {
+      "name": "PIGR",
+      "table": 0
+    },
+    {
+      "name": "PLA2G2A",
+      "table": 0
+    },
+    {
+      "name": "PLA2G2E",
+      "table": 0
+    },
+    {
+      "name": "PLAU",
+      "table": 0
+    },
+    {
+      "name": "PLAUR",
+      "table": 0
+    },
+    {
+      "name": "PML",
+      "table": 0
+    },
+    {
+      "name": "POU2F2",
+      "table": 0
+    },
+    {
+      "name": "PPARG",
+      "table": 0
+    },
+    {
+      "name": "PPBP",
+      "table": 0
+    },
+    {
+      "name": "PRDM1",
+      "table": 0
+    },
+    {
+      "name": "PRF1",
+      "table": 0
+    },
+    {
+      "name": "PRKCD",
+      "table": 0
+    },
+    {
+      "name": "PSMB10",
+      "table": 0
+    },
+    {
+      "name": "PSMB5",
+      "table": 0
+    },
+    {
+      "name": "PSMB7",
+      "table": 0
+    },
+    {
+      "name": "PSMB8",
+      "table": 0
+    },
+    {
+      "name": "PSMB9",
+      "table": 0
+    },
+    {
+      "name": "PSMC2",
+      "table": 0
+    },
+    {
+      "name": "PSMD7",
+      "table": 0
+    },
+    {
+      "name": "PTAFR",
+      "table": 0
+    },
+    {
+      "name": "PTGER4",
+      "table": 0
+    },
+    {
+      "name": "PTGS2",
+      "table": 0
+    },
+    {
+      "name": "PTK2",
+      "table": 0
+    },
+    {
+      "name": "PTPN2",
+      "table": 0
+    },
+    {
+      "name": "PTPN22",
+      "table": 0
+    },
+    {
+      "name": "PTPN6",
+      "table": 0
+    },
+    {
+      "name": "PTPRC_all",
+      "table": 0
+    },
+    {
+      "name": "PYCARD",
+      "table": 0
+    },
+    {
+      "name": "RAF1",
+      "table": 0
+    },
+    {
+      "name": "RAG1",
+      "table": 0
+    },
+    {
+      "name": "RAG2",
+      "table": 0
+    },
+    {
+      "name": "RARRES3",
+      "table": 0
+    },
+    {
+      "name": "RELA",
+      "table": 0
+    },
+    {
+      "name": "RELB",
+      "table": 0
+    },
+    {
+      "name": "RORC",
+      "table": 0
+    },
+    {
+      "name": "RUNX1",
+      "table": 0
+    },
+    {
+      "name": "S100A8",
+      "table": 0
+    },
+    {
+      "name": "S100A9",
+      "table": 0
+    },
+    {
+      "name": "S1PR1",
+      "table": 0
+    },
+    {
+      "name": "SELE",
+      "table": 0
+    },
+    {
+      "name": "SELL",
+      "table": 0
+    },
+    {
+      "name": "SELPLG",
+      "table": 0
+    },
+    {
+      "name": "SERPING1",
+      "table": 0
+    },
+    {
+      "name": "SH2D1A",
+      "table": 0
+    },
+    {
+      "name": "SIGIRR",
+      "table": 0
+    },
+    {
+      "name": "SKI",
+      "table": 0
+    },
+    {
+      "name": "SLAMF1",
+      "table": 0
+    },
+    {
+      "name": "SLAMF6",
+      "table": 0
+    },
+    {
+      "name": "SLAMF7",
+      "table": 0
+    },
+    {
+      "name": "SLC2A1",
+      "table": 0
+    },
+    {
+      "name": "SMAD3",
+      "table": 0
+    },
+    {
+      "name": "SMAD5",
+      "table": 0
+    },
+    {
+      "name": "SOCS1",
+      "table": 0
+    },
+    {
+      "name": "SOCS3",
+      "table": 0
+    },
+    {
+      "name": "SPP1",
+      "table": 0
+    },
+    {
+      "name": "SRC",
+      "table": 0
+    },
+    {
+      "name": "STAT1",
+      "table": 0
+    },
+    {
+      "name": "STAT2",
+      "table": 0
+    },
+    {
+      "name": "STAT3",
+      "table": 0
+    },
+    {
+      "name": "STAT4",
+      "table": 0
+    },
+    {
+      "name": "STAT5A",
+      "table": 0
+    },
+    {
+      "name": "STAT5B",
+      "table": 0
+    },
+    {
+      "name": "STAT6",
+      "table": 0
+    },
+    {
+      "name": "SYK",
+      "table": 0
+    },
+    {
+      "name": "TAGAP",
+      "table": 0
+    },
+    {
+      "name": "TAL1",
+      "table": 0
+    },
+    {
+      "name": "TAP1",
+      "table": 0
+    },
+    {
+      "name": "TAP2",
+      "table": 0
+    },
+    {
+      "name": "TAPBP",
+      "table": 0
+    },
+    {
+      "name": "TBK1",
+      "table": 0
+    },
+    {
+      "name": "TBX21",
+      "table": 0
+    },
+    {
+      "name": "TCF4",
+      "table": 0
+    },
+    {
+      "name": "TCF7",
+      "table": 0
+    },
+    {
+      "name": "TFRC",
+      "table": 0
+    },
+    {
+      "name": "TGFB1",
+      "table": 0
+    },
+    {
+      "name": "TGFBI",
+      "table": 0
+    },
+    {
+      "name": "TGFBR1",
+      "table": 0
+    },
+    {
+      "name": "TGFBR2",
+      "table": 0
+    },
+    {
+      "name": "THY1",
+      "table": 0
+    },
+    {
+      "name": "TICAM1",
+      "table": 0
+    },
+    {
+      "name": "TIGIT",
+      "table": 0
+    },
+    {
+      "name": "TIRAP",
+      "table": 0
+    },
+    {
+      "name": "TLR1",
+      "table": 0
+    },
+    {
+      "name": "TLR2",
+      "table": 0
+    },
+    {
+      "name": "TLR3",
+      "table": 0
+    },
+    {
+      "name": "TLR4",
+      "table": 0
+    },
+    {
+      "name": "TLR5",
+      "table": 0
+    },
+    {
+      "name": "TLR7",
+      "table": 0
+    },
+    {
+      "name": "TLR8",
+      "table": 0
+    },
+    {
+      "name": "TLR9",
+      "table": 0
+    },
+    {
+      "name": "TMEM173",
+      "table": 0
+    },
+    {
+      "name": "TNF",
+      "table": 0
+    },
+    {
+      "name": "TNFAIP3",
+      "table": 0
+    },
+    {
+      "name": "TNFAIP6",
+      "table": 0
+    },
+    {
+      "name": "TNFRSF10C",
+      "table": 0
+    },
+    {
+      "name": "TNFRSF11A",
+      "table": 0
+    },
+    {
+      "name": "TNFRSF13B",
+      "table": 0
+    },
+    {
+      "name": "TNFRSF13C",
+      "table": 0
+    },
+    {
+      "name": "TNFRSF14",
+      "table": 0
+    },
+    {
+      "name": "TNFRSF17",
+      "table": 0
+    },
+    {
+      "name": "TNFRSF1B",
+      "table": 0
+    },
+    {
+      "name": "TNFRSF4",
+      "table": 0
+    },
+    {
+      "name": "TNFRSF8",
+      "table": 0
+    },
+    {
+      "name": "TNFRSF9",
+      "table": 0
+    },
+    {
+      "name": "TNFSF10",
+      "table": 0
+    },
+    {
+      "name": "TNFSF11",
+      "table": 0
+    },
+    {
+      "name": "TNFSF12",
+      "table": 0
+    },
+    {
+      "name": "TNFSF13B",
+      "table": 0
+    },
+    {
+      "name": "TNFSF15",
+      "table": 0
+    },
+    {
+      "name": "TNFSF4",
+      "table": 0
+    },
+    {
+      "name": "TNFSF8",
+      "table": 0
+    },
+    {
+      "name": "TOLLIP",
+      "table": 0
+    },
+    {
+      "name": "TP53",
+      "table": 0
+    },
+    {
+      "name": "TRAF1",
+      "table": 0
+    },
+    {
+      "name": "TRAF2",
+      "table": 0
+    },
+    {
+      "name": "TRAF3",
+      "table": 0
+    },
+    {
+      "name": "TRAF4",
+      "table": 0
+    },
+    {
+      "name": "TRAF5",
+      "table": 0
+    },
+    {
+      "name": "TRAF6",
+      "table": 0
+    },
+    {
+      "name": "TYK2",
+      "table": 0
+    },
+    {
+      "name": "UBE2L3",
+      "table": 0
+    },
+    {
+      "name": "VCAM1",
+      "table": 0
+    },
+    {
+      "name": "VTN",
+      "table": 0
+    },
+    {
+      "name": "XBP1",
+      "table": 0
+    },
+    {
+      "name": "XCL1",
+      "table": 0
+    },
+    {
+      "name": "XCR1",
+      "table": 0
+    },
+    {
+      "name": "ZAP70",
+      "table": 0
+    },
+    {
+      "name": "ZBTB16",
+      "table": 0
+    },
+    {
+      "name": "ZEB1",
+      "table": 0
+    },
+    {
+      "name": "sCTLA4",
+      "table": 0
+    },
+    {
+      "name": "ABCF1",
+      "table": 0
+    },
+    {
+      "name": "ALAS1",
+      "table": 0
+    },
+    {
+      "name": "EEF1G",
+      "table": 0
+    },
+    {
+      "name": "G6PD",
+      "table": 0
+    },
+    {
+      "name": "GAPDH",
+      "table": 0
+    },
+    {
+      "name": "GUSB",
+      "table": 0
+    },
+    {
+      "name": "HPRT1",
+      "table": 0
+    },
+    {
+      "name": "OAZ1",
+      "table": 0
+    },
+    {
+      "name": "POLR1B",
+      "table": 0
+    },
+    {
+      "name": "POLR2A",
+      "table": 0
+    },
+    {
+      "name": "PPIA",
+      "table": 0
+    },
+    {
+      "name": "RPL19",
+      "table": 0
+    },
+    {
+      "name": "SDHA",
+      "table": 0
+    },
+    {
+      "name": "TBP",
+      "table": 0
+    },
+    {
+      "name": "TUBB",
+      "table": 0
+    },
+    {
+      "name": "NEG_A",
+      "table": 0
+    },
+    {
+      "name": "NEG_B",
+      "table": 0
+    },
+    {
+      "name": "NEG_C",
+      "table": 0
+    },
+    {
+      "name": "NEG_D",
+      "table": 0
+    },
+    {
+      "name": "NEG_E",
+      "table": 0
+    },
+    {
+      "name": "NEG_F",
+      "table": 0
+    },
+    {
+      "name": "NEG_G",
+      "table": 0
+    },
+    {
+      "name": "NEG_H",
+      "table": 0
+    },
+    {
+      "name": "POS_A",
+      "table": 0
+    },
+    {
+      "name": "POS_B",
+      "table": 0
+    },
+    {
+      "name": "POS_C",
+      "table": 0
+    },
+    {
+      "name": "POS_D",
+      "table": 0
+    },
+    {
+      "name": "POS_E",
+      "table": 0
+    },
+    {
+      "name": "POS_F",
+      "table": 0
+    },
+    {
+      "name": "prediction",
+      "table": 0
+    },
+    {
+      "name": "error",
+      "table": 0
+    },
+    {
+      "name": "error_decile",
+      "table": 0
+    },
+    {
+      "name": "abs_error_decile",
+      "table": 0
+    },
+    {
+      "name": "relative_error",
+      "table": 0
+    }
+  ],
+  "resolvedSelectedColumns": [],
+  "engineParams": {
+    "hive": {
+      "skipPrerunValidate": false,
+      "hiveconf": [],
+      "inheritConf": "default",
+      "addDkuUdf": false,
+      "executionEngine": "HIVESERVER2"
+    },
+    "sqlPipelineParams": {
+      "pipelineAllowMerge": true,
+      "pipelineAllowStart": true
+    },
+    "impala": {
+      "forceStreamMode": true
+    },
+    "lowerCaseSchemaIfEngineRequiresIt": true,
+    "sparkSQL": {
+      "skipPrerunValidate": false,
+      "pipelineAllowMerge": true,
+      "useGlobalMetastore": false,
+      "pipelineAllowStart": true,
+      "readParams": {
+        "mode": "AUTO",
+        "autoModeRepartitionInto": 10,
+        "map": {}
+      },
+      "overwriteOutputSchema": false,
+      "executionEngine": "SPARK_SUBMIT",
+      "sparkConfig": {
+        "inheritConf": "default",
+        "conf": []
+      }
+    }
+  },
+  "virtualInputs": [
+    {
+      "preFilter": {
+        "distinct": false,
+        "enabled": false
+      },
+      "autoSelectColumns": false,
+      "originLabel": "RF_New_Output",
+      "index": 0,
+      "computedColumns": []
+    },
+    {
+      "preFilter": {
+        "distinct": false,
+        "enabled": false
+      },
+      "autoSelectColumns": false,
+      "originLabel": "RF_Output",
+      "index": 1,
+      "computedColumns": []
+    }
+  ],
+  "enableAutoCastInJoinConditions": false
+}

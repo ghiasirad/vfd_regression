@@ -32,7 +32,7 @@ DemographicData_prepared_df = DemographicData_prepared.get_dataframe()
 
 
 # Normalize and return it as a dataframe
-nanoString_cleaned_df = DemographicData_prepared_df.set_index('StudyIDUniversal')
+nanoString_cleaned_df = DemographicData_prepared_df.set_index('StudyID')
 
 # Remove the empty cells and replace them with median of the column
 nanoString_cleaned_df.fillna(nanoString_cleaned_df.median(), inplace=True)

@@ -59,11 +59,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 1,
+    "versionNumber": 2,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1642482872565
+    "lastModifiedOn": 1642482881075
   },
   "creationTag": {
     "versionNumber": 0,
@@ -112,10 +112,6 @@
       },
       {
         "name": "rmsle",
-        "type": "double"
-      },
-      {
-        "name": "r2",
         "type": "double"
       },
       {

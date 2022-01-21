@@ -3,7 +3,7 @@
     "distinct": false,
     "enabled": false
   },
-  "firstRows": 10,
+  "firstRows": 30,
   "keys": [],
   "computedColumns": [],
   "retrievedColumns": [

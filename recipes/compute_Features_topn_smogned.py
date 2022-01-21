@@ -2,15 +2,21 @@
 import dataiku
 import pandas as pd, numpy as np
 from dataiku import pandasutils as pdu
+import smogn
 
 # Read recipe inputs
 Features_joined_Nanostring_topn = dataiku.Dataset("Features_joined_Nanostring_topn")
 Features_joined_Nanostring_topn_df = Features_joined_Nanostring_topn.get_dataframe()
 
 
-# Compute recipe outputs from inputs
-# TODO: Replace this part by your actual code that computes the output, as a Pandas dataframe
-# NB: DSS also supports other kinds of APIs for reading and writing data. Please see doc.
+## conduct smogn
+features_smogn = smogn.smoter(
+    
+    data = Features_joined_Nanostring_topn_df, 
+    y = "VFD",
+    k = 3,
+    pert = 0.2
+)
 
 Features_topn_smogned_df = Features_joined_Nanostring_topn_df # For this sample code, simply copy input to output
 
@@ -18,3 +24,26 @@ Features_topn_smogned_df = Features_joined_Nanostring_topn_df # For this sample 
 # Write recipe outputs
 Features_topn_smogned = dataiku.Dataset("Features_topn_smogned")
 Features_topn_smogned.write_with_schema(Features_topn_smogned_df)
+
+
+# -*- coding: utf-8 -*-
+import dataiku
+import pandas as pd, numpy as np
+from dataiku import pandasutils as pdu
+import smogn
+
+# Read recipe inputs
+features_joined = dataiku.Dataset("Features_joined")
+features_joined_df = features_joined.get_dataframe()
+
+
+## conduct smogn
+features_smogn = smogn.smoter(
+    
+    data = features_joined_df, 
+    y = "VFD",
+    k = 3,
+    pert = 0.2
+)
+
+features_smogned_df = features_smogn # For this sample code, simply copy input to output

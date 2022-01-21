@@ -59,11 +59,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 1,
+    "versionNumber": 2,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1642777176166
+    "lastModifiedOn": 1642777496567
   },
   "creationTag": {
     "versionNumber": 0,
@@ -205,6 +205,14 @@
       {
         "name": "C14orf166",
         "type": "double"
+      },
+      {
+        "name": "StudyID_Int",
+        "type": "bigint"
+      },
+      {
+        "name": "VFD",
+        "type": "bigint"
       }
     ],
     "userModified": false

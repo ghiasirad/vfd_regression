@@ -59,11 +59,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 4,
+    "versionNumber": 5,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1642779229770
+    "lastModifiedOn": 1642779286578
   },
   "creationTag": {
     "versionNumber": 0,
@@ -128,6 +128,86 @@
       },
       {
         "name": "ARHGDIB",
+        "type": "double"
+      },
+      {
+        "name": "ATG7",
+        "type": "double"
+      },
+      {
+        "name": "Age_years",
+        "type": "double"
+      },
+      {
+        "name": "Alanyl-alanine",
+        "type": "double"
+      },
+      {
+        "name": "Arginine",
+        "type": "double"
+      },
+      {
+        "name": "Asparagine",
+        "type": "double"
+      },
+      {
+        "name": "B2M",
+        "type": "double"
+      },
+      {
+        "name": "BATF",
+        "type": "double"
+      },
+      {
+        "name": "BATF3",
+        "type": "double"
+      },
+      {
+        "name": "BCAP31",
+        "type": "double"
+      },
+      {
+        "name": "BCL10",
+        "type": "double"
+      },
+      {
+        "name": "BCL2",
+        "type": "double"
+      },
+      {
+        "name": "BCL2L11",
+        "type": "double"
+      },
+      {
+        "name": "BCL3",
+        "type": "double"
+      },
+      {
+        "name": "BCL6",
+        "type": "double"
+      },
+      {
+        "name": "BID",
+        "type": "double"
+      },
+      {
+        "name": "BLNK",
+        "type": "double"
+      },
+      {
+        "name": "BST1",
+        "type": "double"
+      },
+      {
+        "name": "BST2",
+        "type": "double"
+      },
+      {
+        "name": "BTK",
+        "type": "double"
+      },
+      {
+        "name": "C14orf166",
         "type": "double"
       },
       {

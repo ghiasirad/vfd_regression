@@ -3,7 +3,7 @@
     "distinct": false,
     "enabled": false
   },
-  "firstRows": 1,
+  "firstRows": 30,
   "keys": [],
   "computedColumns": [],
   "retrievedColumns": [
@@ -47,7 +47,12 @@
   },
   "rank": false,
   "denseRank": false,
-  "orders": [],
+  "orders": [
+    {
+      "column": "line",
+      "desc": false
+    }
+  ],
   "rowNumber": false,
   "outputColumnNameOverrides": {}
 }

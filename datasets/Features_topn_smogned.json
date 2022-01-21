@@ -59,11 +59,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1642777719148
+    "lastModifiedOn": 1642777810800
   },
   "creationTag": {
     "versionNumber": 0,
@@ -85,8 +85,137 @@
     }
   },
   "schema": {
-    "columns": [],
-    "userModified": true
+    "columns": [
+      {
+        "name": "StudyID_Int",
+        "type": "bigint"
+      },
+      {
+        "name": "3-Hydroxy-tyrosine",
+        "type": "double"
+      },
+      {
+        "name": "4-Aminobenzoic acid",
+        "type": "double"
+      },
+      {
+        "name": "ABCB1",
+        "type": "double"
+      },
+      {
+        "name": "ABCF1",
+        "type": "double"
+      },
+      {
+        "name": "ADA",
+        "type": "double"
+      },
+      {
+        "name": "AHR",
+        "type": "double"
+      },
+      {
+        "name": "AICDA",
+        "type": "double"
+      },
+      {
+        "name": "ALAS1",
+        "type": "double"
+      },
+      {
+        "name": "ARG1",
+        "type": "double"
+      },
+      {
+        "name": "ARHGDIB",
+        "type": "double"
+      },
+      {
+        "name": "ATG7",
+        "type": "double"
+      },
+      {
+        "name": "Age_years",
+        "type": "double"
+      },
+      {
+        "name": "Alanyl-alanine",
+        "type": "double"
+      },
+      {
+        "name": "Arginine",
+        "type": "double"
+      },
+      {
+        "name": "Asparagine",
+        "type": "double"
+      },
+      {
+        "name": "B2M",
+        "type": "double"
+      },
+      {
+        "name": "BATF",
+        "type": "double"
+      },
+      {
+        "name": "BATF3",
+        "type": "double"
+      },
+      {
+        "name": "BCAP31",
+        "type": "double"
+      },
+      {
+        "name": "BCL10",
+        "type": "double"
+      },
+      {
+        "name": "BCL2",
+        "type": "double"
+      },
+      {
+        "name": "BCL2L11",
+        "type": "double"
+      },
+      {
+        "name": "BCL3",
+        "type": "double"
+      },
+      {
+        "name": "BCL6",
+        "type": "double"
+      },
+      {
+        "name": "BID",
+        "type": "double"
+      },
+      {
+        "name": "BLNK",
+        "type": "double"
+      },
+      {
+        "name": "BST1",
+        "type": "double"
+      },
+      {
+        "name": "BST2",
+        "type": "double"
+      },
+      {
+        "name": "BTK",
+        "type": "double"
+      },
+      {
+        "name": "C14orf166",
+        "type": "double"
+      },
+      {
+        "name": "VFD",
+        "type": "bigint"
+      }
+    ],
+    "userModified": false
   },
   "dkuProperties": [],
   "metrics": {

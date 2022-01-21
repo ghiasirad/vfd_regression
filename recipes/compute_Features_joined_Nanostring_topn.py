@@ -14,7 +14,7 @@ selectedFeatures_topn_df = selectedFeatures_topn.get_dataframe()
 Features_joined_Nanostring_topn_df = Features_joined_Nanostring_df[selectedFeatures_topn_df.line.values]
 Features_joined_Nanostring_topn_df['StudyID_Int'] = Features_joined_Nanostring_df['StudyID_Int']
 Features_joined_Nanostring_topn_df.set_index('StudyID_Int')
-Features_joined_Nanostring_topn_df.VFD = Features_joined_Nanostring_df.VFD
+Features_joined_Nanostring_topn_df['VFD'] = Features_joined_Nanostring_df['VFD']
 
 
 # Write recipe outputs

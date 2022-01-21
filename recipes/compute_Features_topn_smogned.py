@@ -18,7 +18,7 @@ features_smogn = smogn.smoter(
     pert = 0.2
 )
 
-Features_topn_smogned_df = Features_joined_Nanostring_topn_df # For this sample code, simply copy input to output
+Features_topn_smogned_df = features_smogn # For this sample code, simply copy input to output
 
 
 # Write recipe outputs

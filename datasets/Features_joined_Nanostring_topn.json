@@ -59,11 +59,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 2,
+    "versionNumber": 3,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1642777496567
+    "lastModifiedOn": 1642777608891
   },
   "creationTag": {
     "versionNumber": 0,
@@ -86,6 +86,10 @@
   },
   "schema": {
     "columns": [
+      {
+        "name": "StudyID_Int",
+        "type": "bigint"
+      },
       {
         "name": "3-Hydroxy-tyrosine",
         "type": "double"
@@ -205,10 +209,6 @@
       {
         "name": "C14orf166",
         "type": "double"
-      },
-      {
-        "name": "StudyID_Int",
-        "type": "bigint"
       },
       {
         "name": "VFD",

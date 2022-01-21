@@ -15,8 +15,8 @@ Features_joined_Nanostring_topn_df = Features_joined_Nanostring_df[selectedFeatu
 Features_joined_Nanostring_topn_df['StudyID_Int'] = Features_joined_Nanostring_df['StudyID_Int']
 Features_joined_Nanostring_topn_df['VFD'] = Features_joined_Nanostring_df['VFD']
 
-first_column = nanoString_normalized_df.pop('StudyID_Int')
-nanoString_normalized_df.insert(0, 'StudyID_Int', first_column)
+first_column = Features_joined_Nanostring_topn_df.pop('StudyID_Int')
+Features_joined_Nanostring_topn_df.insert(0, 'StudyID_Int', first_column)
 
 
 # Write recipe outputs

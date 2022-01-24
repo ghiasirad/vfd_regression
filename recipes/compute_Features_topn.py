@@ -12,6 +12,7 @@ selectedFeatures_df = selectedFeatures.get_dataframe()
 
 Features_topn_df = Features_joined_Nanostring_df[selectedFeatures_df.Feature.values[:30]]
 Features_topn_df['StudyID_Int'] = Features_joined_Nanostring_df.StudyID_Int
+Features_topn_df['VFD'] = Features_joined_Nanostring_df.VFD
 
 
 # Write recipe outputs

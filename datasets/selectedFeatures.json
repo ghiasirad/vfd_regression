@@ -36,11 +36,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 2,
+    "versionNumber": 3,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1642987856138
+    "lastModifiedOn": 1642987937266
   },
   "creationTag": {
     "versionNumber": 0,
@@ -60,11 +60,7 @@
   "schema": {
     "columns": [
       {
-        "name": "Infection",
-        "type": "string"
-      },
-      {
-        "name": "Status",
+        "name": "Feature",
         "type": "string"
       }
     ],

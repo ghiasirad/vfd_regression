@@ -4,7 +4,7 @@
   "rebuildBehavior": "EXPLICIT",
   "name": "Predict VFD (XGB)",
   "contentType": "prediction/py_memory",
-  "activeVersion": "1642998019528",
+  "activeVersion": "1642998110034",
   "conditionalOutputs": [],
   "partitioning": {
     "ignoreNonMatchingFile": false,
@@ -2152,11 +2152,11 @@
   "lastTrainIndex": 4,
   "lastTrainJobId": "Build_Predict_VFD__XGB__2022-01-24T04-20-18.681",
   "versionTag": {
-    "versionNumber": 6,
+    "versionNumber": 7,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1642998029286
+    "lastModifiedOn": 1642998120277
   },
   "creationTag": {
     "versionNumber": 0,

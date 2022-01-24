@@ -10,16 +10,16 @@
       "customEvaluationMetricGIB": true,
       "costMatrixWeights": {
         "fpGain": -0.3,
-        "tpGain": 1.0,
-        "fnGain": 0.0,
-        "tnGain": 0.0
+        "tpGain": 1,
+        "fnGain": 0,
+        "tnGain": 0
       },
       "liftPoint": 0.4,
       "evaluationMetric": "MAE",
       "customEvaluationMetricNeedsProba": false
     },
     "autoOptimizeThreshold": true,
-    "forcedClassifierThreshold": 0.0,
+    "forcedClassifierThreshold": 0,
     "grid_search_params": {
       "bayesianOptimizer": "SCIKIT_OPTIMIZE",
       "seed": 1337,
@@ -40,7 +40,7 @@
     },
     "skipExpensiveReports": false,
     "xgboost_grid": {
-      "scale_pos_weight": 1.0,
+      "scale_pos_weight": 1,
       "base_score": 0.5,
       "seed": 1337,
       "enable_early_stopping": true,
@@ -94,16 +94,16 @@
       "lambda": {
         "randomMode": "RANGE",
         "values": [
-          1.0
+          1
         ],
         "limit": {
           "min": 1.0E-23,
-          "max": 1.0
+          "max": 1
         },
         "range": {
           "scaling": "LINEAR",
           "min": 0.01,
-          "max": 1.0,
+          "max": 1,
           "nbValues": 3
         },
         "gridMode": "EXPLICIT"
@@ -112,34 +112,34 @@
       "alpha": {
         "randomMode": "RANGE",
         "values": [
-          0.0
+          0
         ],
         "limit": {
-          "min": 0.0,
-          "max": 1.0
+          "min": 0,
+          "max": 1
         },
         "range": {
           "scaling": "LINEAR",
-          "min": 0.0,
-          "max": 1.0,
+          "min": 0,
+          "max": 1,
           "nbValues": 3
         },
         "gridMode": "EXPLICIT"
       },
-      "missing": 0.0,
+      "missing": 0,
       "cpu_tree_method": "auto",
       "min_child_weight": {
         "randomMode": "RANGE",
         "values": [
-          1.0
+          1
         ],
         "limit": {
-          "min": 0.0
+          "min": 0
         },
         "range": {
           "scaling": "LINEAR",
           "min": 0.5,
-          "max": 5.0,
+          "max": 5,
           "nbValues": 3
         },
         "gridMode": "EXPLICIT"
@@ -147,15 +147,15 @@
       "max_delta_step": {
         "randomMode": "RANGE",
         "values": [
-          0.0
+          0
         ],
         "limit": {
-          "min": 0.0
+          "min": 0
         },
         "range": {
           "scaling": "LINEAR",
-          "min": 0.0,
-          "max": 1.0,
+          "min": 0,
+          "max": 1,
           "nbValues": 3
         },
         "gridMode": "EXPLICIT"
@@ -163,16 +163,16 @@
       "colsample_bytree": {
         "randomMode": "RANGE",
         "values": [
-          1.0
+          1
         ],
         "limit": {
           "min": 1.0E-23,
-          "max": 1.0
+          "max": 1
         },
         "range": {
           "scaling": "LINEAR",
           "min": 0.5,
-          "max": 1.0,
+          "max": 1,
           "nbValues": 3
         },
         "gridMode": "EXPLICIT"
@@ -184,16 +184,16 @@
       "subsample": {
         "randomMode": "RANGE",
         "values": [
-          1.0
+          1
         ],
         "limit": {
           "min": 1.0E-23,
-          "max": 1.0
+          "max": 1
         },
         "range": {
           "scaling": "LINEAR",
           "min": 0.5,
-          "max": 1.0,
+          "max": 1,
           "nbValues": 3
         },
         "gridMode": "EXPLICIT"
@@ -201,16 +201,16 @@
       "colsample_bylevel": {
         "randomMode": "RANGE",
         "values": [
-          1.0
+          1
         ],
         "limit": {
           "min": 1.0E-23,
-          "max": 1.0
+          "max": 1
         },
         "range": {
           "scaling": "LINEAR",
           "min": 0.5,
-          "max": 1.0,
+          "max": 1,
           "nbValues": 3
         },
         "gridMode": "EXPLICIT"
@@ -222,7 +222,7 @@
         ],
         "limit": {
           "min": 1.0E-23,
-          "max": 1.0
+          "max": 1
         },
         "range": {
           "scaling": "LINEAR",
@@ -235,14 +235,14 @@
       "gamma": {
         "randomMode": "RANGE",
         "values": [
-          0.0
+          0
         ],
         "limit": {
-          "min": 0.0
+          "min": 0
         },
         "range": {
           "scaling": "LINEAR",
-          "min": 0.0,
+          "min": 0,
           "max": 0.4,
           "nbValues": 3
         },
@@ -255,7 +255,7 @@
   "generatingModelId": "A-VFDREGRESSION-vfNJ0qqV-8I6Ygnia-s1-pp14-m1",
   "preprocessing": {
     "reduce": {
-      "kept_variance": 0.0,
+      "kept_variance": 0,
       "enabled": false
     },
     "target_remapping": [],
@@ -266,7 +266,7 @@
         "role": "INPUT",
         "sendToInput": "main",
         "customHandlingCode": "",
-        "binarize_constant_threshold": 0.0,
+        "binarize_constant_threshold": 0,
         "type": "NUMERIC",
         "binarize_threshold_mode": "MEDIAN",
         "datetime_cyclical_periods": [],
@@ -281,7 +281,7 @@
           "recordedMeaning": "DoubleMeaning",
           "userModified": false
         },
-        "impute_constant_value": 0.0
+        "impute_constant_value": 0
       },
       "IL1RN": {
         "rescaling": "AVGSTD",
@@ -289,7 +289,7 @@
         "role": "INPUT",
         "sendToInput": "main",
         "customHandlingCode": "",
-        "binarize_constant_threshold": 0.0,
+        "binarize_constant_threshold": 0,
         "type": "NUMERIC",
         "binarize_threshold_mode": "MEDIAN",
         "datetime_cyclical_periods": [],
@@ -304,7 +304,7 @@
           "recordedMeaning": "DoubleMeaning",
           "userModified": false
         },
-        "impute_constant_value": 0.0
+        "impute_constant_value": 0
       },
       "Sex": {
         "nb_bins_hashing": 1048576,
@@ -319,7 +319,7 @@
         "type": "CATEGORY",
         "impact_kfold": true,
         "missing_handling": "NONE",
-        "frequency_default_value": 0.0,
+        "frequency_default_value": 0,
         "impact_kfold_seed": 1337,
         "state": {
           "autoModifiedByDSS": false,
@@ -347,7 +347,7 @@
         "role": "INPUT",
         "sendToInput": "main",
         "customHandlingCode": "",
-        "binarize_constant_threshold": 0.0,
+        "binarize_constant_threshold": 0,
         "type": "NUMERIC",
         "binarize_threshold_mode": "MEDIAN",
         "datetime_cyclical_periods": [],
@@ -362,7 +362,7 @@
           "recordedMeaning": "DoubleMeaning",
           "userModified": false
         },
-        "impute_constant_value": 0.0
+        "impute_constant_value": 0
       },
       "PELOD": {
         "rescaling": "AVGSTD",
@@ -370,7 +370,7 @@
         "role": "INPUT",
         "sendToInput": "main",
         "customHandlingCode": "",
-        "binarize_constant_threshold": 0.0,
+        "binarize_constant_threshold": 0,
         "type": "NUMERIC",
         "binarize_threshold_mode": "MEDIAN",
         "datetime_cyclical_periods": [],
@@ -385,7 +385,7 @@
           "recordedMeaning": "DoubleMeaning",
           "userModified": false
         },
-        "impute_constant_value": 0.0
+        "impute_constant_value": 0
       },
       "PRDM1": {
         "rescaling": "AVGSTD",
@@ -393,7 +393,7 @@
         "role": "INPUT",
         "sendToInput": "main",
         "customHandlingCode": "",
-        "binarize_constant_threshold": 0.0,
+        "binarize_constant_threshold": 0,
         "type": "NUMERIC",
         "binarize_threshold_mode": "MEDIAN",
         "datetime_cyclical_periods": [],
@@ -408,7 +408,7 @@
           "recordedMeaning": "DoubleMeaning",
           "userModified": false
         },
-        "impute_constant_value": 0.0
+        "impute_constant_value": 0
       },
       "IKZF2": {
         "rescaling": "AVGSTD",
@@ -416,7 +416,7 @@
         "role": "INPUT",
         "sendToInput": "main",
         "customHandlingCode": "",
-        "binarize_constant_threshold": 0.0,
+        "binarize_constant_threshold": 0,
         "type": "NUMERIC",
         "binarize_threshold_mode": "MEDIAN",
         "datetime_cyclical_periods": [],
@@ -431,7 +431,7 @@
           "recordedMeaning": "DoubleMeaning",
           "userModified": false
         },
-        "impute_constant_value": 0.0
+        "impute_constant_value": 0
       },
       "LILRA3": {
         "rescaling": "AVGSTD",
@@ -439,7 +439,7 @@
         "role": "INPUT",
         "sendToInput": "main",
         "customHandlingCode": "",
-        "binarize_constant_threshold": 0.0,
+        "binarize_constant_threshold": 0,
         "type": "NUMERIC",
         "binarize_threshold_mode": "MEDIAN",
         "datetime_cyclical_periods": [],
@@ -454,7 +454,7 @@
           "recordedMeaning": "DoubleMeaning",
           "userModified": false
         },
-        "impute_constant_value": 0.0
+        "impute_constant_value": 0
       },
       "LTB4R": {
         "rescaling": "AVGSTD",
@@ -462,7 +462,7 @@
         "role": "INPUT",
         "sendToInput": "main",
         "customHandlingCode": "",
-        "binarize_constant_threshold": 0.0,
+        "binarize_constant_threshold": 0,
         "type": "NUMERIC",
         "binarize_threshold_mode": "MEDIAN",
         "datetime_cyclical_periods": [],
@@ -477,7 +477,7 @@
           "recordedMeaning": "DoubleMeaning",
           "userModified": false
         },
-        "impute_constant_value": 0.0
+        "impute_constant_value": 0
       },
       "DPP4": {
         "rescaling": "AVGSTD",
@@ -485,7 +485,7 @@
         "role": "INPUT",
         "sendToInput": "main",
         "customHandlingCode": "",
-        "binarize_constant_threshold": 0.0,
+        "binarize_constant_threshold": 0,
         "type": "NUMERIC",
         "binarize_threshold_mode": "MEDIAN",
         "datetime_cyclical_periods": [],
@@ -500,7 +500,7 @@
           "recordedMeaning": "DoubleMeaning",
           "userModified": false
         },
-        "impute_constant_value": 0.0
+        "impute_constant_value": 0
       },
       "IL18RAP": {
         "rescaling": "AVGSTD",
@@ -508,7 +508,7 @@
         "role": "INPUT",
         "sendToInput": "main",
         "customHandlingCode": "",
-        "binarize_constant_threshold": 0.0,
+        "binarize_constant_threshold": 0,
         "type": "NUMERIC",
         "binarize_threshold_mode": "MEDIAN",
         "datetime_cyclical_periods": [],
@@ -523,7 +523,7 @@
           "recordedMeaning": "DoubleMeaning",
           "userModified": false
         },
-        "impute_constant_value": 0.0
+        "impute_constant_value": 0
       },
       "CXCR1": {
         "rescaling": "AVGSTD",
@@ -531,7 +531,7 @@
         "role": "INPUT",
         "sendToInput": "main",
         "customHandlingCode": "",
-        "binarize_constant_threshold": 0.0,
+        "binarize_constant_threshold": 0,
         "type": "NUMERIC",
         "binarize_threshold_mode": "MEDIAN",
         "datetime_cyclical_periods": [],
@@ -546,7 +546,7 @@
           "recordedMeaning": "DoubleMeaning",
           "userModified": false
         },
-        "impute_constant_value": 0.0
+        "impute_constant_value": 0
       },
       "Infection Status": {
         "nb_bins_hashing": 1048576,
@@ -561,7 +561,7 @@
         "type": "CATEGORY",
         "impact_kfold": true,
         "missing_handling": "NONE",
-        "frequency_default_value": 0.0,
+        "frequency_default_value": 0,
         "impact_kfold_seed": 1337,
         "state": {
           "autoModifiedByDSS": false,
@@ -587,7 +587,7 @@
         "role": "TARGET",
         "sendToInput": "main",
         "customHandlingCode": "",
-        "binarize_constant_threshold": 0.0,
+        "binarize_constant_threshold": 0,
         "type": "NUMERIC",
         "binarize_threshold_mode": "MEDIAN",
         "datetime_cyclical_periods": [],
@@ -600,7 +600,7 @@
           "recordedMeaning": "LongMeaning",
           "userModified": false
         },
-        "impute_constant_value": 0.0
+        "impute_constant_value": 0
       },
       "Race": {
         "nb_bins_hashing": 1048576,
@@ -615,7 +615,7 @@
         "type": "CATEGORY",
         "impact_kfold": true,
         "missing_handling": "NONE",
-        "frequency_default_value": 0.0,
+        "frequency_default_value": 0,
         "impact_kfold_seed": 1337,
         "state": {
           "autoModifiedByDSS": false,
@@ -643,7 +643,7 @@
         "role": "INPUT",
         "sendToInput": "main",
         "customHandlingCode": "",
-        "binarize_constant_threshold": 0.0,
+        "binarize_constant_threshold": 0,
         "type": "NUMERIC",
         "binarize_threshold_mode": "MEDIAN",
         "datetime_cyclical_periods": [],
@@ -658,7 +658,7 @@
           "recordedMeaning": "DoubleMeaning",
           "userModified": false
         },
-        "impute_constant_value": 0.0
+        "impute_constant_value": 0
       },
       "ECMO": {
         "nb_bins_hashing": 1048576,
@@ -673,7 +673,7 @@
         "type": "CATEGORY",
         "impact_kfold": true,
         "missing_handling": "NONE",
-        "frequency_default_value": 0.0,
+        "frequency_default_value": 0,
         "impact_kfold_seed": 1337,
         "state": {
           "autoModifiedByDSS": false,
@@ -701,7 +701,7 @@
         "role": "INPUT",
         "sendToInput": "main",
         "customHandlingCode": "",
-        "binarize_constant_threshold": 0.0,
+        "binarize_constant_threshold": 0,
         "type": "NUMERIC",
         "binarize_threshold_mode": "MEDIAN",
         "datetime_cyclical_periods": [],
@@ -716,7 +716,7 @@
           "recordedMeaning": "DoubleMeaning",
           "userModified": false
         },
-        "impute_constant_value": 0.0
+        "impute_constant_value": 0
       },
       "StudyID_Int": {
         "rescaling": "AVGSTD",
@@ -724,7 +724,7 @@
         "role": "REJECT",
         "sendToInput": "main",
         "customHandlingCode": "",
-        "binarize_constant_threshold": 0.0,
+        "binarize_constant_threshold": 0,
         "type": "NUMERIC",
         "binarize_threshold_mode": "MEDIAN",
         "datetime_cyclical_periods": [],
@@ -739,7 +739,7 @@
           "recordedMeaning": "LongMeaning",
           "userModified": false
         },
-        "impute_constant_value": 0.0
+        "impute_constant_value": 0
       },
       "SYK": {
         "rescaling": "AVGSTD",
@@ -747,7 +747,7 @@
         "role": "INPUT",
         "sendToInput": "main",
         "customHandlingCode": "",
-        "binarize_constant_threshold": 0.0,
+        "binarize_constant_threshold": 0,
         "type": "NUMERIC",
         "binarize_threshold_mode": "MEDIAN",
         "datetime_cyclical_periods": [],
@@ -762,7 +762,7 @@
           "recordedMeaning": "DoubleMeaning",
           "userModified": false
         },
-        "impute_constant_value": 0.0
+        "impute_constant_value": 0
       },
       "IL1R2": {
         "rescaling": "AVGSTD",
@@ -770,7 +770,7 @@
         "role": "INPUT",
         "sendToInput": "main",
         "customHandlingCode": "",
-        "binarize_constant_threshold": 0.0,
+        "binarize_constant_threshold": 0,
         "type": "NUMERIC",
         "binarize_threshold_mode": "MEDIAN",
         "datetime_cyclical_periods": [],
@@ -785,7 +785,7 @@
           "recordedMeaning": "DoubleMeaning",
           "userModified": false
         },
-        "impute_constant_value": 0.0
+        "impute_constant_value": 0
       },
       "IL16": {
         "rescaling": "AVGSTD",
@@ -793,7 +793,7 @@
         "role": "INPUT",
         "sendToInput": "main",
         "customHandlingCode": "",
-        "binarize_constant_threshold": 0.0,
+        "binarize_constant_threshold": 0,
         "type": "NUMERIC",
         "binarize_threshold_mode": "MEDIAN",
         "datetime_cyclical_periods": [],
@@ -808,7 +808,7 @@
           "recordedMeaning": "DoubleMeaning",
           "userModified": false
         },
-        "impute_constant_value": 0.0
+        "impute_constant_value": 0
       },
       "PRISM": {
         "rescaling": "AVGSTD",
@@ -816,7 +816,7 @@
         "role": "INPUT",
         "sendToInput": "main",
         "customHandlingCode": "",
-        "binarize_constant_threshold": 0.0,
+        "binarize_constant_threshold": 0,
         "type": "NUMERIC",
         "binarize_threshold_mode": "MEDIAN",
         "datetime_cyclical_periods": [],
@@ -831,7 +831,7 @@
           "recordedMeaning": "DoubleMeaning",
           "userModified": false
         },
-        "impute_constant_value": 0.0
+        "impute_constant_value": 0
       },
       "IL6": {
         "rescaling": "AVGSTD",
@@ -839,7 +839,7 @@
         "role": "INPUT",
         "sendToInput": "main",
         "customHandlingCode": "",
-        "binarize_constant_threshold": 0.0,
+        "binarize_constant_threshold": 0,
         "type": "NUMERIC",
         "binarize_threshold_mode": "MEDIAN",
         "datetime_cyclical_periods": [],
@@ -854,7 +854,7 @@
           "recordedMeaning": "DoubleMeaning",
           "userModified": false
         },
-        "impute_constant_value": 0.0
+        "impute_constant_value": 0
       },
       "Age_years": {
         "rescaling": "AVGSTD",
@@ -862,7 +862,7 @@
         "role": "INPUT",
         "sendToInput": "main",
         "customHandlingCode": "",
-        "binarize_constant_threshold": 0.0,
+        "binarize_constant_threshold": 0,
         "type": "NUMERIC",
         "binarize_threshold_mode": "MEDIAN",
         "datetime_cyclical_periods": [],
@@ -877,7 +877,7 @@
           "recordedMeaning": "DoubleMeaning",
           "userModified": false
         },
-        "impute_constant_value": 0.0
+        "impute_constant_value": 0
       },
       "IRF7": {
         "rescaling": "AVGSTD",
@@ -885,7 +885,7 @@
         "role": "INPUT",
         "sendToInput": "main",
         "customHandlingCode": "",
-        "binarize_constant_threshold": 0.0,
+        "binarize_constant_threshold": 0,
         "type": "NUMERIC",
         "binarize_threshold_mode": "MEDIAN",
         "datetime_cyclical_periods": [],
@@ -900,7 +900,7 @@
           "recordedMeaning": "DoubleMeaning",
           "userModified": false
         },
-        "impute_constant_value": 0.0
+        "impute_constant_value": 0
       },
       "CD9": {
         "rescaling": "AVGSTD",
@@ -908,7 +908,7 @@
         "role": "INPUT",
         "sendToInput": "main",
         "customHandlingCode": "",
-        "binarize_constant_threshold": 0.0,
+        "binarize_constant_threshold": 0,
         "type": "NUMERIC",
         "binarize_threshold_mode": "MEDIAN",
         "datetime_cyclical_periods": [],
@@ -923,7 +923,7 @@
           "recordedMeaning": "DoubleMeaning",
           "userModified": false
         },
-        "impute_constant_value": 0.0
+        "impute_constant_value": 0
       },
       "TNFSF8": {
         "rescaling": "AVGSTD",
@@ -931,7 +931,7 @@
         "role": "INPUT",
         "sendToInput": "main",
         "customHandlingCode": "",
-        "binarize_constant_threshold": 0.0,
+        "binarize_constant_threshold": 0,
         "type": "NUMERIC",
         "binarize_threshold_mode": "MEDIAN",
         "datetime_cyclical_periods": [],
@@ -946,7 +946,7 @@
           "recordedMeaning": "DoubleMeaning",
           "userModified": false
         },
-        "impute_constant_value": 0.0
+        "impute_constant_value": 0
       },
       "TLR5": {
         "rescaling": "AVGSTD",
@@ -954,7 +954,7 @@
         "role": "INPUT",
         "sendToInput": "main",
         "customHandlingCode": "",
-        "binarize_constant_threshold": 0.0,
+        "binarize_constant_threshold": 0,
         "type": "NUMERIC",
         "binarize_threshold_mode": "MEDIAN",
         "datetime_cyclical_periods": [],
@@ -969,7 +969,7 @@
           "recordedMeaning": "DoubleMeaning",
           "userModified": false
         },
-        "impute_constant_value": 0.0
+        "impute_constant_value": 0
       },
       "CLEC4E": {
         "rescaling": "AVGSTD",
@@ -977,7 +977,7 @@
         "role": "INPUT",
         "sendToInput": "main",
         "customHandlingCode": "",
-        "binarize_constant_threshold": 0.0,
+        "binarize_constant_threshold": 0,
         "type": "NUMERIC",
         "binarize_threshold_mode": "MEDIAN",
         "datetime_cyclical_periods": [],
@@ -992,7 +992,7 @@
           "recordedMeaning": "DoubleMeaning",
           "userModified": false
         },
-        "impute_constant_value": 0.0
+        "impute_constant_value": 0
       },
       "HAMP": {
         "rescaling": "AVGSTD",
@@ -1000,7 +1000,7 @@
         "role": "INPUT",
         "sendToInput": "main",
         "customHandlingCode": "",
-        "binarize_constant_threshold": 0.0,
+        "binarize_constant_threshold": 0,
         "type": "NUMERIC",
         "binarize_threshold_mode": "MEDIAN",
         "datetime_cyclical_periods": [],
@@ -1015,7 +1015,7 @@
           "recordedMeaning": "DoubleMeaning",
           "userModified": false
         },
-        "impute_constant_value": 0.0
+        "impute_constant_value": 0
       },
       "FKBP5": {
         "rescaling": "AVGSTD",
@@ -1023,7 +1023,7 @@
         "role": "INPUT",
         "sendToInput": "main",
         "customHandlingCode": "",
-        "binarize_constant_threshold": 0.0,
+        "binarize_constant_threshold": 0,
         "type": "NUMERIC",
         "binarize_threshold_mode": "MEDIAN",
         "datetime_cyclical_periods": [],
@@ -1038,7 +1038,7 @@
           "recordedMeaning": "DoubleMeaning",
           "userModified": false
         },
-        "impute_constant_value": 0.0
+        "impute_constant_value": 0
       }
     },
     "skipPreprocessing": false,
@@ -1064,7 +1064,7 @@
         "behavior": "DISABLED"
       }
     },
-    "preprocessingFitSampleRatio": 1.0,
+    "preprocessingFitSampleRatio": 1,
     "preprocessingFitSampleSeed": 1337,
     "feature_selection_params": {
       "pca_params": {
@@ -1076,17 +1076,17 @@
       },
       "method": "NONE",
       "correlation_params": {
-        "min_abs_correlation": 0.0,
-        "max_abs_correlation": 1.0,
+        "min_abs_correlation": 0,
+        "max_abs_correlation": 1,
         "n_features": 25
       },
       "lasso_params": {
         "alpha": [
           0.01,
           0.1,
-          1.0,
-          10.0,
-          100.0
+          1,
+          10,
+          100
         ],
         "cross_validate": true
       },
@@ -1386,7 +1386,7 @@
     },
     "prediction_type": "REGRESSION"
   },
-  "operationMode": "TRAIN_SPLITTED_ONLY",
+  "operationMode": "TRAIN_KFOLD",
   "partSource": "ACTIVE_VERSION",
   "modelVersionNamePrefix": "XGBoost (All)",
   "assertionsParams": {
@@ -1420,7 +1420,7 @@
     },
     "ssdTrainingRatio": 0.8,
     "ttPolicy": "SPLIT_SINGLE_DATASET",
-    "kfold": false
+    "kfold": true
   },
   "sparkParams": {
     "pipelineAllowMerge": true,

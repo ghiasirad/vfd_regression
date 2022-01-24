@@ -5,14 +5,14 @@ from dataiku import pandasutils as pdu
 import smogn
 
 # Read recipe inputs
-Features_joined_Nanostring_topn = dataiku.Dataset("Features_joined_Nanostring_topn")
-Features_joined_Nanostring_topn_df = Features_joined_Nanostring_topn.get_dataframe()
+Features_topn = dataiku.Dataset("Features_topn")
+Features_topn_df = Features_topn.get_dataframe()
 
 
 ## conduct smogn
 features_smogn = smogn.smoter(
     
-    data = Features_joined_Nanostring_topn_df, 
+    data = Features_topn_df, 
     y = "VFD",
     k = 3,
     pert = 0.2

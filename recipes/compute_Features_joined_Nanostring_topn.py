@@ -13,7 +13,8 @@ demographics_topn_df = selectedFeatures_topn.get_dataframe()
 
 
 # Filter the dataframe into a smaller dataset
-Features_joined_Nanostring_topn_df = Features_joined_Nanostring_df[selectedFeatures_topn_df.line.values]
+# Features_joined_Nanostring_topn_df = Features_joined_Nanostring_df[selectedFeatures_topn_df.line.values]
+Features_joined_Nanostring_topn_df = Features_joined_Nanostring_df[np.concatenate((selectedFeatures_topn_df.line.values, demographics_topn_df.line.values), axis=None)]
 Features_joined_Nanostring_topn_df['StudyID_Int'] = Features_joined_Nanostring_df['StudyID_Int']
 Features_joined_Nanostring_topn_df['VFD'] = Features_joined_Nanostring_df['VFD']
 

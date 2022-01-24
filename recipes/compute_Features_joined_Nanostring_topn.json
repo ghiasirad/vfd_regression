@@ -28,6 +28,10 @@
         {
           "ref": "selectedFeatures_topn_stacked",
           "deps": []
+        },
+        {
+          "ref": "selectedFeatures",
+          "deps": []
         }
       ]
     }
@@ -44,11 +48,11 @@
   },
   "labels": [],
   "versionTag": {
-    "versionNumber": 27,
+    "versionNumber": 28,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1642985696532
+    "lastModifiedOn": 1642986514428
   },
   "creationTag": {
     "versionNumber": 0,

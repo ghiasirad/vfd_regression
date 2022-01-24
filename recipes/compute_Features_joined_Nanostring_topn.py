@@ -8,10 +8,12 @@ Features_joined_Nanostring = dataiku.Dataset("Features_joined_Nanostring")
 Features_joined_Nanostring_df = Features_joined_Nanostring.get_dataframe()
 selectedFeatures_topn_stacked = dataiku.Dataset("selectedFeatures_topn_stacked")
 selectedFeatures_topn_stacked_df = selectedFeatures_topn_stacked.get_dataframe()
+selectedFeatures = dataiku.Dataset("selectedFeatures")
+selectedFeatures_df = selectedFeatures.get_dataframe()
 
 
 # Filter the dataframe into a smaller dataset
-Features_joined_Nanostring_topn_df = Features_joined_Nanostring_df[selectedFeatures_topn_stacked_df.line.values]
+Features_joined_Nanostring_topn_df = Features_joined_Nanostring_df[selectedFeatures_df.line.values[:30]]
 Features_joined_Nanostring_topn_df['StudyID_Int'] = Features_joined_Nanostring_df['StudyID_Int']
 Features_joined_Nanostring_topn_df['VFD'] = Features_joined_Nanostring_df['VFD']
 

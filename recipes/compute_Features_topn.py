@@ -14,6 +14,9 @@ Features_topn_df = Features_joined_Nanostring_df[selectedFeatures_df.Feature.val
 Features_topn_df['StudyID_Int'] = Features_joined_Nanostring_df.StudyID_Int
 Features_topn_df['VFD'] = Features_joined_Nanostring_df.VFD
 
+first_column = Features_topn_df.pop('StudyID_Int')
+Features_topn_df.insert(0, 'StudyID_Int', first_column)
+
 
 # Write recipe outputs
 Features_topn = dataiku.Dataset("Features_topn")

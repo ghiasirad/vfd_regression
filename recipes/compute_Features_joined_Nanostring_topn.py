@@ -8,6 +8,8 @@ Features_joined_Nanostring = dataiku.Dataset("Features_joined_Nanostring")
 Features_joined_Nanostring_df = Features_joined_Nanostring.get_dataframe()
 selectedFeatures_topn = dataiku.Dataset("selectedFeatures_topn")
 selectedFeatures_topn_df = selectedFeatures_topn.get_dataframe()
+demographics_topn = dataiku.Dataset("demographics_topn")
+demographics_topn_df = selectedFeatures_topn.get_dataframe()
 
 
 # Filter the dataframe into a smaller dataset

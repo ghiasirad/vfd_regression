@@ -59,11 +59,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 1,
+    "versionNumber": 2,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1642777810800
+    "lastModifiedOn": 1642988550027
   },
   "creationTag": {
     "versionNumber": 0,
@@ -91,47 +91,27 @@
         "type": "bigint"
       },
       {
-        "name": "3-Hydroxy-tyrosine",
+        "name": "Sex",
+        "type": "string"
+      },
+      {
+        "name": "Race",
+        "type": "string"
+      },
+      {
+        "name": "Infection Status",
+        "type": "string"
+      },
+      {
+        "name": "ECMO",
+        "type": "string"
+      },
+      {
+        "name": "PELOD",
         "type": "double"
       },
       {
-        "name": "4-Aminobenzoic acid",
-        "type": "double"
-      },
-      {
-        "name": "ABCB1",
-        "type": "double"
-      },
-      {
-        "name": "ABCF1",
-        "type": "double"
-      },
-      {
-        "name": "ADA",
-        "type": "double"
-      },
-      {
-        "name": "AHR",
-        "type": "double"
-      },
-      {
-        "name": "AICDA",
-        "type": "double"
-      },
-      {
-        "name": "ALAS1",
-        "type": "double"
-      },
-      {
-        "name": "ARG1",
-        "type": "double"
-      },
-      {
-        "name": "ARHGDIB",
-        "type": "double"
-      },
-      {
-        "name": "ATG7",
+        "name": "PRISM",
         "type": "double"
       },
       {
@@ -139,75 +119,95 @@
         "type": "double"
       },
       {
-        "name": "Alanyl-alanine",
+        "name": "TNFSF8",
         "type": "double"
       },
       {
-        "name": "Arginine",
+        "name": "TLR5",
         "type": "double"
       },
       {
-        "name": "Asparagine",
+        "name": "SYK",
         "type": "double"
       },
       {
-        "name": "B2M",
+        "name": "PRDM1",
         "type": "double"
       },
       {
-        "name": "BATF",
+        "name": "LTB4R",
         "type": "double"
       },
       {
-        "name": "BATF3",
+        "name": "LILRA3",
         "type": "double"
       },
       {
-        "name": "BCAP31",
+        "name": "IRF7",
         "type": "double"
       },
       {
-        "name": "BCL10",
+        "name": "IL6",
         "type": "double"
       },
       {
-        "name": "BCL2",
+        "name": "IL1RN",
         "type": "double"
       },
       {
-        "name": "BCL2L11",
+        "name": "IL1R2",
         "type": "double"
       },
       {
-        "name": "BCL3",
+        "name": "IL18RAP",
         "type": "double"
       },
       {
-        "name": "BCL6",
+        "name": "IL16",
         "type": "double"
       },
       {
-        "name": "BID",
+        "name": "IKZF2",
         "type": "double"
       },
       {
-        "name": "BLNK",
+        "name": "HAMP",
         "type": "double"
       },
       {
-        "name": "BST1",
+        "name": "FKBP5",
         "type": "double"
       },
       {
-        "name": "BST2",
+        "name": "FCGR3A/B",
         "type": "double"
       },
       {
-        "name": "BTK",
+        "name": "EGR1",
         "type": "double"
       },
       {
-        "name": "C14orf166",
+        "name": "DPP4",
+        "type": "double"
+      },
+      {
+        "name": "CXCR1",
+        "type": "double"
+      },
+      {
+        "name": "CSF2RB",
+        "type": "double"
+      },
+      {
+        "name": "CLEC4E",
+        "type": "double"
+      },
+      {
+        "name": "CFD",
+        "type": "double"
+      },
+      {
+        "name": "CD9",
         "type": "double"
       },
       {

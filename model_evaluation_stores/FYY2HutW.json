@@ -79,7 +79,6 @@
       "RMSLE",
       "R2",
       "PEARSON",
-      "CUSTOM",
       "DATA_DRIFT"
     ],
     "predictionType": "REGRESSION",
@@ -102,11 +101,11 @@
     "disabledMERunIds": []
   },
   "versionTag": {
-    "versionNumber": 2,
+    "versionNumber": 3,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1642989046687
+    "lastModifiedOn": 1642997293038
   },
   "creationTag": {
     "versionNumber": 0,

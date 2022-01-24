@@ -59,11 +59,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 1,
+    "versionNumber": 2,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1642988190305
+    "lastModifiedOn": 1642988308436
   },
   "creationTag": {
     "versionNumber": 0,
@@ -205,6 +205,14 @@
       {
         "name": "CD9",
         "type": "double"
+      },
+      {
+        "name": "StudyID_Int",
+        "type": "bigint"
+      },
+      {
+        "name": "VFD",
+        "type": "bigint"
       }
     ],
     "userModified": false

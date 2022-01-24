@@ -2149,14 +2149,14 @@
     "predictionDisplayCharts": [],
     "labels": []
   },
-  "lastTrainIndex": 1,
-  "lastTrainJobId": "",
+  "lastTrainIndex": 2,
+  "lastTrainJobId": "Build_Predict_VFD__XGB__2022-01-24T04-16-26.211",
   "versionTag": {
-    "versionNumber": 1,
+    "versionNumber": 2,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1642997791193
+    "lastModifiedOn": 1642997791216
   },
   "creationTag": {
     "versionNumber": 0,

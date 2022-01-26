@@ -1,7 +1,112 @@
 {
   "name": "All Data XGB",
   "color": "#D03713",
-  "items": [],
+  "items": [
+    {
+      "objectId": "XGB_Metrics_topn_1",
+      "objectType": "DATASET"
+    },
+    {
+      "objectId": "DemographicData_prepared_normal_1",
+      "objectType": "DATASET"
+    },
+    {
+      "objectId": "Features_joined_1",
+      "objectType": "DATASET"
+    },
+    {
+      "objectId": "AmioAcids_cleaned_1",
+      "objectType": "DATASET"
+    },
+    {
+      "objectId": "4YC4Q4jz",
+      "objectType": "MODEL_EVALUATION_STORE"
+    },
+    {
+      "objectId": "Features_topn_smogned_1",
+      "objectType": "DATASET"
+    },
+    {
+      "objectId": "Aminoacids_normalized_1",
+      "objectType": "DATASET"
+    },
+    {
+      "objectId": "Features_joined_Nanostring_1",
+      "objectType": "DATASET"
+    },
+    {
+      "objectId": "DemographicData_prepared_1",
+      "objectType": "DATASET"
+    },
+    {
+      "objectId": "HPUrVWDq",
+      "objectType": "SAVED_MODEL"
+    },
+    {
+      "objectId": "nanoStringDf_normalized_1",
+      "objectType": "DATASET"
+    },
+    {
+      "objectId": "DemographicDataTAAminoAcids_Modified_joined_1",
+      "objectType": "DATASET"
+    },
+    {
+      "objectId": "XGB_Outputs_topn_1",
+      "objectType": "DATASET"
+    },
+    {
+      "objectId": "Features_topn_1",
+      "objectType": "DATASET"
+    },
+    {
+      "objectId": "compute_Features_joined_1",
+      "objectType": "RECIPE"
+    },
+    {
+      "objectId": "compute_Features_topn_1",
+      "objectType": "RECIPE"
+    },
+    {
+      "objectId": "train_Predict_VFD__XGB__1_1",
+      "objectType": "RECIPE"
+    },
+    {
+      "objectId": "compute_DemographicData_prepared_1",
+      "objectType": "RECIPE"
+    },
+    {
+      "objectId": "Clean_AminoAcids_1",
+      "objectType": "RECIPE"
+    },
+    {
+      "objectId": "evaluate_on_Features_topn_1",
+      "objectType": "RECIPE"
+    },
+    {
+      "objectId": "compute_Features_smogned_Nanostring_1",
+      "objectType": "RECIPE"
+    },
+    {
+      "objectId": "compute_Aminoacids_normalized_1",
+      "objectType": "RECIPE"
+    },
+    {
+      "objectId": "compute_DemographicData_prepared_normal_1",
+      "objectType": "RECIPE"
+    },
+    {
+      "objectId": "compute_DemographicDataTAAminoAcids_Modified_joined_1",
+      "objectType": "RECIPE"
+    },
+    {
+      "objectId": "compute_nanoStringDf_normalized_1",
+      "objectType": "RECIPE"
+    },
+    {
+      "objectId": "compute_Features_topn_smogned_1",
+      "objectType": "RECIPE"
+    }
+  ],
   "shared": [],
   "tags": [],
   "customFields": {},

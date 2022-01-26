@@ -147,6 +147,8 @@
   },
   "name": "VFD Regression",
   "projectStatus": "Sandbox",
+  "imgColor": "#f27c22",
+  "imgPattern": 6,
   "metrics": {
     "probes": [],
     "engineConfig": {
@@ -202,11 +204,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 2,
+    "versionNumber": 6,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1638923600887
+    "lastModifiedOn": 1643158222222
   },
   "creationTag": {
     "versionNumber": 0,
@@ -232,21 +234,21 @@
             "stateChangedOn": 0
           },
           {
-            "done": false,
+            "done": true,
             "text": "Set a project image (click on the color next to the project title)",
             "createdOn": 1638810505161,
             "createdBy": "admin",
             "stateChangedOn": 0
           },
           {
-            "done": false,
+            "done": true,
             "text": "Import your [first dataset](projects/VFDREGRESSION/datasets/new/)",
             "createdOn": 1638810505161,
             "createdBy": "admin",
             "stateChangedOn": 0
           },
           {
-            "done": false,
+            "done": true,
             "text": "Organize your work by replacing this with a real todo",
             "createdOn": 1638810505161,
             "createdBy": "admin",

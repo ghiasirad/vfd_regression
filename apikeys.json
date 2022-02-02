@@ -1,0 +1,26 @@
+[
+  {
+    "execSQLLike": false,
+    "localDatasets": [],
+    "projectPrivileges": {
+      "admin": false,
+      "readProjectContent": false,
+      "writeProjectContent": false,
+      "exportDatasetsData": false,
+      "readDashboards": false,
+      "writeDashboards": false,
+      "moderateDashboards": false,
+      "shareToWorkspaces": false,
+      "runScenarios": false,
+      "manageDashboardAuthorizations": false,
+      "manageExposedElements": false,
+      "manageAdditionalDashboardUsers": false,
+      "executeApp": false
+    },
+    "onBehalf": "dfmtkCc",
+    "id": "ROJffCiU5gFI5ToQ",
+    "key": "MiIrTVfOucLcQHTIjCoPA9m6VENivzGS",
+    "label": "Key for Web app VFD(dfmtkCc)",
+    "createdOn": 1643833324974
+  }
+]

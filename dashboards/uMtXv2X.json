@@ -89,8 +89,8 @@
           {
             "tileType": "INSIGHT",
             "box": {
-              "top": -1,
-              "left": -1,
+              "top": 0,
+              "left": 5,
               "width": 2,
               "height": 2
             },
@@ -119,11 +119,11 @@
   "name": "VFD Regression\u0027s default dashboard",
   "showGrid": true,
   "versionTag": {
-    "versionNumber": 6,
+    "versionNumber": 7,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1643903009698
+    "lastModifiedOn": 1643903011159
   },
   "creationTag": {
     "versionNumber": 0,

@@ -1,0 +1,74 @@
+{
+  "type": "eda",
+  "params": {
+    "card": {
+      "type": "bivariate_frequency_table",
+      "xBinningMode": "AUTO",
+      "yBinningMode": "AUTO",
+      "maxValuesX": 5,
+      "maxValuesY": 5,
+      "groupWithOthersX": true,
+      "groupWithOthersY": true,
+      "xCustomBinningBoundaries": [],
+      "yCustomBinningBoundaries": [],
+      "xColumn": {
+        "name": "VFD",
+        "type": "CATEGORICAL"
+      },
+      "yColumn": {
+        "name": "prediction",
+        "type": "CATEGORICAL"
+      },
+      "id": "QFoCefs"
+    },
+    "dataSpec": {
+      "inputDatasetSmartName": "XGB_Outputs_topn",
+      "datasetSelection": {
+        "useMemTable": false,
+        "filter": {
+          "distinct": false,
+          "enabled": false
+        },
+        "partitionSelectionMethod": "ALL",
+        "latestPartitionsN": 1,
+        "ordering": {
+          "enabled": false,
+          "rules": []
+        },
+        "samplingMethod": "HEAD_SEQUENTIAL",
+        "maxRecords": 100000,
+        "targetRatio": 0.02,
+        "withinFirstN": -1,
+        "maxReadUncompressedBytes": -1
+      },
+      "autoRefreshSample": true,
+      "refreshTrigger": 0,
+      "containerSelection": {
+        "containerMode": "INHERIT"
+      }
+    }
+  },
+  "owner": "admin",
+  "listed": true,
+  "name": "Frequency table on VFD \u0026 prediction ",
+  "dashboardCreationId": "uMtXv2X",
+  "versionTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "admin"
+    },
+    "lastModifiedOn": 1643905818331
+  },
+  "creationTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "admin"
+    },
+    "lastModifiedOn": 1643905818331
+  },
+  "tags": [],
+  "customFields": {},
+  "checklists": {
+    "checklists": []
+  }
+}

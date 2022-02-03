@@ -356,17 +356,91 @@
           "type": "CONTINUOUS"
         },
         "id": "5hnvPlQ"
+      },
+      {
+        "type": "univariate_header",
+        "showHistogram": false,
+        "showQuantile": false,
+        "showFrequencyTable": false,
+        "showSummary": false,
+        "showBoxPlot": false,
+        "showCumulativeDistributionFunction": true,
+        "xColumns": [
+          {
+            "name": "VFD",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "prediction",
+            "type": "CONTINUOUS"
+          }
+        ],
+        "cards": [
+          {
+            "type": "column_card",
+            "column": {
+              "name": "VFD",
+              "type": "CONTINUOUS"
+            },
+            "cards": [
+              {
+                "type": "cdf_plot",
+                "highlightFilter": {
+                  "type": "interval",
+                  "column": "VFD",
+                  "closed": "LEFT",
+                  "left": 25.0,
+                  "right": 30.0,
+                  "name": "VFD: [25,30)"
+                },
+                "column": {
+                  "name": "VFD",
+                  "type": "CONTINUOUS"
+                },
+                "id": "JKCOfr9"
+              }
+            ],
+            "id": "cNpA7ft"
+          },
+          {
+            "type": "column_card",
+            "column": {
+              "name": "prediction",
+              "type": "CONTINUOUS"
+            },
+            "cards": [
+              {
+                "type": "cdf_plot",
+                "highlightFilter": {
+                  "type": "interval",
+                  "column": "VFD",
+                  "closed": "LEFT",
+                  "left": 25.0,
+                  "right": 30.0,
+                  "name": "VFD: [25,30)"
+                },
+                "column": {
+                  "name": "prediction",
+                  "type": "CONTINUOUS"
+                },
+                "id": "cxG51qb"
+              }
+            ],
+            "id": "4HG8obc"
+          }
+        ],
+        "id": "jWeBP9L"
       }
     ],
     "id": "IZYOp1T"
   },
   "name": "Worksheet",
   "versionTag": {
-    "versionNumber": 38,
+    "versionNumber": 39,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1643906765561
+    "lastModifiedOn": 1643913182407
   },
   "creationTag": {
     "versionNumber": 0,

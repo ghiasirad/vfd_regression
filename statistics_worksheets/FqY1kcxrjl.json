@@ -1,0 +1,75 @@
+{
+  "dataSpec": {
+    "inputDatasetSmartName": "XGB_Outputs_topn",
+    "datasetSelection": {
+      "useMemTable": false,
+      "filter": {
+        "distinct": false,
+        "enabled": false
+      },
+      "partitionSelectionMethod": "ALL",
+      "latestPartitionsN": 1,
+      "ordering": {
+        "enabled": false,
+        "rules": []
+      },
+      "samplingMethod": "HEAD_SEQUENTIAL",
+      "maxRecords": 100000,
+      "targetRatio": 0.02,
+      "withinFirstN": -1,
+      "maxReadUncompressedBytes": -1
+    },
+    "autoRefreshSample": true,
+    "refreshTrigger": 0,
+    "containerSelection": {
+      "containerMode": "INHERIT"
+    }
+  },
+  "rootCard": {
+    "type": "worksheet_root",
+    "confidenceLevel": 0.95,
+    "showConfidenceInterval": false,
+    "cards": [
+      {
+        "type": "fit_2d_distribution",
+        "xResolution": 640,
+        "yResolution": 480,
+        "distribution": {
+          "type": "kde_2d",
+          "x_relative_bandwidth": 15.0,
+          "y_relative_bandwidth": 15.0
+        },
+        "xColumn": {
+          "name": "VFD",
+          "type": "CONTINUOUS"
+        },
+        "yColumn": {
+          "name": "prediction",
+          "type": "CONTINUOUS"
+        },
+        "id": "1JPaAgL"
+      }
+    ],
+    "id": "IZYOp1T"
+  },
+  "name": "Worksheet",
+  "versionTag": {
+    "versionNumber": 1,
+    "lastModifiedBy": {
+      "login": "admin"
+    },
+    "lastModifiedOn": 1643905189587
+  },
+  "creationTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "admin"
+    },
+    "lastModifiedOn": 1643905132542
+  },
+  "tags": [],
+  "customFields": {},
+  "checklists": {
+    "checklists": []
+  }
+}

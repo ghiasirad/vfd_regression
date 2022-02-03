@@ -9,88 +9,6 @@
             "box": {
               "top": 0,
               "left": 0,
-              "width": 5,
-              "height": 4
-            },
-            "clickAction": "DO_NOTHING",
-            "tileParams": {
-              "displayMode": "summary",
-              "advancedOptions": {
-                "interactiveScoring": {
-                  "featuresOrder": [
-                    "1-Methyl-histidine",
-                    "3-Hydroxy-tyrosine",
-                    "3-Methyl-histidine",
-                    "4-Aminobenzoic acid",
-                    "4-Aminobutyric acid",
-                    "4-Hydroxyproline",
-                    "Alanine",
-                    "Alanyl-alanine",
-                    "α-Aminoadipic acid",
-                    "α-Aminobutyric acid",
-                    "Anserine",
-                    "Arginine",
-                    "Asparagine",
-                    "Aspartic acid",
-                    "β-Alanine",
-                    "β-Aminobutyric acid",
-                    "β-Aminoisobutyric acid",
-                    "Carnosine",
-                    "Citrulline",
-                    "Cysteine",
-                    "Cystine",
-                    "Ethanolamine",
-                    "γ-Glutamyl-ε-lysine",
-                    "Glutamic acid",
-                    "Glutamine",
-                    "Glycine",
-                    "Glycine-proline",
-                    "Histamine",
-                    "Histidine",
-                    "Homocystine",
-                    "Homoserine",
-                    "Isoleucine",
-                    "Leucine",
-                    "Lysine",
-                    "Methionine",
-                    "Methionine sulfoxide",
-                    "Ornithine",
-                    "Phenylalanine",
-                    "Pipecolic acid",
-                    "Proline",
-                    "Proline-hydroxyproline",
-                    "Pyroglutamic acid",
-                    "Sarcosine",
-                    "Seleno-methionine",
-                    "Serine",
-                    "Thiaproline",
-                    "Threonine",
-                    "Tryptophan",
-                    "Tyrosine",
-                    "Valine",
-                    "Sex",
-                    "Race",
-                    "Infection Status",
-                    "ECMO",
-                    "Age_years",
-                    "PRISM",
-                    "PELOD"
-                  ]
-                }
-              }
-            },
-            "autoLoad": true,
-            "showTitle": "YES",
-            "insightId": "ul9lmG2",
-            "insightType": "saved-model_report",
-            "displayMode": "INSIGHT",
-            "resizeImageMode": "FIT_SIZE"
-          },
-          {
-            "tileType": "INSIGHT",
-            "box": {
-              "top": 0,
-              "left": 5,
               "width": 6,
               "height": 5
             },
@@ -119,11 +37,11 @@
   "name": "VFD Regression\u0027s default dashboard",
   "showGrid": true,
   "versionTag": {
-    "versionNumber": 8,
+    "versionNumber": 9,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1643903037829
+    "lastModifiedOn": 1643903175778
   },
   "creationTag": {
     "versionNumber": 0,

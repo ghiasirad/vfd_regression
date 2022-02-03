@@ -21,7 +21,8 @@
               "autoPlayAnimation": true
             },
             "autoLoad": true,
-            "showTitle": "YES",
+            "showTitle": "NO",
+            "borderColor": "",
             "insightId": "72SlS8W",
             "insightType": "chart",
             "displayMode": "INSIGHT",
@@ -37,11 +38,11 @@
   "name": "VFD Regression\u0027s default dashboard",
   "showGrid": true,
   "versionTag": {
-    "versionNumber": 9,
+    "versionNumber": 10,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1643903175778
+    "lastModifiedOn": 1643903331045
   },
   "creationTag": {
     "versionNumber": 0,

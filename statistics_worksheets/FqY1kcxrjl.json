@@ -29,6 +29,14 @@
     "type": "worksheet_root",
     "confidenceLevel": 0.95,
     "showConfidenceInterval": false,
+    "highlightFilter": {
+      "type": "interval",
+      "column": "VFD",
+      "closed": "LEFT",
+      "left": 25.0,
+      "right": 30.0,
+      "name": "VFD: [25,30)"
+    },
     "cards": [
       {
         "type": "fit_2d_distribution",
@@ -50,17 +58,13 @@
         "id": "1JPaAgL"
       },
       {
-        "type": "bivariate_header",
-        "yColumn": {
-          "name": "PELOD",
-          "type": "CONTINUOUS"
-        },
-        "showMosaicPlot": true,
+        "type": "univariate_header",
         "showHistogram": true,
-        "showScatterPlot": true,
-        "showFrequencyTable": true,
-        "showBoxPlot": true,
+        "showQuantile": true,
+        "showFrequencyTable": false,
         "showSummary": true,
+        "showBoxPlot": true,
+        "showCumulativeDistributionFunction": false,
         "xColumns": [
           {
             "name": "VFD",
@@ -68,6 +72,10 @@
           },
           {
             "name": "prediction",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "error",
             "type": "CONTINUOUS"
           }
         ],
@@ -80,121 +88,71 @@
             },
             "cards": [
               {
-                "type": "scatter_plot",
-                "symbolSize": 4,
-                "maxNumberOfPoints": 100000,
-                "showTrend": false,
-                "xColumn": {
-                  "name": "VFD",
-                  "type": "CONTINUOUS"
+                "type": "numerical_histogram",
+                "showBoxPlot": true,
+                "showHistogram": true,
+                "highlightFilter": {
+                  "type": "interval",
+                  "column": "VFD",
+                  "closed": "LEFT",
+                  "left": 25.0,
+                  "right": 30.0,
+                  "name": "VFD: [25,30)"
                 },
-                "yColumn": {
-                  "name": "PELOD",
-                  "type": "CONTINUOUS"
-                },
-                "id": "Om53D0h"
-              },
-              {
-                "type": "bivariate_box_plot",
-                "maxValues": 5,
-                "groupOthers": true,
                 "binningMode": "AUTO",
+                "nbBins": 25,
                 "customBinningBoundaries": [],
-                "xColumn": {
+                "column": {
                   "name": "VFD",
                   "type": "CONTINUOUS"
                 },
-                "yColumn": {
-                  "name": "PELOD",
-                  "type": "CONTINUOUS"
-                },
-                "id": "7vnFOJF"
+                "id": "bepGOx2"
               },
               {
-                "type": "bivariate_histogram",
-                "xBinningMode": "AUTO",
-                "yBinningMode": "AUTO",
-                "maxValuesX": 5,
-                "maxValuesY": 5,
-                "groupWithOthersX": true,
-                "groupWithOthersY": true,
-                "xCustomBinningBoundaries": [],
-                "yCustomBinningBoundaries": [],
-                "xColumn": {
-                  "name": "VFD",
-                  "type": "CONTINUOUS"
-                },
-                "yColumn": {
-                  "name": "PELOD",
-                  "type": "CONTINUOUS"
-                },
-                "id": "m2ocx6w"
-              },
-              {
-                "type": "mosaic_plot",
-                "xBinningMode": "AUTO",
-                "yBinningMode": "AUTO",
-                "maxValuesX": 5,
-                "maxValuesY": 5,
-                "groupWithOthersX": true,
-                "groupWithOthersY": true,
-                "xCustomBinningBoundaries": [],
-                "yCustomBinningBoundaries": [],
-                "xColumn": {
-                  "name": "VFD",
-                  "type": "CONTINUOUS"
-                },
-                "yColumn": {
-                  "name": "PELOD",
-                  "type": "CONTINUOUS"
-                },
-                "id": "PLxYr1N"
-              },
-              {
-                "type": "bivariate_summary",
+                "type": "univariate_summary",
                 "confidenceLevel": 0.95,
                 "showConfidenceInterval": false,
                 "compute": {
-                  "spearman": true,
-                  "pearson": true,
                   "totalCount": true,
-                  "covariance": true,
-                  "kendallTau": true,
-                  "mutualInformation": true,
-                  "completeCount": true
+                  "mean": true,
+                  "sum": false,
+                  "median": true,
+                  "std": true,
+                  "variance": false,
+                  "skewness": false,
+                  "kurtosis": false,
+                  "sem": false,
+                  "completeCount": true,
+                  "nbEmpty": true,
+                  "zeroCount": false,
+                  "zeroRatio": false,
+                  "nonZeroRatio": false,
+                  "iqr": false,
+                  "distinctCount": true,
+                  "nbNonEmpty": false,
+                  "min": true,
+                  "max": true,
+                  "range": false,
+                  "mode": true
                 },
-                "xColumn": {
+                "column": {
                   "name": "VFD",
                   "type": "CONTINUOUS"
                 },
-                "yColumn": {
-                  "name": "PELOD",
-                  "type": "CONTINUOUS"
-                },
-                "id": "E8yHdYf"
+                "id": "HcWfkqg"
               },
               {
-                "type": "bivariate_frequency_table",
-                "xBinningMode": "AUTO",
-                "yBinningMode": "AUTO",
-                "maxValuesX": 5,
-                "maxValuesY": 5,
-                "groupWithOthersX": true,
-                "groupWithOthersY": true,
-                "xCustomBinningBoundaries": [],
-                "yCustomBinningBoundaries": [],
-                "xColumn": {
+                "type": "quantile_table",
+                "confidenceLevel": 0.95,
+                "showConfidenceInterval": false,
+                "column": {
                   "name": "VFD",
                   "type": "CONTINUOUS"
                 },
-                "yColumn": {
-                  "name": "PELOD",
-                  "type": "CONTINUOUS"
-                },
-                "id": "1BY9jF1"
+                "id": "UnW2yZy"
               }
             ],
-            "id": "poLoHay"
+            "id": "3C9zmGX"
           },
           {
             "type": "column_card",
@@ -204,135 +162,159 @@
             },
             "cards": [
               {
-                "type": "scatter_plot",
-                "symbolSize": 4,
-                "maxNumberOfPoints": 100000,
-                "showTrend": false,
-                "xColumn": {
-                  "name": "prediction",
-                  "type": "CONTINUOUS"
+                "type": "numerical_histogram",
+                "showBoxPlot": true,
+                "showHistogram": true,
+                "highlightFilter": {
+                  "type": "interval",
+                  "column": "VFD",
+                  "closed": "LEFT",
+                  "left": 25.0,
+                  "right": 30.0,
+                  "name": "VFD: [25,30)"
                 },
-                "yColumn": {
-                  "name": "PELOD",
-                  "type": "CONTINUOUS"
-                },
-                "id": "wJQjTi6"
-              },
-              {
-                "type": "bivariate_box_plot",
-                "maxValues": 5,
-                "groupOthers": true,
                 "binningMode": "AUTO",
+                "nbBins": 25,
                 "customBinningBoundaries": [],
-                "xColumn": {
+                "column": {
                   "name": "prediction",
                   "type": "CONTINUOUS"
                 },
-                "yColumn": {
-                  "name": "PELOD",
-                  "type": "CONTINUOUS"
-                },
-                "id": "jGuUNCb"
+                "id": "1xU3YDp"
               },
               {
-                "type": "bivariate_histogram",
-                "xBinningMode": "AUTO",
-                "yBinningMode": "AUTO",
-                "maxValuesX": 5,
-                "maxValuesY": 5,
-                "groupWithOthersX": true,
-                "groupWithOthersY": true,
-                "xCustomBinningBoundaries": [],
-                "yCustomBinningBoundaries": [],
-                "xColumn": {
-                  "name": "prediction",
-                  "type": "CONTINUOUS"
-                },
-                "yColumn": {
-                  "name": "PELOD",
-                  "type": "CONTINUOUS"
-                },
-                "id": "wMK5UcC"
-              },
-              {
-                "type": "mosaic_plot",
-                "xBinningMode": "AUTO",
-                "yBinningMode": "AUTO",
-                "maxValuesX": 5,
-                "maxValuesY": 5,
-                "groupWithOthersX": true,
-                "groupWithOthersY": true,
-                "xCustomBinningBoundaries": [],
-                "yCustomBinningBoundaries": [],
-                "xColumn": {
-                  "name": "prediction",
-                  "type": "CONTINUOUS"
-                },
-                "yColumn": {
-                  "name": "PELOD",
-                  "type": "CONTINUOUS"
-                },
-                "id": "ei6XCKo"
-              },
-              {
-                "type": "bivariate_summary",
+                "type": "univariate_summary",
                 "confidenceLevel": 0.95,
                 "showConfidenceInterval": false,
                 "compute": {
-                  "spearman": true,
-                  "pearson": true,
                   "totalCount": true,
-                  "covariance": true,
-                  "kendallTau": true,
-                  "mutualInformation": true,
-                  "completeCount": true
+                  "mean": true,
+                  "sum": false,
+                  "median": true,
+                  "std": true,
+                  "variance": false,
+                  "skewness": false,
+                  "kurtosis": false,
+                  "sem": false,
+                  "completeCount": true,
+                  "nbEmpty": true,
+                  "zeroCount": false,
+                  "zeroRatio": false,
+                  "nonZeroRatio": false,
+                  "iqr": false,
+                  "distinctCount": true,
+                  "nbNonEmpty": false,
+                  "min": true,
+                  "max": true,
+                  "range": false,
+                  "mode": true
                 },
-                "xColumn": {
+                "column": {
                   "name": "prediction",
                   "type": "CONTINUOUS"
                 },
-                "yColumn": {
-                  "name": "PELOD",
-                  "type": "CONTINUOUS"
-                },
-                "id": "Z6VXqkZ"
+                "id": "KRA008S"
               },
               {
-                "type": "bivariate_frequency_table",
-                "xBinningMode": "AUTO",
-                "yBinningMode": "AUTO",
-                "maxValuesX": 5,
-                "maxValuesY": 5,
-                "groupWithOthersX": true,
-                "groupWithOthersY": true,
-                "xCustomBinningBoundaries": [],
-                "yCustomBinningBoundaries": [],
-                "xColumn": {
+                "type": "quantile_table",
+                "confidenceLevel": 0.95,
+                "showConfidenceInterval": false,
+                "column": {
                   "name": "prediction",
                   "type": "CONTINUOUS"
                 },
-                "yColumn": {
-                  "name": "PELOD",
-                  "type": "CONTINUOUS"
-                },
-                "id": "LkZQtfJ"
+                "id": "GU6Dy3D"
               }
             ],
-            "id": "svQ4rVF"
+            "id": "5mE6d9p"
+          },
+          {
+            "type": "column_card",
+            "column": {
+              "name": "error",
+              "type": "CONTINUOUS"
+            },
+            "cards": [
+              {
+                "type": "numerical_histogram",
+                "showBoxPlot": true,
+                "showHistogram": true,
+                "highlightFilter": {
+                  "type": "interval",
+                  "column": "VFD",
+                  "closed": "LEFT",
+                  "left": 25.0,
+                  "right": 30.0,
+                  "name": "VFD: [25,30)"
+                },
+                "binningMode": "AUTO",
+                "nbBins": 25,
+                "customBinningBoundaries": [],
+                "column": {
+                  "name": "error",
+                  "type": "CONTINUOUS"
+                },
+                "id": "CdOIYck"
+              },
+              {
+                "type": "univariate_summary",
+                "confidenceLevel": 0.95,
+                "showConfidenceInterval": false,
+                "compute": {
+                  "totalCount": true,
+                  "mean": true,
+                  "sum": false,
+                  "median": true,
+                  "std": true,
+                  "variance": false,
+                  "skewness": false,
+                  "kurtosis": false,
+                  "sem": false,
+                  "completeCount": true,
+                  "nbEmpty": true,
+                  "zeroCount": false,
+                  "zeroRatio": false,
+                  "nonZeroRatio": false,
+                  "iqr": false,
+                  "distinctCount": true,
+                  "nbNonEmpty": false,
+                  "min": true,
+                  "max": true,
+                  "range": false,
+                  "mode": true
+                },
+                "column": {
+                  "name": "error",
+                  "type": "CONTINUOUS"
+                },
+                "id": "X5WLWFb"
+              },
+              {
+                "type": "quantile_table",
+                "confidenceLevel": 0.95,
+                "showConfidenceInterval": false,
+                "column": {
+                  "name": "error",
+                  "type": "CONTINUOUS"
+                },
+                "id": "jMWp7k7"
+              }
+            ],
+            "id": "0eJHamY"
           }
         ],
-        "id": "TpnMOe0"
+        "id": "5VM3bNM"
       }
     ],
     "id": "IZYOp1T"
   },
   "name": "Worksheet",
   "versionTag": {
-    "versionNumber": 2,
+    "versionNumber": 33,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1643905411426
+    "lastModifiedOn": 1643905689217
   },
   "creationTag": {
     "versionNumber": 0,

@@ -339,17 +339,35 @@
           "type": "CATEGORICAL"
         },
         "id": "3ciQ4l6"
+      },
+      {
+        "type": "fit_curve",
+        "curves": [
+          {
+            "type": "polynomial",
+            "degree": 2
+          }
+        ],
+        "xColumn": {
+          "name": "VFD",
+          "type": "CONTINUOUS"
+        },
+        "yColumn": {
+          "name": "prediction",
+          "type": "CONTINUOUS"
+        },
+        "id": "5hnvPlQ"
       }
     ],
     "id": "IZYOp1T"
   },
   "name": "Worksheet",
   "versionTag": {
-    "versionNumber": 34,
+    "versionNumber": 35,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1643905780505
+    "lastModifiedOn": 1643906063655
   },
   "creationTag": {
     "versionNumber": 0,

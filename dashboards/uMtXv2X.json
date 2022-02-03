@@ -51,7 +51,7 @@
               "top": 6,
               "left": 0,
               "width": 10,
-              "height": 5
+              "height": 3
             },
             "clickAction": "OPEN_INSIGHT",
             "tileParams": {},
@@ -64,7 +64,9 @@
           }
         ]
       },
-      "showTitle": false
+      "title": "XGB",
+      "showTitle": false,
+      "backgroundColor": "#d66f70"
     }
   ],
   "owner": "admin",
@@ -72,11 +74,11 @@
   "name": "VFD Regression\u0027s default dashboard",
   "showGrid": true,
   "versionTag": {
-    "versionNumber": 17,
+    "versionNumber": 18,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1643905819452
+    "lastModifiedOn": 1643905870168
   },
   "creationTag": {
     "versionNumber": 0,

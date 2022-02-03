@@ -304,17 +304,52 @@
           }
         ],
         "id": "5VM3bNM"
+      },
+      {
+        "type": "bivariate_frequency_table",
+        "xBinningMode": "AUTO",
+        "yBinningMode": "AUTO",
+        "maxValuesX": 5,
+        "maxValuesY": 5,
+        "groupWithOthersX": true,
+        "groupWithOthersY": true,
+        "xCustomBinningBoundaries": [],
+        "yCustomBinningBoundaries": [],
+        "xColumn": {
+          "name": "VFD",
+          "type": "CATEGORICAL"
+        },
+        "yColumn": {
+          "name": "prediction",
+          "type": "CATEGORICAL"
+        },
+        "id": "QFoCefs"
+      },
+      {
+        "type": "chi2_independence_test",
+        "maxValuesX": 5,
+        "maxValuesY": 5,
+        "confidenceLevel": 0.95,
+        "xColumn": {
+          "name": "VFD",
+          "type": "CATEGORICAL"
+        },
+        "yColumn": {
+          "name": "prediction",
+          "type": "CATEGORICAL"
+        },
+        "id": "3ciQ4l6"
       }
     ],
     "id": "IZYOp1T"
   },
   "name": "Worksheet",
   "versionTag": {
-    "versionNumber": 33,
+    "versionNumber": 34,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1643905689217
+    "lastModifiedOn": 1643905780505
   },
   "creationTag": {
     "versionNumber": 0,

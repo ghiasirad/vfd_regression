@@ -1,0 +1,71 @@
+{
+  "type": "eda",
+  "params": {
+    "card": {
+      "type": "fit_curve",
+      "curves": [
+        {
+          "type": "isotonic"
+        }
+      ],
+      "xColumn": {
+        "name": "VFD",
+        "type": "CONTINUOUS"
+      },
+      "yColumn": {
+        "name": "prediction",
+        "type": "CONTINUOUS"
+      },
+      "id": "5hnvPlQ"
+    },
+    "dataSpec": {
+      "inputDatasetSmartName": "XGB_Outputs_topn",
+      "datasetSelection": {
+        "useMemTable": false,
+        "filter": {
+          "distinct": false,
+          "enabled": false
+        },
+        "partitionSelectionMethod": "ALL",
+        "latestPartitionsN": 1,
+        "ordering": {
+          "enabled": false,
+          "rules": []
+        },
+        "samplingMethod": "HEAD_SEQUENTIAL",
+        "maxRecords": 100000,
+        "targetRatio": 0.02,
+        "withinFirstN": -1,
+        "maxReadUncompressedBytes": -1
+      },
+      "autoRefreshSample": true,
+      "refreshTrigger": 0,
+      "containerSelection": {
+        "containerMode": "INHERIT"
+      }
+    }
+  },
+  "owner": "admin",
+  "listed": true,
+  "name": "Fit curve on VFD \u0026 prediction ",
+  "dashboardCreationId": "uMtXv2X",
+  "versionTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "admin"
+    },
+    "lastModifiedOn": 1643906182986
+  },
+  "creationTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "admin"
+    },
+    "lastModifiedOn": 1643906182986
+  },
+  "tags": [],
+  "customFields": {},
+  "checklists": {
+    "checklists": []
+  }
+}

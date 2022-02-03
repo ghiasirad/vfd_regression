@@ -71,7 +71,7 @@
         "type": "scatter",
         "variant": "normal",
         "name": "VFD vs prediction",
-        "userEditedName": false,
+        "userEditedName": true,
         "genericDimension0": [],
         "genericDimension1": [],
         "facetDimension": [],

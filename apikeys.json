@@ -1,1 +1,26 @@
-[]
+[
+  {
+    "execSQLLike": false,
+    "localDatasets": [],
+    "projectPrivileges": {
+      "admin": false,
+      "readProjectContent": false,
+      "writeProjectContent": false,
+      "exportDatasetsData": false,
+      "readDashboards": false,
+      "writeDashboards": false,
+      "moderateDashboards": false,
+      "shareToWorkspaces": false,
+      "runScenarios": false,
+      "manageDashboardAuthorizations": false,
+      "manageExposedElements": false,
+      "manageAdditionalDashboardUsers": false,
+      "executeApp": false
+    },
+    "onBehalf": "9ytud23",
+    "id": "VmZPuJWli1OytaRj",
+    "key": "footLdRO3befdP0vnVtrOOHzmXdSZwqW",
+    "label": "Key for Web app VFDApp(9ytud23)",
+    "createdOn": 1643849149076
+  }
+]

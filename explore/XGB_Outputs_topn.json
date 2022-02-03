@@ -102,7 +102,15 @@
         "uaSize": [],
         "uaShape": [],
         "uaColor": [],
-        "uaTooltip": [],
+        "uaTooltip": [
+          {
+            "column": "error",
+            "type": "NUMERICAL",
+            "treatAsAlphanum": false,
+            "isA": "ua",
+            "adminLevel": 0
+          }
+        ],
         "groupDimension": [],
         "xMeasure": [],
         "yMeasure": [],
@@ -125,20 +133,21 @@
         "fillOpacity": 0.6,
         "showXAxisLabel": true,
         "showYAxisLabel": true,
+        "xAxisLabel": "Recorded VFD",
         "displayXAxis": true,
         "displayYAxis": true,
         "hexbinRadius": 20,
         "hexbinNumber": 20,
         "hexbinRadiusMode": "NUM_HEXAGONS",
         "yCustomExtent": {
-          "editMode": "AUTO",
+          "editMode": "MANUAL",
           "manualExtent": [
-            null,
-            null
+            0.0,
+            29.0
           ]
         },
         "xCustomExtent": {
-          "editMode": "AUTO",
+          "editMode": "MANUAL",
           "manualExtent": [
             null,
             null
@@ -170,9 +179,10 @@
           "heatDensityMapRadius": 0.5
         },
         "bubblesOptions": {
-          "defaultRadius": 5.0,
+          "defaultRadius": 12.0,
           "singleShape": "FILLED_CIRCLE"
         },
+        "computeMode": "NORMAL",
         "xAxisMode": "NORMAL",
         "yAxisMode": "NORMAL",
         "pieOptions": {
@@ -180,7 +190,7 @@
         },
         "scatterOptions": {
           "equalScales": false,
-          "identityLine": false
+          "identityLine": true
         },
         "mapOptions": {
           "tilesLayer": "cartodb-positron",
@@ -190,7 +200,7 @@
           "gridLonDeg": 0.5,
           "gridLatDeg": 0.5
         },
-        "thumbnailData": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHgAAABQCAYAAADSm7GJAAAAAXNSR0IArs4c6QAAAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAAAeKADAAQAAAABAAAAUAAAAAD5UzErAAABRElEQVR4Ae3aPQrCMBgGYHFx9wzdRfPpDTyJizfzFOpBXF2l8Qa6iOAiCmlNfbr0hyTfm4cGUuho5CBAgAABAgQIECBAgEBVAu0s5o/AeZHOj+vXc05xfH3mvgKBnFbbCmKKaIV5B94KnJpm8raRBv0IWMH9uKtKoLzAJWJdvooKBAgQIPCFQJ8bsPEXeXX5XGD6eRc9CBAgQKBjgRyx6bikcgQIEPgHgT4/d/7B1xwJlBVo4/n3RdlKRidAoD6BnJb7+lJLTOCXBO475cMv5ZGFAAECBAgMSeAasRvSfMyFAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQqFrgBh1oHDFT1jwnAAAAAElFTkSuQmCC",
+        "thumbnailData": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHgAAABQCAYAAADSm7GJAAAAAXNSR0IArs4c6QAAAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAAAeKADAAQAAAABAAAAUAAAAAD5UzErAAADF0lEQVR4Ae3du27TUBjAcadc0iJKAKlCAsZsneI4RFXfgQeAqQ8QKVmSsGVlJe/AkAkJJBZuMxJtRySYGaggcYUQFRLmeHD1tbJb27F1jk//kaocH5/Ld35fnYudtI7DzVqB2Wx2ydrFsTAErBSYTCbXrFwYi0IAAQQQQMAQgdFo1DAkFMJAAIFUAsPhcD1VQxohgIAhAup97aohoRAGAggggAACVgqo59rLVi6MRSFgrcDB9va63/b+Rgs8UfY6rxdtbx7tU+X3UZl7DQJ5EvCj270vk3o6bN/1Bqfr2NYkoBL8Lpo6TLbffvAo2pb3vV6vLrdlOc8viewfV16Jq6Qul0BN9Prc+PTxudg+Lk6n06PjDQp2CCRd+fnSbNbLOGqlGkew1Cip/OTN2xdxQzfq9Stx9dRVQCDps1FlH7EVoLEvRJnUhes9lSv81e3ekduUDRZIul6r3gr9iQs7cJwVmXzZJqxP2ifbUS5JgASUBGvasFyvNS0jBcWT9whW/eaHLe9hQWEwDAIIpBaYu5391I0NaciJjgyJqNWCfxmaG9GUBGdLg5+tuf7WJPiMHAwGg7UzdrOrigI6Ty7onLuKucoV88LrfMjVUXQKE+W7blNUaSte+Ifon677+MSREwTqDOKStyA4auzufj1vlN9bW/fk3LJ8Xl/2ZxDguTYDFk0R0C4QPhQ+29nZ0B4IASCQJPB9c/N60j5Zf6FeZCVdr5UgVSiHj0BXV9deViFWYkRgOQGu1y7nR28EEEAAAQQQQAABBBBAAAG9AracjdKraPDsXDM1ODl5Q1Nno27k7Us/BBDQIaCO2lSXw3TExpwIIBAn0O/3b8bVU1dxAfUF6Ve8Oq54EpPC5xONSTLUI4AAAgggUIyA+kaI/FN/xQzKKAggUKIAr5BLxGVoBBBAAAFdAget1t0izu4V8t2k8Xh8SxeErfNu7O19qwXOoa3rY126BdQr5Nu6Y2B+BBBIIxA+2Yc/Sf97IM0YtDFYIEqwwSESWl4BzkbllaMfAroE1CcaC3l/rCt+5kUAAQQQQKACAv8BRR6tuYnNJV4AAAAASUVORK5CYII\u003d",
         "disableSafetyLimits": false,
         "useLiveProcessingIfAvailable": true,
         "legendPlacement": "OUTER_RIGHT"

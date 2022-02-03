@@ -344,8 +344,7 @@
         "type": "fit_curve",
         "curves": [
           {
-            "type": "polynomial",
-            "degree": 2
+            "type": "isotonic"
           }
         ],
         "xColumn": {
@@ -363,11 +362,11 @@
   },
   "name": "Worksheet",
   "versionTag": {
-    "versionNumber": 35,
+    "versionNumber": 36,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1643906063655
+    "lastModifiedOn": 1643906143626
   },
   "creationTag": {
     "versionNumber": 0,

@@ -44,47 +44,11 @@
             "insightType": "eda",
             "displayMode": "INSIGHT",
             "resizeImageMode": "FIT_SIZE"
-          },
-          {
-            "tileType": "INSIGHT",
-            "box": {
-              "top": 6,
-              "left": 0,
-              "width": 10,
-              "height": 3
-            },
-            "clickAction": "OPEN_INSIGHT",
-            "tileParams": {},
-            "autoLoad": true,
-            "showTitle": "YES",
-            "borderColor": "",
-            "insightId": "youQT1A",
-            "insightType": "eda",
-            "displayMode": "INSIGHT",
-            "resizeImageMode": "FIT_SIZE"
-          },
-          {
-            "tileType": "INSIGHT",
-            "box": {
-              "top": 9,
-              "left": 0,
-              "width": 12,
-              "height": 6
-            },
-            "clickAction": "OPEN_INSIGHT",
-            "tileParams": {},
-            "autoLoad": true,
-            "showTitle": "YES",
-            "insightId": "2nkfgY3",
-            "insightType": "eda",
-            "displayMode": "INSIGHT",
-            "resizeImageMode": "FIT_SIZE"
           }
         ]
       },
       "title": "XGB",
-      "showTitle": false,
-      "backgroundColor": "#d66f70"
+      "showTitle": false
     }
   ],
   "owner": "admin",
@@ -92,11 +56,11 @@
   "name": "VFD Regression\u0027s default dashboard",
   "showGrid": true,
   "versionTag": {
-    "versionNumber": 23,
+    "versionNumber": 24,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1644216785831
+    "lastModifiedOn": 1644216833116
   },
   "creationTag": {
     "versionNumber": 0,

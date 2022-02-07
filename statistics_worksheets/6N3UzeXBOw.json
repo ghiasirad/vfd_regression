@@ -29,16 +29,163 @@
     "type": "worksheet_root",
     "confidenceLevel": 0.95,
     "showConfidenceInterval": false,
-    "cards": [],
+    "cards": [
+      {
+        "type": "bivariate_header",
+        "yColumn": {
+          "name": "prediction",
+          "type": "CONTINUOUS"
+        },
+        "showMosaicPlot": true,
+        "showHistogram": true,
+        "showScatterPlot": true,
+        "showFrequencyTable": true,
+        "showBoxPlot": true,
+        "showSummary": true,
+        "xColumns": [
+          {
+            "name": "VFD",
+            "type": "CONTINUOUS"
+          }
+        ],
+        "cards": [
+          {
+            "type": "column_card",
+            "column": {
+              "name": "VFD",
+              "type": "CONTINUOUS"
+            },
+            "cards": [
+              {
+                "type": "scatter_plot",
+                "symbolSize": 4,
+                "maxNumberOfPoints": 100000,
+                "showTrend": false,
+                "xColumn": {
+                  "name": "VFD",
+                  "type": "CONTINUOUS"
+                },
+                "yColumn": {
+                  "name": "prediction",
+                  "type": "CONTINUOUS"
+                },
+                "id": "2nxGreq"
+              },
+              {
+                "type": "bivariate_box_plot",
+                "maxValues": 5,
+                "groupOthers": true,
+                "binningMode": "AUTO",
+                "customBinningBoundaries": [],
+                "xColumn": {
+                  "name": "VFD",
+                  "type": "CONTINUOUS"
+                },
+                "yColumn": {
+                  "name": "prediction",
+                  "type": "CONTINUOUS"
+                },
+                "id": "hNqht7w"
+              },
+              {
+                "type": "bivariate_histogram",
+                "xBinningMode": "AUTO",
+                "yBinningMode": "AUTO",
+                "maxValuesX": 5,
+                "maxValuesY": 5,
+                "groupWithOthersX": true,
+                "groupWithOthersY": true,
+                "xCustomBinningBoundaries": [],
+                "yCustomBinningBoundaries": [],
+                "xColumn": {
+                  "name": "VFD",
+                  "type": "CONTINUOUS"
+                },
+                "yColumn": {
+                  "name": "prediction",
+                  "type": "CONTINUOUS"
+                },
+                "id": "dsb38yB"
+              },
+              {
+                "type": "mosaic_plot",
+                "xBinningMode": "AUTO",
+                "yBinningMode": "AUTO",
+                "maxValuesX": 5,
+                "maxValuesY": 5,
+                "groupWithOthersX": true,
+                "groupWithOthersY": true,
+                "xCustomBinningBoundaries": [],
+                "yCustomBinningBoundaries": [],
+                "xColumn": {
+                  "name": "VFD",
+                  "type": "CONTINUOUS"
+                },
+                "yColumn": {
+                  "name": "prediction",
+                  "type": "CONTINUOUS"
+                },
+                "id": "umeslOh"
+              },
+              {
+                "type": "bivariate_summary",
+                "confidenceLevel": 0.95,
+                "showConfidenceInterval": false,
+                "compute": {
+                  "spearman": true,
+                  "pearson": true,
+                  "totalCount": true,
+                  "covariance": true,
+                  "kendallTau": true,
+                  "mutualInformation": true,
+                  "completeCount": true
+                },
+                "xColumn": {
+                  "name": "VFD",
+                  "type": "CONTINUOUS"
+                },
+                "yColumn": {
+                  "name": "prediction",
+                  "type": "CONTINUOUS"
+                },
+                "id": "xmJkwsG"
+              },
+              {
+                "type": "bivariate_frequency_table",
+                "xBinningMode": "AUTO",
+                "yBinningMode": "AUTO",
+                "maxValuesX": 5,
+                "maxValuesY": 5,
+                "groupWithOthersX": true,
+                "groupWithOthersY": true,
+                "xCustomBinningBoundaries": [],
+                "yCustomBinningBoundaries": [],
+                "xColumn": {
+                  "name": "VFD",
+                  "type": "CONTINUOUS"
+                },
+                "yColumn": {
+                  "name": "prediction",
+                  "type": "CONTINUOUS"
+                },
+                "id": "XIXgvOw"
+              }
+            ],
+            "id": "FfuY4Gz"
+          }
+        ],
+        "id": "aIt4j0a"
+      }
+    ],
     "id": "VMAi0gF"
   },
   "name": "Worksheet",
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1644222424778
+    "lastModifiedOn": 1644222530042
   },
   "creationTag": {
     "versionNumber": 0,

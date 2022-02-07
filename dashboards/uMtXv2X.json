@@ -49,44 +49,21 @@
           {
             "tileType": "INSIGHT",
             "box": {
-              "top": 3,
+              "top": 9,
               "left": 6,
               "width": 6,
-              "height": 12
+              "height": 7
             },
             "clickAction": "OPEN_INSIGHT",
             "tileParams": {
               "showXAxis": true,
               "showYAxis": true,
-              "showLegend": false,
+              "showLegend": true,
               "showTooltips": true,
               "autoPlayAnimation": true
             },
             "autoLoad": true,
             "showTitle": "NO",
-            "insightId": "JBYiSpu",
-            "insightType": "chart",
-            "displayMode": "INSIGHT",
-            "resizeImageMode": "FIT_SIZE"
-          },
-          {
-            "tileType": "INSIGHT",
-            "box": {
-              "top": 15,
-              "left": 0,
-              "width": 2,
-              "height": 2
-            },
-            "clickAction": "OPEN_INSIGHT",
-            "tileParams": {
-              "showXAxis": true,
-              "showYAxis": true,
-              "showLegend": false,
-              "showTooltips": true,
-              "autoPlayAnimation": true
-            },
-            "autoLoad": true,
-            "showTitle": "YES",
             "insightId": "YjqD9JJ",
             "insightType": "chart",
             "displayMode": "INSIGHT",
@@ -103,11 +80,11 @@
   "name": "VFD Regression\u0027s default dashboard",
   "showGrid": true,
   "versionTag": {
-    "versionNumber": 31,
+    "versionNumber": 32,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1644220951608
+    "lastModifiedOn": 1644221035574
   },
   "creationTag": {
     "versionNumber": 0,

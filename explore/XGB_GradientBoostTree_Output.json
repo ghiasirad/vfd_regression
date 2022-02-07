@@ -173,6 +173,7 @@
           "defaultRadius": 5.0,
           "singleShape": "EMPTY_CIRCLE"
         },
+        "computeMode": "NORMAL",
         "xAxisMode": "NORMAL",
         "yAxisMode": "NORMAL",
         "pieOptions": {

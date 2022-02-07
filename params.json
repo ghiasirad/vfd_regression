@@ -28,6 +28,15 @@
         "modes": [
           "READ"
         ]
+      },
+      {
+        "objectRef": {
+          "objectId": "XGB_GradientBoostTree_Output",
+          "objectType": "DATASET"
+        },
+        "modes": [
+          "READ"
+        ]
       }
     ]
   },
@@ -213,11 +222,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 12,
+    "versionNumber": 13,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1644220950553
+    "lastModifiedOn": 1644222795638
   },
   "creationTag": {
     "versionNumber": 0,

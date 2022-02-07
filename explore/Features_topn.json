@@ -68,7 +68,7 @@
       "copySelectionFromScript": true,
       "engineType": "LINO",
       "def": {
-        "type": "grouped_columns",
+        "type": "multi_columns_lines",
         "variant": "normal",
         "name": "VFD Distribution in Originad Dataset",
         "userEditedName": true,

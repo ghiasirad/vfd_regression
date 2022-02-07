@@ -40,6 +40,7 @@
             "tileParams": {},
             "autoLoad": true,
             "showTitle": "NO",
+            "borderColor": "#ffffff",
             "insightId": "nMlf66Y",
             "insightType": "eda",
             "displayMode": "INSIGHT",
@@ -56,11 +57,11 @@
   "name": "VFD Regression\u0027s default dashboard",
   "showGrid": true,
   "versionTag": {
-    "versionNumber": 24,
+    "versionNumber": 25,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1644216833116
+    "lastModifiedOn": 1644217172302
   },
   "creationTag": {
     "versionNumber": 0,

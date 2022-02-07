@@ -51,8 +51,8 @@
             "box": {
               "top": 6,
               "left": 0,
-              "width": 2,
-              "height": 2
+              "width": 6,
+              "height": 4
             },
             "clickAction": "OPEN_INSIGHT",
             "tileParams": {
@@ -63,7 +63,7 @@
               "autoPlayAnimation": true
             },
             "autoLoad": true,
-            "showTitle": "YES",
+            "showTitle": "NO",
             "insightId": "JBYiSpu",
             "insightType": "chart",
             "displayMode": "INSIGHT",
@@ -80,11 +80,11 @@
   "name": "VFD Regression\u0027s default dashboard",
   "showGrid": true,
   "versionTag": {
-    "versionNumber": 27,
+    "versionNumber": 28,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1644220468042
+    "lastModifiedOn": 1644220520807
   },
   "creationTag": {
     "versionNumber": 0,

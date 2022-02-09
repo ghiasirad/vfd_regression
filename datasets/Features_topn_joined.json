@@ -59,11 +59,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 2,
+    "versionNumber": 3,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1644437804484
+    "lastModifiedOn": 1644438233941
   },
   "creationTag": {
     "versionNumber": 0,
@@ -105,110 +105,6 @@
       {
         "name": "ECMO",
         "type": "string"
-      },
-      {
-        "name": "PELOD",
-        "type": "double"
-      },
-      {
-        "name": "PRISM",
-        "type": "double"
-      },
-      {
-        "name": "Age_years",
-        "type": "double"
-      },
-      {
-        "name": "TNFSF8",
-        "type": "double"
-      },
-      {
-        "name": "TLR5",
-        "type": "double"
-      },
-      {
-        "name": "SYK",
-        "type": "double"
-      },
-      {
-        "name": "PRDM1",
-        "type": "double"
-      },
-      {
-        "name": "LTB4R",
-        "type": "double"
-      },
-      {
-        "name": "LILRA3",
-        "type": "double"
-      },
-      {
-        "name": "IRF7",
-        "type": "double"
-      },
-      {
-        "name": "IL6",
-        "type": "double"
-      },
-      {
-        "name": "IL1RN",
-        "type": "double"
-      },
-      {
-        "name": "IL1R2",
-        "type": "double"
-      },
-      {
-        "name": "IL18RAP",
-        "type": "double"
-      },
-      {
-        "name": "IL16",
-        "type": "double"
-      },
-      {
-        "name": "IKZF2",
-        "type": "double"
-      },
-      {
-        "name": "HAMP",
-        "type": "double"
-      },
-      {
-        "name": "FKBP5",
-        "type": "double"
-      },
-      {
-        "name": "FCGR3A/B",
-        "type": "double"
-      },
-      {
-        "name": "EGR1",
-        "type": "double"
-      },
-      {
-        "name": "DPP4",
-        "type": "double"
-      },
-      {
-        "name": "CXCR1",
-        "type": "double"
-      },
-      {
-        "name": "CSF2RB",
-        "type": "double"
-      },
-      {
-        "name": "CLEC4E",
-        "type": "double"
-      },
-      {
-        "name": "CFD",
-        "type": "double"
-      },
-      {
-        "name": "CD9",
-        "type": "double"
       },
       {
         "name": "VFD",

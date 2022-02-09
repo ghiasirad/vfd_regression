@@ -1,0 +1,200 @@
+{
+  "joins": [
+    {
+      "table2": 1,
+      "table1": 0,
+      "conditionsMode": "AND",
+      "type": "LEFT",
+      "outerJoinOnTheLeft": true,
+      "on": []
+    }
+  ],
+  "selectedColumns": [
+    {
+      "name": "StudyID_Int",
+      "table": 0
+    },
+    {
+      "name": "Sex",
+      "table": 0
+    },
+    {
+      "name": "Race",
+      "table": 0
+    },
+    {
+      "name": "Infection Status",
+      "table": 0
+    },
+    {
+      "name": "ECMO",
+      "table": 0
+    },
+    {
+      "name": "PELOD",
+      "table": 0
+    },
+    {
+      "name": "PRISM",
+      "table": 0
+    },
+    {
+      "name": "Age_years",
+      "table": 0
+    },
+    {
+      "name": "TNFSF8",
+      "table": 0
+    },
+    {
+      "name": "TLR5",
+      "table": 0
+    },
+    {
+      "name": "SYK",
+      "table": 0
+    },
+    {
+      "name": "PRDM1",
+      "table": 0
+    },
+    {
+      "name": "LTB4R",
+      "table": 0
+    },
+    {
+      "name": "LILRA3",
+      "table": 0
+    },
+    {
+      "name": "IRF7",
+      "table": 0
+    },
+    {
+      "name": "IL6",
+      "table": 0
+    },
+    {
+      "name": "IL1RN",
+      "table": 0
+    },
+    {
+      "name": "IL1R2",
+      "table": 0
+    },
+    {
+      "name": "IL18RAP",
+      "table": 0
+    },
+    {
+      "name": "IL16",
+      "table": 0
+    },
+    {
+      "name": "IKZF2",
+      "table": 0
+    },
+    {
+      "name": "HAMP",
+      "table": 0
+    },
+    {
+      "name": "FKBP5",
+      "table": 0
+    },
+    {
+      "name": "FCGR3A/B",
+      "table": 0
+    },
+    {
+      "name": "EGR1",
+      "table": 0
+    },
+    {
+      "name": "DPP4",
+      "table": 0
+    },
+    {
+      "name": "CXCR1",
+      "table": 0
+    },
+    {
+      "name": "CSF2RB",
+      "table": 0
+    },
+    {
+      "name": "CLEC4E",
+      "table": 0
+    },
+    {
+      "name": "CFD",
+      "table": 0
+    },
+    {
+      "name": "CD9",
+      "table": 0
+    },
+    {
+      "name": "VFD",
+      "table": 0
+    }
+  ],
+  "resolvedSelectedColumns": [],
+  "engineParams": {
+    "hive": {
+      "skipPrerunValidate": false,
+      "hiveconf": [],
+      "inheritConf": "default",
+      "addDkuUdf": false,
+      "executionEngine": "HIVESERVER2"
+    },
+    "sqlPipelineParams": {
+      "pipelineAllowMerge": true,
+      "pipelineAllowStart": true
+    },
+    "impala": {
+      "forceStreamMode": true
+    },
+    "lowerCaseSchemaIfEngineRequiresIt": true,
+    "sparkSQL": {
+      "skipPrerunValidate": false,
+      "pipelineAllowMerge": true,
+      "useGlobalMetastore": false,
+      "pipelineAllowStart": true,
+      "readParams": {
+        "mode": "AUTO",
+        "autoModeRepartitionInto": 10,
+        "map": {}
+      },
+      "overwriteOutputSchema": false,
+      "executionEngine": "SPARK_SUBMIT",
+      "sparkConfig": {
+        "inheritConf": "default",
+        "conf": []
+      }
+    }
+  },
+  "virtualInputs": [
+    {
+      "preFilter": {
+        "distinct": false,
+        "enabled": false
+      },
+      "autoSelectColumns": false,
+      "originLabel": "Features_topn",
+      "index": 0,
+      "computedColumns": []
+    },
+    {
+      "preFilter": {
+        "distinct": false,
+        "enabled": false
+      },
+      "autoSelectColumns": false,
+      "originLabel": "Features_topn_smogned",
+      "index": 1,
+      "computedColumns": []
+    }
+  ],
+  "enableAutoCastInJoinConditions": false
+}

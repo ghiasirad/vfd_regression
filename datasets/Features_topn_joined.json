@@ -59,11 +59,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 1,
+    "versionNumber": 2,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1644437742512
+    "lastModifiedOn": 1644437804484
   },
   "creationTag": {
     "versionNumber": 0,
@@ -212,6 +212,10 @@
       },
       {
         "name": "VFD",
+        "type": "bigint"
+      },
+      {
+        "name": "VFD_Smogned",
         "type": "bigint"
       }
     ],

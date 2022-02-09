@@ -398,7 +398,8 @@
         ],
         "userModified": false
       }
-    }
+    },
+    "distinct": true
   },
   "enableAutoCastInJoinConditions": false
 }

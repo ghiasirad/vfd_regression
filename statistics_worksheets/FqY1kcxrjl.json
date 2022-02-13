@@ -37,16 +37,32 @@
       "right": 30.0,
       "name": "VFD: [25,30)"
     },
-    "cards": [],
+    "cards": [
+      {
+        "type": "chi2_independence_test",
+        "maxValuesX": 5,
+        "maxValuesY": 5,
+        "confidenceLevel": 0.95,
+        "xColumn": {
+          "name": "PELOD",
+          "type": "CATEGORICAL"
+        },
+        "yColumn": {
+          "name": "VFD",
+          "type": "CATEGORICAL"
+        },
+        "id": "BR9FqBy"
+      }
+    ],
     "id": "IZYOp1T"
   },
   "name": "Worksheet",
   "versionTag": {
-    "versionNumber": 48,
+    "versionNumber": 49,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1644731278635
+    "lastModifiedOn": 1644731354079
   },
   "creationTag": {
     "versionNumber": 0,

@@ -52,17 +52,54 @@
           "type": "CATEGORICAL"
         },
         "id": "BR9FqBy"
+      },
+      {
+        "type": "correlation_matrix",
+        "heatmapParams": {
+          "showValues": true,
+          "showColors": true,
+          "showAbsValues": false,
+          "threshold": 0.0,
+          "filterVariablesWithoutValues": false
+        },
+        "metric": "SPEARMAN",
+        "columns": [
+          {
+            "name": "VFD",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "prediction",
+            "type": "CONTINUOUS"
+          }
+        ],
+        "id": "BPHs6t2"
+      },
+      {
+        "type": "chi2_independence_test",
+        "maxValuesX": 5,
+        "maxValuesY": 5,
+        "confidenceLevel": 0.95,
+        "xColumn": {
+          "name": "VFD",
+          "type": "CATEGORICAL"
+        },
+        "yColumn": {
+          "name": "prediction",
+          "type": "CATEGORICAL"
+        },
+        "id": "WR0SYj2"
       }
     ],
     "id": "IZYOp1T"
   },
   "name": "Worksheet",
   "versionTag": {
-    "versionNumber": 49,
+    "versionNumber": 50,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1644731354079
+    "lastModifiedOn": 1644731749145
   },
   "creationTag": {
     "versionNumber": 0,

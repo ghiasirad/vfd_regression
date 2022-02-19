@@ -5495,7 +5495,7 @@
         "binarize_threshold_mode": "MEDIAN",
         "binarize_constant_threshold": 0.0,
         "datetime_cyclical_periods": [],
-        "role": "INPUT",
+        "role": "REJECT",
         "type": "NUMERIC",
         "state": {
           "userModified": false,
@@ -15454,10 +15454,10 @@
     },
     "feature_generation": {
       "pairwise_linear": {
-        "behavior": "DISABLED"
+        "behavior": "ENABLED_MANUAL"
       },
       "polynomial_combinations": {
-        "behavior": "DISABLED"
+        "behavior": "ENABLED_MANUAL"
       },
       "manual_interactions": {
         "interactions": []
@@ -17378,7 +17378,7 @@
       "nContainers": 4
     },
     "metrics": {
-      "evaluationMetric": "MSE",
+      "evaluationMetric": "MAE",
       "customEvaluationMetricGIB": true,
       "customEvaluationMetricNeedsProba": false,
       "costMatrixWeights": {

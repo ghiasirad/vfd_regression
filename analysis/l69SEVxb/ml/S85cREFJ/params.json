@@ -33,7 +33,7 @@
   },
   "preprocessing": {
     "feature_selection_params": {
-      "method": "RANDOM_FOREST",
+      "method": "NONE",
       "random_forest_params": {
         "n_trees": 30,
         "depth": 10,
@@ -15454,10 +15454,10 @@
     },
     "feature_generation": {
       "pairwise_linear": {
-        "behavior": "ENABLED_MANUAL"
+        "behavior": "DISABLED"
       },
       "polynomial_combinations": {
-        "behavior": "ENABLED_MANUAL"
+        "behavior": "DISABLED"
       },
       "manual_interactions": {
         "interactions": []

@@ -1,0 +1,112 @@
+{
+  "script": {
+    "steps": [],
+    "maxProcessedMemTableBytes": -1,
+    "columnsSelection": {
+      "mode": "ALL"
+    },
+    "columnWidthsByName": {
+      "StudyID_Int": 100,
+      "Sex": 100,
+      "Race": 100,
+      "Infection Status": 135,
+      "ECMO": 100,
+      "PELOD": 100,
+      "PRISM": 148,
+      "Age_years": 162,
+      "TNFSF8": 162,
+      "TLR5": 155,
+      "SYK": 162,
+      "PRDM1": 162,
+      "LTB4R": 162,
+      "LILRA3": 162,
+      "IRF7": 162,
+      "IL6": 162,
+      "IL1RN": 162,
+      "IL1R2": 162,
+      "IL18RAP": 162,
+      "IL16": 162,
+      "IKZF2": 155,
+      "HAMP": 162,
+      "FKBP5": 162,
+      "FCGR3A/B": 162,
+      "EGR1": 162,
+      "DPP4": 155,
+      "CXCR1": 162,
+      "CSF2RB": 162,
+      "CLEC4E": 162,
+      "CFD": 155,
+      "CD9": 162,
+      "VFD": 100,
+      "prediction": 162,
+      "error": 162,
+      "error_decile": 105,
+      "abs_error_decile": 135,
+      "relative_error": 169
+    },
+    "coloring": {
+      "scheme": "MEANING_AND_STATUS",
+      "individualColumns": [],
+      "valueColoringMode": "HASH"
+    },
+    "sorting": [
+      {
+        "column": "error",
+        "ascending": true
+      }
+    ],
+    "analysisColumnData": {},
+    "explorationSampling": {
+      "selection": {
+        "maxStoredBytes": 104857600,
+        "timeout": -1,
+        "filter": {
+          "distinct": false,
+          "enabled": false
+        },
+        "partitionSelectionMethod": "ALL",
+        "latestPartitionsN": 1,
+        "ordering": {
+          "enabled": false,
+          "rules": []
+        },
+        "samplingMethod": "HEAD_SEQUENTIAL",
+        "maxRecords": 10000,
+        "targetRatio": 0.02,
+        "withinFirstN": -1,
+        "maxReadUncompressedBytes": -1
+      },
+      "autoRefreshSample": false,
+      "_refreshTrigger": 0
+    },
+    "vizSampling": {
+      "selection": {
+        "useMemTable": false,
+        "filter": {
+          "distinct": false,
+          "enabled": false
+        },
+        "partitionSelectionMethod": "ALL",
+        "latestPartitionsN": 1,
+        "ordering": {
+          "enabled": false,
+          "rules": []
+        },
+        "samplingMethod": "FULL",
+        "maxRecords": -1,
+        "targetRatio": 0.02,
+        "withinFirstN": -1,
+        "maxReadUncompressedBytes": -1
+      },
+      "autoRefreshSample": false,
+      "_refreshTrigger": 0
+    },
+    "exploreUIParams": {
+      "autoRefresh": true
+    },
+    "globalSearchQuery": "",
+    "explorationFilters": [],
+    "previewMode": "ALL_ROWS"
+  },
+  "charts": []
+}

@@ -182,7 +182,7 @@
         "binarize_threshold_mode": "MEDIAN",
         "binarize_constant_threshold": 0.0,
         "datetime_cyclical_periods": [],
-        "role": "REJECT",
+        "role": "INPUT",
         "type": "NUMERIC",
         "state": {
           "userModified": false,
